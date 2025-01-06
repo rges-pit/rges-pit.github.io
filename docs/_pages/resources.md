@@ -12,6 +12,10 @@ The following is a list of resources and other material related to the NASA Roma
 &nbsp;  
 * **[Wide-Field Instrument (WFI) Technical Overview](https://roman.gsfc.nasa.gov/science/WFI_technical.html){:target="_blank"}**
 &nbsp;  
+
+-------------
+Background material:
+
 * **[Microlensing 101 (NASA)](https://science.nasa.gov/mission/roman-space-telescope/microlensing/){:target="_blank"}**
 &nbsp;  
 * **[Microlensing-Source.org](https://www.microlensing-source.org/){:target="_blank"}**

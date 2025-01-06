@@ -1,0 +1,69 @@
+main:
+  - title: "Team"
+    url: /about/team  
+  - title: "Design"
+    url: /design/
+  - title: "Science"
+    url: /science/
+  - title: "Data"
+    url: /data/
+  - title: "Publications"
+    url: /publications/
+  - title: "Tools"
+    url: /tools/
+  - title: "Meetings"
+    url: /meetings/
+  - title: "Outreach"
+    url: /outreach/    
+#  - title: "About"
+#    url: /about/
+
+docs:
+  - title: About RGES
+    url: /about/
+    children:
+      - title: "Overview"
+        url: /about/
+      - title: "Team"
+        url: /about/team/
+#      - title: "Schedule"
+#        url: /about/schedule/
+
+  - title: Design
+    url: /design/
+
+  - title: Science
+    url: /science/
+    children:
+      - title: "Microlensing Planets"
+        url: /science/ulens_planets/
+      - title: "Transiting Planets"
+        url: /science/transits/
+      - title: "Free-Floating Planets"
+        url: /science/ffps/
+#      - title: "Compact Objects"
+#        url: /science/galaxies/
+
+  - title: Data
+    url: /Data/
+
+  - title: Publications
+    url: /publications/
+  
+  - title: Tools
+    url: /tools/
+    
+  - title: Outreach
+    url: /outreach/
+    #children:
+    #  - title: "Data Challenges"
+    #    url: /outreach/
+    #  - title: "Mini Courses"
+    #    url: /outreach/
+
+  - title: Meetings
+    url: /meetings/
+
+  - title: Resources
+    url: /resources/
+

@@ -4,7 +4,7 @@ author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
-  overlay_image: /assets/images/Landing_image_purple.png
+  overlay_image: /assets/images/banner.png
 excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES PIT) is developing
           the infrastructure required to plan, execute, and extract cold exoplanet demographics 
           from the Galactic Bulge Time Domain Survey."

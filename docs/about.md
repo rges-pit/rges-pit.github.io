@@ -1,8 +1,6 @@
 ---
 permalink: /about/
 title: "About RGES PIT"
-sidebar:
-  nav: "docs"
 ---
 
 RGES PIT stands for the **R**oman **G**alactic **E**xoplanet **S**urvey 

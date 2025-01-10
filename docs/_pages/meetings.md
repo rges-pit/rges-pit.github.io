@@ -5,7 +5,14 @@ title: "Meetings"
 
 ## Future Meetings
 
+### 27th International Microlensing Conference
+The 27th International Conference on Microlensing is a hybrid in-person and virtual event that will be 
+held on January 27&mdash;31, 2025 in Cape Town, South Africa.
+
 ## Previous Meetings
+
+### [Rogue Worlds 2024]({{ site.url }}{{site.baseurl }}/rogueworlds_2024/)
+The 2024 Rogue Worlds Workshop was an in-person event held on December 11&mdash;14, 2024 at Osaka University in Japan.
 
 ### [RGES PIT 2024]({{ site.url }}{{site.baseurl }}/rgespit_2024/)
 The 2024 RGES PIT annual meeting was a hybrid in-person and virtual event held on October 28&mdash;31, 2024 at NASA Goddard Space Flight Center in Maryland.

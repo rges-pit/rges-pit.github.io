@@ -16,7 +16,20 @@ separation and mass, from terrestrials to gas giants, beyond 1 AU”*.
 The exoplanet survey will make use of Roman's wide-field instrument (WFI): The RGES PIT
 has four major scientific and programmatic objectives:
 
-* Confirm and/or reconfirm the five level-1 RGES science requirements
+* Confirm and/or reconfirm the five level-1 RGES science requirements which are:
+  * RGES shall be capable of measuring the mass function of exoplanets with masses 
+  in the range 1 M_earth < m < 30 M_jupiter and orbital semi-major axes ≥ 1 AU to better 
+  than 15% per decade in mass.
+  * RGES shall be capable of measuring the frequency of bound exoplanets with masses in 
+  the range 0.1 M_earth < m < 0.3 M_earth to better than 25%.
+  * RGES shall be capable of determining the masses of, and distances to, host stars of 
+  40% of the detected planets with a precision of 20% or better.
+  * RGES shall be capable of measuring the frequency of free floating planetary-mass objects 
+  in the Galaxy from Mars to 10 Jupiter masses. If there is 1 M_earth free-floating planet per star, 
+  measure this frequency to better than 25%.
+  * RGES shall be capable of estimating η_earth (the frequency of planets orbiting FGK stars with mass 
+  ratio and estimated projected semimajor axis within 20% of the Earth-Sun system) to a precision 
+  of 0.2 dex via extrapolation from larger and longer-period planets.
 * Improve the microlensing event rate and yield calculations by improving the input Galactic models, 
 incorporating new measurements of the near-infrared event rate obtained by the PRIME survey
 * Develop and test the prototype photometry and astrometry pipeline, event detection pipeline, 

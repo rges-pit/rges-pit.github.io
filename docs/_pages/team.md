@@ -62,8 +62,8 @@ sidebar:
 | Somayeh Khakpash | U. Delaware| 
 | Katarzyna Kruszyńska | LCO| 
 | Amber Malpas | OSU| 
-| Arjun Murlidhar | OSU| 
 | Carissma McGee | MIT| 
+| Arjun Murlidhar | OSU| 
 | Casey Lam | Canegie Obs.| 
 | Jessica Lu | UC Berkeley| 
 | David Nataf | U. Iowa|
@@ -73,7 +73,7 @@ sidebar:
 | Jennifer Sobeck | IPAC| 
 | Keivan Stassun | Vanderbilt|
 | Alexander Stephan | Vanderbilt|
-| Rachel Street | LCOGT|
+| Rachel Street | LCO|
 | Sean Terry | UMD|
 | Aikaterini Vandorou | UMD|
 | Himanshu Verma | LSU|

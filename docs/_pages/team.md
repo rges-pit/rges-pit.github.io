@@ -41,13 +41,18 @@ sidebar:
 | Jay Anderson | STScI| 
 | Etienne Bachelet | IPAC|
 | Fatima Bagheri | NASA/GSFC|
+| Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
-| Tim Brandt | STScI| 
-| Kaili Cao | OSU|
+| David Bennett | UMD|
+| Aparna Bhattacharya | UMD|
+| Chris Brandon | OSU|
 | Kylee Carden | OSU|
 | Sean Carey | IPAC|
-| Noah Downing | OSU|
-| Samuel Hadden | CITA|
+| Jessie Christiansen | NExScI|
+| Ali Crisp | OSU| 
+| William DeRocco | UMD/JHU| 
+| Jason Eastman | CfA|
+| Scott Gaudi | OSU| 
 | Jon Hulberg | CUA| 
 | Macy Huston | UC Berkeley|
 | Stela Ishitani Silva | NASA/GSFC| 
@@ -56,6 +61,7 @@ sidebar:
 | Victor Karkour | OSU|
 | Somayeh Khakpash | U. Delaware| 
 | Katarzyna Kruszyńska | LCO| 
+| Amber Malpas | OSU| 
 | Arjun Murlidhar | OSU| 
 | Carissma McGee | MIT| 
 | Casey Lam | Canegie Obs.| 
@@ -63,7 +69,12 @@ sidebar:
 | David Nataf | U. Iowa|
 | Sebastiano Calchi Novati | IPAC| 
 | Greg Olmschenk | UMD| 
+| Matthew Penny | LSU|
 | Jennifer Sobeck | IPAC| 
+| Keivan Stassun | Vanderbilt|
+| Alexander Stephan | Vanderbilt|
+| Rachel Street | LCOGT|
+| Sean Terry | UMD|
 | Aikaterini Vandorou | UMD|
 | Himanshu Verma | LSU|
 | Jennifer Yee | CfA| 
@@ -80,6 +91,7 @@ sidebar:
 | Makiko Ban | U. Warsaw |
 | Jean-Philippe Beaulieu | IAP |
 | Ian Bond | Massey U. |
+| Valerio Bozza | U. Salerno |
 | Eamonn Kerins | Manchester |
 | Naoki Koshimoto | Osaka U. |
 | Shota Miyazaki | Osaka U. |

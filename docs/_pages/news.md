@@ -15,3 +15,6 @@ from 9:00 AM--12:00 PM EST (**S. Gaudi**).
 
 * Session 214.06 - Building a Comprehensive Training Set for Convolutional Neural Networks Applied 
 to Gravitational Microlensing, Tuesday, January 14 11:20 AM – 11:30 AM EST (**S. Ishitani Silva**).
+
+* Session 235.05 - Surrounded by Rogues: Characterizing the Mass Function of Free-floating Planets with 
+the Nancy Grace Roman Space Telescope, Tuesday, January 14 3:00 PM – 3:10 PM EST (**W. DeRocco**).

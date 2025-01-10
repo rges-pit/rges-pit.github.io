@@ -17,7 +17,7 @@ Please use the following form to:
 <body>
     <form action="https://formspree.io/f/mgvvroeg" method="POST">
         <!-- Email Field -->
-        <label for="subject">Email:</label><br>
+        <label for="subject">Email (optional):</label><br>
         <input type="text" id="email" name="email"><br><br>
         <!-- Subject Field -->
         <label for="subject">Subject (required):</label><br>
@@ -28,7 +28,7 @@ Please use the following form to:
         <textarea id="body" name="body" rows="10" cols="50" required></textarea><br><br>
         
         <!-- Attachment Field -->
-        <label for="attachment">Attachment:</label><br>
+        <label for="attachment">Attachment (optional):</label><br>
         <input type="file" id="attachment" name="attachment"><br><br>
         
         <!-- Submit Button -->

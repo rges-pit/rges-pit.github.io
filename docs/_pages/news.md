@@ -18,3 +18,6 @@ to Gravitational Microlensing, Tuesday, January 14 11:20 AM – 11:30 AM EST (**
 
 * Session 235.05 - Surrounded by Rogues: Characterizing the Mass Function of Free-floating Planets with 
 the Nancy Grace Roman Space Telescope, Tuesday, January 14 3:00 PM – 3:10 PM EST (**W. DeRocco**).
+
+* Session 235.06 - Characterizing OGLE-2014-BLG-1145: A Planetary Microlensing Event, Tuesday,
+January 14 3:10 PM – 3:20 PM EST (**J. Hulberg**).

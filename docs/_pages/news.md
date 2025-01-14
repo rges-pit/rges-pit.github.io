@@ -21,3 +21,6 @@ the Nancy Grace Roman Space Telescope, Tuesday, January 14 3:00 PM – 3:10 PM E
 
 * Session 235.06 - Characterizing OGLE-2014-BLG-1145: A Planetary Microlensing Event, Tuesday,
 January 14 3:10 PM – 3:20 PM EST (**J. Hulberg**).
+
+* The Roman Science Collaboration, Nancy Grace Roman Space Telescope Town Hall, Tuesday, January 14, 2025, 
+from 7:00 PM--7:10 PM EST (**J. Lu**).

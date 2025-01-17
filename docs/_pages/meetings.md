@@ -7,7 +7,7 @@ title: "Meetings"
 
 ### 27th International Microlensing Conference
 The 27th International Conference on Microlensing is a hybrid in-person and virtual event that will be 
-held on January 27&mdash;31, 2025 in Cape Town, South Africa.
+held on January 27&mdash;31, 2025 in Cape Town, South Africa. The meeting webpage is located [here](https://microlensing2025.saao.ac.za/){:target="_blank"}.
 
 ## Previous Meetings
 

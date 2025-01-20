@@ -22,7 +22,8 @@ file with additional details.
 * [eesunhong](https://github.com/rges-pit/eesunhong){:target="_blank"} (Bennett & Rhie 1996, Bennett 2010)
 * [MuLensModel](https://github.com/rges-pit/MulensModel){:target="_blank"} (Poleski & Yee 2018)
 * [pyLIMA](https://github.com/ebachelet/pyLIMA){:target="_blank"} (Bachelet et al. 2017)
-* [VBMicrolensing](https://github.com/valboz/VBMicrolensing/tree/main){:target="_blank"} (Bozza et al. 2024)
+* [RTModel](https://github.com/valboz/RTModel){:target="_blank"} (Bozza et al. 2024)
+* [VBMicrolensing](https://github.com/valboz/VBMicrolensing/tree/main){:target="_blank"} (Bozza et al. 2025)
 
 ## Simulation Software
 

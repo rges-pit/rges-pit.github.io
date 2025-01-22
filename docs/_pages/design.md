@@ -13,7 +13,7 @@ a recap of these designs can be found in the following works:
 
 1. [Spergel et al. 2015](https://arxiv.org/abs/1503.03757){:target="_blank"}
 2. [Penny et al. 2019](https://iopscience.iop.org/article/10.3847/1538-4365/aafb69/meta){:target="_blank"}
-3. GBTDS Definition Committee Report (April 2025)
+3. [GBTDS Definition Committee Report](https://asd.gsfc.nasa.gov/roman/comm_forum/forum_17/Core_Community_Survey_Reports-rev02-compressed.pdf){:target="_blank"}
 
 ## Pre-launch Observing Strategy (as of 2025)
 The nominal GBTDS observing strategy will use the wide-field instrument (WFI) to image a total of seven fields

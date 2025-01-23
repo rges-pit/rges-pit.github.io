@@ -21,6 +21,7 @@ and occurrence rates for transiting planets.
         of the region surrounding the star of interest. Nearby stars brighter than F146 = 24 are denoted by a white 
         “x,” with their sizes indicative of their brightness. The figure label gives relevant information on the simulated 
         system, including its recovered significance (MES) and crowding (Γc)</figcaption>
+        <figcaption>Credit: Wilson et al. 2023</figcaption>
 </figure>
 
 
@@ -34,4 +35,5 @@ and occurrence rates for transiting planets.
         green/blue points show the sample of detected planets for one field of the GBTDS. The green points denote 
         conservative requirements of >1 transit per season (>7 total), and the blue points denote liberal 
         detection requirements of <1 transit per season (<7 total), including single-transiting systems. </figcaption>
+            <figcaption>Credit: Wilson et al. 2023</figcaption>
 </figure>

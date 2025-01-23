@@ -5,6 +5,16 @@ sidebar:
   nav: "docs"
 ---
 
+<figure>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/ffp.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ffp.jpg">
+    </a>
+    <figcaption>Caption: Artist illustration of a Jupiter-like planet alone in the dark of space, 
+        floating freely without a parent star.
+        <br>
+    Credit: NASA/JPL-Caltech/R Hurt.</figcaption>
+</figure>
+
 A unique aspect of the microlensing phenomenon is that it does not require the lens object to emit any light of its own. This
 means microlensing is sensitive to dark objects like black holes, neutron stars, and free-floating planets. Roman is expected to 
 discover between 200 and 1,000 free-floating planets (FFPs). This estimate depends on the true mass function of FFPs

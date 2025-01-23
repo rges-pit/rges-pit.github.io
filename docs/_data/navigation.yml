@@ -47,8 +47,8 @@ docs:
         url: /science/transits/
       - title: "Free-Floating Planets"
         url: /science/ffps/
-#      - title: "Compact Objects"
-#        url: /science/galaxies/
+      - title: "Compact Objects"
+        url: /science/compact_obj/
 
   - title: Data
     url: /data/

@@ -15,6 +15,11 @@ planets by ~1.5 orders of magnitude.
 &nbsp;  
 * **Free-Floating Planets**: Discovery and characterization of elusive free-floating planets. Current estimates predict between
 200&mdash;1,000 free-floating planet detections during the nominal Roman microlensing survey.
+&nbsp;  
+&nbsp;  
+* **Compact Objects**: Detection and characterization of compact objects (black holes, neutron stars, etc) through measurements 
+of astrometric microlensing. There are expected to be ~100 compact object detections during the nominal Roman GBTDS.
+
 
 
 

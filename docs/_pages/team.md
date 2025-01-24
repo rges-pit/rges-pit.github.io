@@ -12,7 +12,7 @@ sidebar:
 | **Principal** | B. Scott Gaudi (OSU) | 
 | **Science PI** | David P. Bennett (UMD/GSFC) |
 | **Project Manager** | Christopher Brandon (OSU) |
-| **DEI/Outreach Programs** | Keivan Stassun (Vanderbilt)  |
+| **Education & Outreach Programs** | Keivan Stassun (Vanderbilt)  |
 
 &nbsp;  
 &nbsp;  
@@ -20,7 +20,7 @@ sidebar:
 # Working Group (WG) Leads
 
 | WG #1: Leadership and Project Management | S. Gaudi, C. Brandon |
-| WG #2: Diversity, Equity, Inclusion, and Accessibility | K. Stassun |
+| WG #2: Education, Outreach, and Community | K. Stassun |
 | WG #3: Event Modeling | D. Bennett, V. Bozza |
 | WG #4: Lens Flux Analysis | A. Bhattacharya |
 | WG #5: Event and Anomaly Detection | W. Zang |

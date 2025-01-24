@@ -29,5 +29,5 @@ pipeline. This pipeline will have three modules, corresponding to three Level-2 
 test the data reduction and analysis pipeline, and optimize the survey strategy of the GBTDS.
 
 4. Expand the scientific capacity and impact of the US microlensing community while simultaneously increasing its 
-inclusiveness, diversity, equity, and accessibility, and to develop outreach and citizen science activities that provide 
+education, outreach, and community efforts, and to develop citizen science activities that provide 
 entryways for the public to engage with the RGES science and the Roman mission.

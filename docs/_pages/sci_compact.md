@@ -34,7 +34,7 @@ upwards of ~100 isolated compact objects including black holes are expected to b
     </a>
     <figcaption>Caption: A simulated black hole microlensing event observed with the Roman F146W filter. The first three
     seasons of the GBTDS capture the photometric microlensing signal (outer panel), while the astrometric signal changes across all six 
-    seasons (inset panel) and is well characterized by a 8.5 solar-mass black hole lensing a background bulge star. 
+    seasons (inset panel) and is well characterized by an 8.5 solar-mass black hole lensing a background bulge star. 
     The 72-second exposures are taken every ~15 minutes and are combined in 1-day bins (e.g. ~90 frames stacked each day).
     <br>
     Credit: S. Terry (UMD).</figcaption>

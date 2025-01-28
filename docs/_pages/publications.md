@@ -15,5 +15,8 @@ Robert F. Wilson, Thomas Barclay, Brian P. Powell, et al.
 3. [Dazzle: Oversampled Image Reconstruction and Difference-Imaging Photometry for the Nancy Grace Roman Space Telescope](https://arxiv.org/abs/2412.06905){:target="_blank"},
 Michael D. Albrow
 
+4. [SynthPop: A New Framework for Synthetic Milky Way Population Generation](https://arxiv.org/abs/2411.18821){:target="_blank"},
+Klüter & Huston, et al.
+
 
 

@@ -5,6 +5,16 @@ sidebar:
   nav: "docs"
 ---
 
+<figure class="full">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/animations/planetary_transits.gif">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/animations/planetary_transits.gif">
+    </a>
+    <figcaption>Caption: An animation showing a single planet transiting its host star. The light curve (lower left panel) illustrates the change in 
+        observed brightness as the planet crosses the face of the star.
+        <br>
+    Credit: NASA GSFC/CI Lab.</figcaption>
+</figure>
+
 Monitoring of over 100 million stars with exquisite photometric precision will enable RGES to potentially discover 
 between 60,000 and 200,000 transiting exoplanets. Most of these planets will be giants on close-in orbits, but Roman should
 also discover approximately 10,000 planets with small radii (< 4R_earth). A comprehensive, pixel-level simulation study was

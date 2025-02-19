@@ -3,7 +3,36 @@ permalink: /news/
 title: "News"
 ---
 
+## RGES PIT Members Spot a Candidate for the Speediest Exoplanet System
+February 11, 2025
+
+<img style="display: block; margin: auto;" src="/assets/images/highvelocity-planet.jpeg" width="1600"/>
+<figcaption>Caption: This artist’s concept visualizes a super-Neptune world orbiting a low-mass star near 
+the center of our Milky Way galaxy. RGES PIT members recently reported such a system that may break the current 
+record for the fastest exoplanet system, traveling at least 1.2 million miles per hour, or 540 kilometers per 
+second.</figcaption>
+
+&nbsp;  
+[This story](https://www.nasa.gov/universe/nasa-scientists-spot-candidate-for-speediest-exoplanet-system/){:target="_blank"} from 
+NASA features an interview several RGES PIT members gave on a new study reporting a candidate 
+for the highest velocity exoplanet system. The paper has been published in The Astronomical Journal, 
+it can be found [here](https://iopscience.iop.org/article/10.3847/1538-3881/ad9b0f/meta){:target="_blank"}.
+
+-------------
+## Exocast-78 b: Finding the Most Distant Exoplanets with Dr Eamonn Kerins
+February 2, 2025
+
+<img style="display: block; margin: auto;" src="/assets/images/exocast-banner.png" width="1600"/>
+
+&nbsp;  
+The Exocast podcast sat down with RGES PIT member Eamonn Kerins to discuss microlensing searches for exoplanets, free-floating planets,
+and dark matter. Kerins also discussed the upcoming Euclid Galactic Bulge Survey in preparation for the Roman GBTDS. The episode can be
+streamed [here](https://www.exocast.org/exocast-78b/){:target="_blank"}.
+
+-------------
+
 ## RGES PIT @ 27th Annual Microlensing Conference (Cape Town, South Africa)
+January 31, 2025
 
 A large fraction of the RGES PIT attended the [27th Conference on Gravitational Microlensing](https://microlensing2025.saao.ac.za/){:target="_blank"}
 in Cape Town South Africa from January 27th to 31st, 2025. Here is a list of presentations given by RGES PIT members:
@@ -63,25 +92,3 @@ in Cape Town South Africa from January 27th to 31st, 2025. Here is a list of pre
 
 -------------
 -------------
-
-## RGES PIT @ AAS 245 (Washington, DC)
-
-Several members of the RGES PIT will be in attendance at the 245th meeting of the American Astronomical Society 
-in Washington DC from January 11th to 16th, 2025. Here is a list of sessions that include presentations by RGES PIT members:
-
--------------
-
-* Project Infrastructure Teams for the Roman Space Telescope Splinter Session, Tuesday, January 14, 2025, 
-from 9:00 AM--12:00 PM EST (**S. Gaudi**).
-
-* Session 214.06 - Building a Comprehensive Training Set for Convolutional Neural Networks Applied 
-to Gravitational Microlensing, Tuesday, January 14 11:20 AM – 11:30 AM EST (**S. Ishitani Silva**).
-
-* Session 235.05 - Surrounded by Rogues: Characterizing the Mass Function of Free-floating Planets with 
-the Nancy Grace Roman Space Telescope, Tuesday, January 14 3:00 PM – 3:10 PM EST (**W. DeRocco**).
-
-* Session 235.06 - Characterizing OGLE-2014-BLG-1145: A Planetary Microlensing Event, Tuesday,
-January 14 3:10 PM – 3:20 PM EST (**J. Hulberg**).
-
-* The Roman Science Collaboration, Nancy Grace Roman Space Telescope Town Hall, Tuesday, January 14, 2025, 
-from 7:00 PM--7:10 PM EST (**J. Lu**).

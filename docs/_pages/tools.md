@@ -37,4 +37,5 @@ file with additional details.
 
 * [GBTDS Optimizer](https://github.com/mtpenny/gbtds_optimizer){:target="_blank"} (M. Penny)
 * [pyLIMASS](https://github.com/ebachelet/pyLIMA/tree/master/pyLIMA/pyLIMASS){:target="_blank"} (Bachelet et al. 2024)
+* [sfit_minimizer](https://github.com/jenniferyee/sfit_minimizer){:target="_blank"} (Yee et al. 2025)
 

@@ -8,12 +8,13 @@ gravitational microlensing survey from space. In order to maximize the number of
 Roman will detect, the survey fields will be placed in the highly-crowded stellar region towards
 the galactic bulge.
 
-There have been several proposed designs for the GBTDS observing strategy,
+There have been several provisional designs for the GBTDS observing strategy,
 a recap of these designs can be found in the following works:
 
 1. [Spergel et al. 2015](https://arxiv.org/abs/1503.03757){:target="_blank"}
-2. [Penny et al. 2019](https://iopscience.iop.org/article/10.3847/1538-4365/aafb69/meta){:target="_blank"}
-3. [GBTDS Definition Committee Report](https://asd.gsfc.nasa.gov/roman/comm_forum/forum_17/Core_Community_Survey_Reports-rev03-compressed.pdf){:target="_blank"}
+2. [Akeson et al. 2019](https://arxiv.org/abs/1902.05569){:target="_blank"}
+3. [Penny et al. 2019](https://iopscience.iop.org/article/10.3847/1538-4365/aafb69/meta){:target="_blank"}
+4. [GBTDS Definition Committee Report (2025)](https://asd.gsfc.nasa.gov/roman/comm_forum/forum_17/Core_Community_Survey_Reports-rev03-compressed.pdf){:target="_blank"}
 
 ## Pre-launch Observing Strategy (as of 2025)
 The nominal GBTDS observing strategy will use the wide-field instrument (WFI) to image a total of seven fields

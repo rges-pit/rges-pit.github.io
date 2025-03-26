@@ -24,3 +24,5 @@ Yee & Gould 2025
 7. [Investigating the 1L2S Degeneracy for Wide-Orbit Planets](https://arxiv.org/abs/2503.11768){:target="_blank"},
 Sangtarash & Yee 2025
 
+8. [Microlensing Constraints on the Stellar and Planetary Mass Functions](https://arxiv.org/abs/2503.11597){:target="_blank"},
+Yee & Kenyon 2025

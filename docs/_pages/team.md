@@ -31,6 +31,7 @@ sidebar:
 | WG #10: Microlensing Mini-Courses | A. Crisp, A. Malpas, K. Stassun, A. Stephan |
 | WG #11: Free Floating Planets | W. DeRocco |
 | WG #12: Efficiency and Occurrence Rate Analysis | J. Christiansen |
+| WG #13: Astrometry | C. Lam |
 
 &nbsp;  
 &nbsp;  
@@ -44,6 +45,7 @@ sidebar:
 | Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
 | David Bennett | UMD|
+| Galen Bergsten | STScI|
 | Aparna Bhattacharya | UMD|
 | Chris Brandon | OSU|
 | Kylee Carden | OSU|
@@ -52,11 +54,11 @@ sidebar:
 | Ali Crisp | OSU| 
 | William DeRocco | UMD/JHU| 
 | Jason Eastman | CfA|
+| Rachel Fernandes | PSU|
 | Scott Gaudi | OSU| 
 | Jon Hulberg | CUA| 
 | Macy Huston | UC Berkeley|
 | Stela Ishitani Silva | NASA/GSFC| 
-| Samson Johnson | OSU| 
 | Sinclaire Jones | OSU| 
 | Victor Karkour | OSU|
 | Somayeh Khakpash | U. Delaware| 
@@ -93,7 +95,6 @@ sidebar:
 | Ian Bond | Massey U. |
 | Valerio Bozza | U. Salerno |
 | Eamonn Kerins | Manchester |
-| Naoki Koshimoto | Osaka U. |
 | Shota Miyazaki | Osaka U. |
 | Przemek Mróz | U. Warsaw |
 | Radek Poleski | U. Warsaw |
@@ -102,6 +103,8 @@ sidebar:
 | Vitto Saggese | U. Salerno |
 | Takahiro Sumi | Osaka U. |
 | Daisuke Suzuki | Osaka U. |
+| Erica Thygesen | U. Tasmania |
+| Meet Vyas | Ahmedabad U. |
 | Joachim Wambsganss | U. Heidelberg |
 
 &nbsp;  

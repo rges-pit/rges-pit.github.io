@@ -64,10 +64,10 @@ docs:
 
   - title: Outreach
     url: /outreach/
-    #children:
+    children:
+      - title: "Mini Course"
+        url: /outreach_mini_landing/
     #  - title: "Data Challenges"
-    #    url: /outreach/
-    #  - title: "Mini Courses"
     #    url: /outreach/
 
   - title: Resources

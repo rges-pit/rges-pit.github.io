@@ -19,3 +19,5 @@ microlensing mini course which took place in May 2025:
 ### [Chapter 4: Practice Tutorial]({{ site.url }}{{site.baseurl }}/outreach_mini_ch4/)
 
 ### [Chapter 5: Mini Data Challenge]({{ site.url }}{{site.baseurl }}/outreach_mini_ch5/)
+
+### [Glossary]({{ site.url }}{{site.baseurl }}/outreach_mini_glossary/)

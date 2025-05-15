@@ -18,8 +18,7 @@ see [Skowron et al. (2011), ApJ, 738, 87](http://adsabs.harvard.edu/abs/2011ApJ.
 | Einstein crossing time | t<sub>E</sub> | days | Time taken for the background source to cross the lens' Einstein radius, as seen by the observer. Caution: some early microlensing papers may refer to t<sub>E</sub> as the crossing time for the lens' Einstein <i></i>diameter</i> |
 | Time of peak | t<sub>0</sub> | days | Time at which the separation of lens and source reaches the minimum. |
 | Source self-crossing time | t<sub>*</sub> | days | Time taken to cross the source's angular radius |
-| Impact parameter | u, at minimum u<sub>0</sub> | Dimensionless | The angular separation, normalized to &theta;<sub>E</sub>, between source and lens as seen by the observer<br>
-                    Conventionally u<sub>0</sub> is positive when the lens passes to the right of the source star (Gould et al. 2004) | 
+| Impact parameter | u, at minimum u<sub>0</sub> | Dimensionless | The angular separation, normalized to &theta;<sub>E</sub>, between source and lens as seen by the observer.  Conventionally u<sub>0</sub> is positive when the lens passes to the right of the source star (Gould et al. 2004)|
 | Effective timescale | t<sub>eff</sub> | days | Equal to u<sub>0</sub>t<sub>E</sub> |
 | Rho | &rho; | Dimensionless | The angular source size &theta;<sub>S</sub> normalized by the angular Einstein radius &theta;<sub>E</sub> |
 | Vector Microlens Parallax (also: annual parallax) | <b>&pi;</b> or &pi;&#772;, components (&pi;<sub>E,<i>E</i></sub>, &pi;<sub>E,<i>N</i></sub>) or (&pi;<sub>E,&#8741;</sub>, &pi;<sub>E,&perp;</sub>) |  | The parallax to a lensing event caused by the motion of the Earth in its orbit during the event. |
@@ -29,7 +28,7 @@ see [Skowron et al. (2011), ApJ, 738, 87](http://adsabs.harvard.edu/abs/2011ApJ.
 | Lens distance | D<sub>L</sub> | pc | Physical distance from the observer to the lensing object. |
 | Source distance | D<sub>S</sub> | pc | Physical distance from the observer to the source star. |
 | Lens-source distance | D<sub>LS</sub> | pc | Physical distance between the source and lens along the observer's line of sight. |
-| Lens mass | M<sub>L</sub> | M<sub>&odot;</sub> | Mass of the lensing object, including all component masses unless otherwise stated.</td>
+| Lens mass | M<sub>L</sub> | M<sub>&#8857;</sub> | Mass of the lensing object, including all component masses unless otherwise stated.</td>
 | Kappa | &kappa; |  | Commonly used to abbreviate equations for the mass of the lens, kappa gathers together all the physical constants |
 | Einstein angular radius | &theta;<sub>E</sub> | mas | The angle subtended by the Einstein radius of a lens from the distance of the observer. |
 | Source angular radius | &theta;<sub>*</sub> or &theta;<sub>S</sub> | mas | The angle subtended by the source star radius at the distance of the observer |
@@ -44,7 +43,7 @@ see [Skowron et al. (2011), ApJ, 738, 87](http://adsabs.harvard.edu/abs/2011ApJ.
 | --- | --- | --- |---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Parameter reference time | t<sub>0,par</sub> | days | The reference instant at which all parameters are measured in a geocentric frame that is at rest relative to the Earth at that time (An et al. 2002)          |
 | Fiducial time | t<sub>0,kep</sub> | days | Fiducial time specified during analysis of binary lens events.  In general t<sub>0,kep</sub> and t<sub>0,par</sub> are defined to be equivalent               |
-| Lens masses | M<sub>1,2,P or S</sub> | M<sub>&odot;</sub> unless otherwise stated | 
+| Lens masses | M<sub>1,2,P or S</sub> | M<sub>&#8857;</sub> unless otherwise stated | 
 | Mass ratio | q |  | The ratio of the masses of a binary lens, M<sub>2</sub>/M<sub>1</sub> |
 | Mass fraction | &epsilon; |  | The ratio of the one of the masses in a binary lens to the total mass of that lens, M<sub>i</sub>/M<sub>tot</sub>  |
 | Lens separation | s, also s<sub>0</sub>, d or b | Dimensionless | The projected separation of the masses of a binary lens during the event, normalized by the angular Einstein radius &theta;<sub>E</sub> |

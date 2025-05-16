@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css"
+  integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+  integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css"
+  integrity="sha512-RoEy1xOWgzryoplQ1g0eNHizP2BRqEq8eLGpRyI6OvM2FvmxpUyiPotvW4rp/I67VN6eFq4DDXQNcFKbNZ5Rrg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/zenburn.min.css"
+  integrity="sha512-JPxjD2t82edI35nXydY/erE9jVPpqxEJ++6nYEoZEpX2TRsmp2FpZuQqZa+wBCen5U16QZOkMadGXHCfp+tUdg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+    rel="stylesheet",
+    href="/assets/css/styles.css"
+  />
+
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<title>Introduction and Historical Background</title>
+
+<div class="slide-nav-bar"><a href="/outreach_mini_landing/">Minicourse home</a></div>
+
+<div class="reveal">
+  <div class="slides">
+
+    <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Introduction and Historical Background</h1-light>
+      <p>How was gravitational lensing discovered and what are the basics?</p>
+      <p>Author: Alexander Stephan</p>
+      <p>Presenter: Scott Gaudi</p>
+    </section>
+
+      <section>
+        <h2>Outline</h2>
+	<p>1: Early Theories of Light and Gravitational Deflection</p>
+	<p>2: Einstein's Theories of Relativity</p>
+	<p>3: Other Lensing Phenomena</p>
+  <p>4: Lens Equation</p>
+      </section>
+
+      <section>
+        <h2>1. Early Theory of Light</h2>
+	<p>During Newton's time, the dominant view was that light consisted of "corpuscules", which successfully explained observed phenomena such a polarized light. This "corpuscular theory of light" can be seen as a forerunner of the concept of photons, and originated in the "atomist" view dominant in the natural sciences of the time.</p>
+
+  <div class="row">
+          <div class="col-sm-4">
+            <img
+              src="/assets/images/Newtoncorpuscularmodeloflight.png"
+              alt="Curpuscules"
+              width="100%"
+              />
+          </div>
+
+   <div class="row">
+          <div class="col-sm-12">
+            <img
+              src="/assets/images/reflectionoflightcorpusclestheory.png"
+              alt="Reflection"
+              width="200%"
+              />
+          </div>
+      </section>
+    
+       <section>
+        <h2>Newtonian Gravitational Lensing</h2>
+  <p>Newtonian physics already predicted that light would be deflected by a gravitational potential. A corpuscule sitting at distance r from a mass M undergoes acceleration</p>
+
+  $$\vec{a} = -\frac{GM}{r^2}\hat{r}$$
+
+  <p>During the interaction, this acceleration results in a velocity boost of</p>
+
+  $$\Delta\vec{v} = - \int_{0}^{t_f} \frac{GM}{r(t)^2}\hat{r} \,dt $$
+
+  <p>Assuming that the corpuscule's closest approach distance is b, and that the light originates far away, the total deflection angle will be</p>
+
+	$$\alpha = \frac{2GM}{c^2 b}$$
+
+      </section>
+    
+       <section>
+        <h2>Newtonian Gravitational Lensing, continued</h2>
+
+  <p>However, we had to assume here that the speed of light is variable and observer dependent, which we now know to be incorrect; as such, the Newtonian prediction is (as we shall see) also incorrect. Nevertheless, the key principle is correct, and it is thus a useful toy model.</p>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/deflect.png"
+              alt="Deflection"
+              width="100%"
+              />
+          </div>
+	
+          <div class="col-sm-6">
+	    <ul>
+	    <li> &alpha; = deflection angle </li>
+	    <li> M = mass of the lens </li>
+	    <li> b = impact parameter (distance of closest approach) </li>
+	    <li> G = Newton's gravitational constant </li>
+	    <li> c = speed of light </li>
+	    </ul>	      
+          </div>
+
+<p>More massive lenses (i.e., larger M) = larger deflection angle &alpha;.</p>
+<p>Light passing closer to the lens M (i.e., smaller b) = larger deflection angle &alpha;.</p>
+
+
+      </section>
+
+    <section>
+        <h2>Wave-Particle Duality of Light</h2>
+  <p>The "corpuscular theory of light" was eventually abandoned for the wave theory of light governed by Maxwell's equations. However, as further experiments have shown, light (and all small particles) indeed have wave-particle duality, exhibiting behaviors from both concepts:</p>
+
+  <div class="row">
+          <div class="col-md-7">
+            <img
+              src="/assets/images/double_slit.jpeg"
+              alt="double"
+              width="80%"
+              />
+              <p>Feynman lecture figure</p>
+          </div>
+
+          <div class="col-md-5">
+            <p>As light was also determined to be massless, Newtonian gravity should not even affect it at all; as such, the behavior of light under gravity required a new kind of theory.</p>
+          </div>
+
+
+      </section>
+
+
+    <section>
+        <h2>2. Einstein's Theories of Relativity</h2>
+  <p>In 1905 and 1915, Einstein published his papers that outlined the Special and General Theories of Relativity, respectively. These theories outline a crucial set of assumptions and postulates that still describe our most accurate description of gravity and spacetime:</p>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/Spacetime_lattice_analogy.png"
+              alt="spacetime"
+              width="100%"
+              />
+          </div>
+  
+          <div class="col-sm-6">
+      <ul>
+      <li> constancy of the speed of light for all observers</li>
+      <li> laws of physics are the same in all inertial reference frames</li>
+      <li> mass-energy equivalency \(E = m c^2\)</li>
+      <li> gravity is the result of mass bending spacetime</li>
+      </ul>       
+          </div>
+
+
+      </section>
+
+      <section>
+        <h2>Einsteinian Gravitational Lensing</h2>
+  <p>Unlike in Newtonian physics, following Einstein's theory of general relativity, gravity is not described as a force, but as the paths of objects following a geodesic, a straight path in curved spacetime. To derive the deflection of a light ray by a point potential \(\Phi\) under GR, we can use the following set of equations (see, for example, Carroll 2004 for a full derivation):</p>
+
+  <div class="row">
+          <div class="col-sm-6">
+      <ul>
+      <li> deflection angle: \(\hat{\alpha} = 2\int\nabla_\perp \frac{\Phi}{c^2} ds \)</li>
+      <li> potential: \(\Phi(r) = -\frac{GM}{r} = -\frac{GM}{(b^2 +z^2)^{1/2}} \)</li>
+      <li> \(\nabla_\perp \Phi(r) = \frac{\partial \Phi}{\partial b} = -\frac{G M b}{(b^2 +z^2)^{3/2}}\)</li>
+      <li>\(z\) is the direction between source and observer</li>
+      </ul>       
+          </div>
+
+          <div class="col-sm-6">
+          <p>Solving the integral, we get a total deflection angle of: $$\alpha = \frac{4 G M}{c^2 b}$$ This result is exactly twice as large as the deflection angle predicted by Newtonian gravity.</p>
+          </div>
+
+      </section>
+
+      <section>
+        <h2>Testing Einstein: Eddington and Dyson (1919)</h2>
+  <p>At the time, it was difficult to test Einstein's gravitational lensing prediction due to the limited capabilities of contemporary instruments. Luckily, the total solar eclipse on May 29th 1919 provided an opportunity to use the sun itself as the gravitational lens. British astronomers Eddignton and Dyson led the expeditions that observed the deflection of light from stars behind the sun and concluded that Einstein's, not Newton's, prediction was correct. Figures reproduced from Eddington's 1920 work:</p>
+
+  <div class="row">
+          <div class="col-md-4">
+            <img
+              src="/assets/images/1919_eclipse.jpg"
+              alt="1919"
+              width="60%"
+              />
+          </div>
+
+         <div class="row">
+          <div class="col-md-10">
+            <img
+              src="/assets/images/1919_eclipse_graph.jpeg"
+              alt="1919graph"
+              width="100%"
+              />
+              
+          </div>
+
+     
+
+      </section>
+
+      <section>
+        <h2>3: Other Lensing Phenomena</h2>
+  <p>Following the establishment of GR and the confirmation of gravitational lensing by Eddington and Dyson, a number of other gravitational lensing phenomena have been predicted, and also observed. Among these are Einstein "crosses" and "rings", where a compact or extended source, respectively, gets lensed multiple times by the foreground lensing mass (Pictures from NASA/ESA/STScl):</p>
+
+  <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/assets/images/Einstein_cross.jpg"
+              alt="cross"
+              width="50%"
+              />
+          </div>
+         <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/assets/images/einstein_ring.jpg"
+              alt="ring"
+              width="100%"
+              />
+          </div>
+
+       </div>
+
+      </section>
+
+      <section>
+      <h2>Weak Gravitational Lensing</h2>
+  <p>If the lensing mass is not a compact object like a star, but an extended distribution of mass like a galaxy, or a galaxy cluster, the lensing geometry becomes more complex, and multiple image copies with varying levels of distortion and magnification can be observed. This can be helpful to measure the mass distribution of the lensing cluster (Pictures from NASA/ESA/STScl/Hubble):</p>
+
+  <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/assets/images/abell_2218_lensing.jpg"
+              alt="cross"
+              width="100%"
+              />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/assets/images/potw2129a.jpg"
+              alt="cross"
+              width="60%"
+              />
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <section>
+      <h2>4. Lens Equation</h2>
+  <p>The next chapters of the minicourse will cover the details of microlensing, and how this special case of gravitational lensing can be used to detect exoplanets. In preparation, we will cover here the lens equation, which helps to understand what is observed during a gravitational lensing event.</p>
+
+  <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/complicated.png"
+              alt="Lens Equation"
+              width="100%"
+              />
+          </div>
+  
+          <div class="col-sm-6">
+      <ul>
+        <li> &theta; = image position </li>
+        <li> &theta;<sub>S</sub> = background source position</li>
+        <li> &alpha; = total deflection angle = &theta;</li>
+        <li> D<sub>L</sub> = distance to lens</li>
+        <li> D<sub>S</sub> = distance to source</li>
+        <li> b = impact parameter</li>
+      </ul>       
+          </div>
+
+
+      </section>
+
+      <section>
+      <h2>Lens Equation, continued</h2>
+  <p>From previous derivations we know that</p>
+
+  $$\alpha = \theta = \frac{4 G M}{b c^2}$$
+
+  <p>Following the small angle approximation we can also define</p>
+
+  $$b = \theta D_L = \theta_S D_S$$
+
+  <p>Using these expression for \(b\) in the equation for \(\alpha\), we find</p>
+
+  $$\theta^2 = \frac{4 G M}{D_L c^2}, \theta\theta_S = \frac{4 G M}{D_S c^2}$$
+
+      </section>
+
+      <section>
+      <h2>Lens Equation, continued</h2>
+  <p>Using the expressions for \(\theta^2\) and \(\theta\theta_S\), we define a characteristic angle for the system:</p>
+
+  $$\theta^2 - \theta\theta_S = \frac{4 G M}{c^2}(\frac{1}{D_L}-\frac{1}{D_s}) = \frac{4 G M}{c^2}\frac{D_S - D_L}{D_L D_S}$$
+
+  <p>This indeed defines the angle known as the Einstein Radius:</p>
+
+  $$\theta_E = \sqrt{\frac{4 G M}{c^2}\frac{D_S - D_L}{D_L D_S}}$$
+
+  <p>Finally, we get the lens equation, which will be further discussed in the next lectures:</p>
+
+  $$\theta^2 - \theta\theta_S - \theta_E^2 = 0$$
+
+      </section>
+     
+      
+   
+  </div>
+</div>
+
+<!-- <script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script> -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"
+  integrity="sha512-131e3mIrDAyUD075SVzvIjS0g97uDg0+/qAobDHd++h+lgFi4z88DVOpidm06jpb+0PzK4kcm9w79r6EHV0SkA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+  integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"
+  integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    hashOneBasedIndex: true,
+
+    width: 1600,
+    height: 900,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight],
+
+    markdown: {
+      gfm: true,
+    },
+
+    slideNumber: 'c/t',
+  });
+</script>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css"
+  integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+  integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css"
+  integrity="sha512-RoEy1xOWgzryoplQ1g0eNHizP2BRqEq8eLGpRyI6OvM2FvmxpUyiPotvW4rp/I67VN6eFq4DDXQNcFKbNZ5Rrg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/zenburn.min.css"
+  integrity="sha512-JPxjD2t82edI35nXydY/erE9jVPpqxEJ++6nYEoZEpX2TRsmp2FpZuQqZa+wBCen5U16QZOkMadGXHCfp+tUdg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+    rel="stylesheet",
+    href="/assets/css/styles.css"
+  />
+
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<title>Single Point Lenses</title>
+
+<div class="slide-nav-bar"><a href="/outreach_mini_landing/">Minicourse home</a></div>
+
+<div class="reveal">
+  <div class="slides">
+    <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Single Point Lenses</h1-light>
+      <p>What does a microlensing lightcurve look like, and how often do we expect to see microlensing?</p>
+      <p>Author: Casey Lam</p>
+    </section>
+
+      <section>
+        <h2>Outline</h2>
+	<p>Review of Lecture 1</p>
+	<p>Goal 1: Make a microlensing lightcurve</p>
+	<p>Goal 2: How likely it is to see microlensing?</p>
+      </section>
+
+      <section>
+        <h2>Review from Chapter 1: the deflection of light</h2>
+	<p>Light is bent (aka deflected) by the presence of mass:</p>
+	
+	$$\alpha = \frac{4GM}{bc^2}$$
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/deflect.png"
+              alt="Deflection"
+              width="100%"
+              />
+          </div>
+	
+          <div class="col-sm-6">
+	    <ul>
+	    <li> &alpha; = deflection angle </li>
+	    <li> M = mass of the lens </li>
+	    <li> b = impact parameter (distance of closest approach) </li>
+	    <li> G = Newton's gravitational constant </li>
+	    <li> c = speed of light </li>
+	    </ul>	      
+          </div>
+
+<p>More massive lenses (i.e., larger M) = larger deflection angle &alpha;.</p>
+<p>Light passing closer to the lens M (i.e., smaller b) = larger deflection angle &alpha;.</p>
+
+<!-- Note somewhere that all these positions are angles. Also be clear when a figure is a front view, vs. side view. -->
+      </section>
+     
+      <section>
+        <h2>Review from Chapter 1: the lens equation</h2>
+	<p>The lens equation describes where the light <strong>looks</strong> like it is coming from:</p>
+
+	$$\theta^2 - \theta \theta_S - \theta_E^2 = 0, \quad \theta_E \equiv \sqrt{\frac{4GM}{c^2} \left( \frac{1}{D_L} - \frac{1}{D_S} \right)}$$
+
+	<div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/complicated.png"
+              alt="Lens Equation"
+              width="100%"
+              />
+          </div>
+	
+          <div class="col-sm-6">
+	    <ul>
+	      <li> &theta; = image position </li>
+	      <li> &theta;<sub>S</sub> = background source position</li>
+	      <li> &theta;<sub>E</sub> = Einstein radius (characteristic angular scale: depends on lens mass M, observer's distance to the lens D<sub>L</sub>, source D<sub>S</sub>) </li>
+	    </ul>	      
+          </div>
+
+      </section>
+
+      <section>
+        <h2>Goal 1: Make a microlensing lightcurve</h2>
+	<div class="row">
+          <div class="col-sm-6">
+	    <p> - Solving the lens equation</p>
+            <p> - Connecting the lens equation to magnification</p>
+	    <p>Animation: Scott Gaudi (OSU)</p>
+          </div>
+
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/animation.gif"
+              alt="4 source"
+              width="100%"
+              />
+          </div>
+      </section>
+
+      <section>
+        <h2>Solving the lens equation</h2>
+	$$\theta^2 - \theta \theta_S - \theta_E^2 = 0$$
+	<p>1) Solve the lens equation for theta using the quadratic formula. </p>
+	<p>2) Using the result from 1), evaluate theta in the following limits: </p>
+	<p>a) &theta;<sub>S</sub> = 0 </p>
+	<p>b) &theta;<sub>S</sub> << &theta;<sub>E</sub> </p>
+	<p>c) &theta;<sub>S</sub> >> &theta;<sub>E</sub> </p>
+      </section>
+
+      <section>
+        <h2>Solving the lens equation</h2>
+	$$\theta^2 - \theta \theta_S - \theta_E^2 = 0$$
+	
+	<p>1) Solve the lens equation for theta using the quadratic formula. </p>
+
+	$$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$			 
+      </section>
+
+      <section>
+        <h2>Solving the lens equation</h2>
+	$$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$
+	
+	<p>2) Evaluate theta in the following limits: </p>
+	$$a) \quad \theta_S = 0 \implies \theta = \theta_E$$
+	Perfect alignment: an Einstein ring.
+      </section>
+
+      <section>
+        <h2>Solving the lens equation</h2>
+	$$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$
+	
+	<p>2) Evaluate theta in the following limits: </p>
+
+	$$b) \quad \theta_S \ll \theta_E \implies \theta \approx \frac{\theta_S}{2} \pm \theta_E$$	 
+	If your source position is within the Einstein radius but not perfectly aligned with the lens,
+	you will get two images: one inside and one outside the Einstein radius.
+      </section>
+
+      <section>
+        <h2>Solving the lens equation</h2>
+	$$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$
+	
+	<p>2) Evaluate theta in the following limits: </p>
+
+	$$c) \quad \theta_S \gg \theta_E \implies \theta \approx 0, \, \theta_S$$
+	If your source position is much larger than the Einstein radius, you won't have lensing
+      </section>
+
+
+      <section>
+        <h2>Connecting the lens equation to magnification</h2>
+	<p>Suppose you have four sources located in the same plane (colored circles). The lens is the black dot.
+	  The Einstein radius is shown in the dotted line.
+	  Qualitatively, sketch where the images of each source would be located.</p>
+	<div class="row">
+          <div class="col-sm-4">
+            <img
+              src="/assets/images/4source.png"
+              alt="4 source"
+              width="80%"
+              />
+          </div>
+      </section>
+
+      <section>
+        <h2>Connecting the lens equation to magnification</h2>
+	<p>Suppose you have four sources located in the same plane (colored circles). The lens is the black dot.
+	  The Einstein radius is shown in the dotted line.
+	  Qualitatively, sketch where the images of each source would be located.</p>
+	<div class="row">
+          <div class="col-sm-4">
+            <img
+              src="/assets/images/4source.png"
+              alt="4 source"
+              width="80%"
+              />
+          </div>
+
+	    <div class="col-sm-4">
+              <img
+		src="/assets/images/4source_sol.png"
+		alt="4 source"
+		width="80%"
+		/>
+            </div>
+      </section>
+
+      
+      <section>
+        <h2>Connecting the lens equation to magnification</h2>
+	<p>Suppose you have four sources located in the same plane (colored circles). The lens is the black dot.
+	  The Einstein radius is shown in the dotted line.
+	  Qualitatively, sketch where the images of each source would be located.</p>
+	<div class="row">
+          <div class="col-sm-4">
+            <img
+              src="/assets/images/4source.png"
+              alt="4 source"
+              width="80%"
+              />
+          </div>
+
+	    <div class="col-sm-4">
+              <img
+		src="/assets/images/4source_sol.png"
+		alt="4 source"
+		width="80%"
+		/>
+            </div>
+
+	    <div class="col-sm-4">
+              <img
+		src="/assets/images/lens_arc.png"
+		alt="4 source"
+		width="110%"
+		/>
+          </div>
+
+      </section>
+
+      
+      <section>
+        <h2>Connecting the lens equation to magnification</h2>
+	<div class="row">
+	  <div class="col-sm-9">
+	    <p>Surface brightness is conserved in microlensing: things don't look brighter when you look at them with a magnifying glass.</p>
+	    <p>Then, the ratio of the area of the images to the area of the source A<sub>1</sub>, A<sub>2</sub> is equal to the amount of magnification.</p>
+	    
+	    $$A_1 = \frac{\theta_1 \, d\theta_1}{\theta_S \, d\theta_S}, A_2 = \frac{\theta_2 \, d\theta_2}{\theta_S \, d\theta_S}$$
+          </div>
+
+	  <div class="col-sm-3">
+            <img
+	      src="/assets/images/lens_arc.png"
+	      alt="4 source"
+	      width="100%"
+	      />
+          </div>
+	  <p>&theta;<sub>1</sub>, &theta;<sub>2</sub> are the + and - solutions of the lens equation.</p>
+	<p>Since there are two images, the total magnification will be the sum of the individual magnifications, A = |A<sub>1</sub>| + |A<sub>2</sub>|.</p>
+      </section>
+
+      <section>
+        <h2>Connecting the lens equation to magnification</h2>
+	<p>If you do the math (differentiate the two solutions of the lens equation wrt &theta;<sub>S</sub> to calculate what A<sub>1</sub> and A<sub>2</sub> are), you find the total magnification is:</p>
+	$$A(u) = \frac{u^2+2}{u\sqrt{u^2+4}}$$
+	<p>where u is the distance of the source from the lens in units of the Einstein radius (dimensionless source-lens projected separation)<p/>
+	$$u \equiv \theta_S/\theta_E$$
+      </section>
+
+      <section>
+        <h2>Making a microlensing lightcurve</h2>
+	<p>A(u) is the equation describing how magnification changes with the dimensionless source-lens projected separation u, but to make a lightcurve we need to know how u as a function of time t:</p>
+
+	$$u(t) = \sqrt{u_0^2 + \left( \frac{t - t_0}{t_E} \right)^2}$$
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/u.png"
+              alt="Deflection"
+              width="100%"
+              />
+          </div>
+	
+          <div class="col-sm-6">
+	    <ul>
+	    <li> t<sub>E</sub> = Einstein crossing time (time it takes for the source to move the distance of the Einstein radius) </li>
+	    <li> t<sub>0</sub> = time of closest approach </li>
+	    <li> u<sub>0</sub> = impact parameter (distance of closest approach) </li>
+	    </ul>	      
+          </div>
+      </section>
+
+      <section>
+        <h2>Making a microlensing lightcurve</h2>
+	<p>Let's code it up in Python to prove it works...</p>
+	<a href="https://github.com/rges-pit/rges-pit.github.io/assets/notebooks/lightcurve_example.ipynb">Check out this Jupyter notebook</a>
+      </section>
+
+      <section>
+        <h2>Goal 1: Make a microlensing lightcurve</h2>
+	<div class="row">
+          <div class="col-sm-6">
+	    <p> - Solving the lens equation</p>
+            <p> - Connecting the lens equation to magnification</p>
+	    <p>Animation: Scott Gaudi (OSU)</p>
+          </div>
+
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/animation.gif"
+              alt="4 source"
+              width="100%"
+              />
+          </div>
+      </section>
+      
+      <section>
+        <h2>Complication: microlensing parallax</h2>
+	We used this equation to calculate the dimensionless source-lens projected separation:
+	$$u(t) = \sqrt{u_0^2 + \left( \frac{t - t_0}{t_E} \right)^2}$$
+
+	<p>However, this is only accurate if the source and the lens are both moving at constant velocity with respect to the observer.	
+	  If we are observing from Earth, this is not true: Earth is always accelerating since it orbits the Sun!</p>
+      </section>
+
+      <section>
+        <h2>Complication: microlensing parallax</h2>
+	<div class="row">
+	  <div class="col-sm-6">
+	    <img
+	      src="/assets/images/microlensing_parallax.png"
+              alt="parallax"
+              width="100%"
+              />
+	    <p>Figure from Wryzykowski et al. 2016</p>
+          </div>
+	  <div class="col-sm-6">
+	    <p>Due to an Earthly observer's accelerating frame, the lightcurve will not be symmetric ("microlensing parallax") </p>
+          </div>
+      </section>
+
+      <section>
+        <h2>Microlensing parallax is not stellar parallax!</h2>
+	<p>Stellar/trigonometric parallax: the apparent change in position of nearby stars relative to distant background stars,
+	  due to Earth orbiting the Sun.</p>
+            <img
+              src="/assets/images/parallax.png"
+              alt="parallax"
+              width="100%"
+              />
+      </section>
+	
+      <section>
+        <h2>Goal 2: How likely it is to see microlensing?</h2>
+	<p>Microlensing optical depth</p>
+      </section>
+
+      <section>
+        <h2>Microlensing optical depth</h2>
+	<p>Microlensing optical depth is the probability that a star will lie within the Einstein radius of a foreground lens.
+	  It describes the distribution of mass along the line of sight of a particular source.</p>
+	
+	<p>Note: in astronomy, optical depth typically means how transparent a material is to light (high optical depth = opaque, low optical depth = transparent). It has absolutely nothing to do with gravitational lensing.</p>
+      </section>
+
+      <section>
+        <h2>Microlensing optical depth</h2>
+	<p>&rho;(D<sub>L</sub>) = mass density of lenses</p>
+        <img
+          src="/assets/images/tau1.png"
+          alt="parallax"
+          width="90%"
+          />
+      </section>
+
+      <section>
+        <h2>Microlensing optical depth</h2>
+	<p>&rho;(D<sub>L</sub>) = mass density of lenses</p>
+        <img
+          src="/assets/images/tau2.png"
+          alt="parallax"
+          width="90%"
+          />
+      </section>
+
+      <section>
+        <h2>Microlensing optical depth</h2>
+	<p>&rho;(D<sub>L</sub>) = mass density of lenses</p>
+        <img
+          src="/assets/images/tau3.png"
+          alt="parallax"
+          width="90%"
+          />
+      </section>
+
+
+      <section>
+        <h2>Lensing towards the Bulge: 1 in a million chance</h2>
+	<div class="row">
+          <div class="col-sm-6">
+	    <img
+              src="/assets/images/paczynski91.png"
+              alt="parallax"
+              width="100%"
+              />
+          </div>
+	  <div class="col-sm-6">
+	    <img
+              src="/assets/images/baade.jpg"
+              alt="parallax"
+              width="100%"
+              />
+	    <p>Figure from Paczynski 1991</p>
+          </div>
+      </section>
+
+    <section>
+      <h1>Further reading</h1>
+      <ul>
+	<li><a href='https://ui.adsabs.harvard.edu/abs/1991ApJ...371L..63P/abstract'>
+	    Paczy&nacute;ski, B. (1991)</a></li>
+        <li><a href="http://adsabs.harvard.edu/abs/1996ARA%26A..34..419P">
+              Paczy&nacute;ski, B. (1996), Ann. Rev. A&A, 34, 419</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- <script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script> -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"
+  integrity="sha512-131e3mIrDAyUD075SVzvIjS0g97uDg0+/qAobDHd++h+lgFi4z88DVOpidm06jpb+0PzK4kcm9w79r6EHV0SkA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+  integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"
+  integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    hashOneBasedIndex: true,
+
+    width: 1600,
+    height: 900,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight],
+
+    markdown: {
+      gfm: true,
+    },
+
+    slideNumber: 'c/t',
+  });
+</script>

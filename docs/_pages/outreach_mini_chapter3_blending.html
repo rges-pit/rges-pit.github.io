@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css"
+  integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+  integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css"
+  integrity="sha512-RoEy1xOWgzryoplQ1g0eNHizP2BRqEq8eLGpRyI6OvM2FvmxpUyiPotvW4rp/I67VN6eFq4DDXQNcFKbNZ5Rrg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/zenburn.min.css"
+  integrity="sha512-JPxjD2t82edI35nXydY/erE9jVPpqxEJ++6nYEoZEpX2TRsmp2FpZuQqZa+wBCen5U16QZOkMadGXHCfp+tUdg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+    rel="stylesheet",
+    href="/assets/css/styles.css"
+/>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<title>Blending</title>
+
+<div class="slide-nav-bar"><a href="/outreach_mini_landing/">Minicourse home</a></div>
+
+<div class="reveal">
+  <div class="slides">
+
+    <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Blending</h1-light>
+      <p>The real-world affects of crowding on microlensing analysis</p>
+      <p>Authors: R.A. Street</p>
+      <p>Contributors: Y. Tsapras, K. Kruszyńska</p>
+    </section>
+
+    <section>
+      <h1>Photometry in crowded fields</h1>
+      <div class="image-and-caption">
+          <img
+            src="/assets/images/OGLE-2012-BLG-0406_1.png"
+            alt="Crowded starfield containing a microlensing event"
+            width="824"
+          />
+          <div data-markdown>
+            <textarea data-template>
+              <p>Microlensing is an inherently rare phenomenon, so we need to monitor millions of stars
+                in order to detect events.  <p>
+                <p>&#8594; Monitor densely populated regions of the sky, e.g. the
+                Galactic Bulge.  </p>
+                <p>So microlensing is most often detected in crowded starfields.</p>
+              <br>
+              <p><small>The field of OGLE-2012-BLG-0406 (centered)<br>
+            </textarea>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Point Spread Functions (PSF)</h1>
+      <div class="row justify-content-center">
+        <div class="image-bottom-caption">
+          <img
+              src="/assets/images/single_star_psf.png"
+              alt="PSF of an isolated star"
+              width="95%"
+            />
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <h1>Blended Point Spread Functions</h1>
+      <div class="row justify-content-center">
+        <div class="image-bottom-caption">
+          <img
+              src="/assets/images/blended_star_psf.png"
+              alt="PSFs of blended stars"
+              width="95%"
+            />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Measuring Flux</h1>
+      <p>Blending results in light from the neighbors contaminating the flux of the
+        lensed star, f<sub>&lambda;,s</sub>, measured at time t. </p>
+      <div class="row">
+        <div class="col-sm">
+          For an isolated lensed star, the measured flux f<sub>&lambda;</sub>(t) is given by:</p>
+$$f_{\lambda}(t) = f_{\lambda,s}(t)A(u(t))$$
+        </div>
+        <div class="col-sm">
+          In practice what we actually measure is:</p>
+$$f_{\lambda}(t) = f_{\lambda, s}(t)A(u(t)) + f_{\lambda, b}(t)$$
+        </div>
+      </div>
+<p class="body-text">where A(u(t)) is the magnification at angular separation u, and
+  f<sub>b</sub>(t) is the additional flux from all overlapping neighbors. </p>
+      <p>This is strongly time and wavelength dependent.</p>
+    </section>
+
+    <section>
+
+      <h2>Blending in microlensing light curves</h2>
+      <div class="row">
+          <div class="col-sm-9">
+              <img
+                src="/assets/images/blending_lightcurve_schematic.png"
+                alt="Schematic microlensing lightcurve showing blending"
+                width="100%"
+              />
+          </div>
+          <div class="col-sm-3">
+              <p>Blending can make t<sub>E</sub> appear shorter, leading to a
+                  mis-estimation of the lens parameters.  <p>
+              <p>It can be a symmetrical change in the light curve, mimicing the
+      parallax component &pi;<sub>E,&perp;</sub>.
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Notation</h1>
+      Different authors sometimes use different formulations for blending, so you may also see
+      the <em>blend ratio, g</em>:<br>
+      $$g = f_{b}/f_{s}$$
+    </section>
+
+    <section>
+      <h1>Dealing with Blending</h1>
+    <div class="row">
+        <p>We need observations at a range of different magnifications</p>
+        </div>
+        <div class="row">
+        <div class="col-sm">
+            <div class="row">
+                <div class="col-sm">
+                    <img
+                    src="/assets/images/ob240034_cpt_sub2.png"
+                    alt="Microlensing event observed from South Africa"
+                    width="80%"
+                  />
+                </div>
+                <div class="col-sm">
+                    <img
+                    src="/assets/images/ob240034_coj_sub2.png"
+                    alt="Microlensing event observed from Australia"
+                    width="80%"
+                  />
+                <br>
+                </div>
+            </div>
+            <small>Event OGLE-2024-BLG-0034 observed from (left) South Africa and (right) Australia
+                on 2024/10/12</small>
+          </div>
+          <div class="col-sm">
+              <p>By measuring the total flux as a function of time, we can find the best-fit
+                  model for A(u(t)) that includes both source and blend fluxes. </p>
+              <p>f<sub>s</sub> and f<sub>b</sub> will vary independently as functions of time
+                  for each dataset, k (with N<sub>k</sub> datapoints).  </p>
+              <p>$$f_{k}(t) = f_{s,k}(t)A(u(t)) + f_{b,k}$$</p>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Measuring the blend flux</h1>
+      <p>A(u(t)) can usually* be considered to be the same for all datasets from Earth.</p>
+      <div class="row">
+          <div class="col-sm">
+              <img
+                    src="/assets/images/sim_event_lightcurve.png"
+                    alt="Simulated event lightcurve"
+                    width="100%"
+                  />
+          </div>
+          <div class="col-sm">
+              <ol>
+                  <li>Estimate initial model parameters</li>
+                  <li>Compute A(u(t)), and model light curve fluxes, f<sub>m,k</sub>(t)</li>
+                  <li>Evaluate goodness of model fit:
+                  $$\chi^{2} = \frac{\sum_{i} \left( \frac{f_{m,k}(t) - f_{k}(t)}{\sigma_{k}(t)} \right)^{2}}{N_{k} - N_{par}},$$
+                      <small>where N<sub>par</sub> is the number of fitted parameters, and &sigma;<sub>k</sub> represents
+                      the uncertainties of the flux values.</small>
+                  </li>
+              </ol>
+          </div>
+      </div>
+      <small>* We'll come back to this later</small>
+    </section>
+
+    <section>
+    <h1>Measuring the blend flux</h1>
+      <p>Differentiating this expression with respect to each variable in turn and
+        equating it to zero, we can derive a set of simultaneous equations which can be
+        used to infer (f<sub>s</sub>, f<sub>b</sub>) for each dataset, for the given
+        magnification model.</p>
+        <div class="row">
+            <div class="col-sm">
+              <img
+                    src="/assets/images/sim_event_magni_flux.png"
+                    alt="Plot of simulated flux versus lensing magnification"
+                    width="100%"
+                  />
+          </div>
+          <div class="col-sm">
+              <p>Using this set of initial blending parameters, we can now repeat this process,
+        but this time fit for the physical parameters of the amplification model. </p>
+              <p>Iterating this process, we infer a consistent set of parameters.</p>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Stellar variability</h1>
+      <p>If one or more neighboring
+          stars has intrinsic variability, f<sub>b</sub> may also vary with time and
+          wavelength.  </p>
+        <div class="row">
+            <div class="col-sm">
+                <p>This can be accommodated by substituting f<sub>b</sub>(t)
+          with an appropriate function, for instance a linear gradient or sinusoid.</p>
+          <p>Observations taken before or after the lensing event can be used to determine a
+          suitable model.</p>
+            </div>
+            <div class="col-sm">
+                <img
+                    src="/assets/images/sim_variable_event_lightcurve.png"
+                    alt="Simulated event with variable baseline"
+                    width="100%"
+                  />
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+      <h1>Widely-spaced Observatories</h1>
+        <p>We can only assume that the lensing magnification,
+        A(u(t)), is the same for all observers if they share
+        the same line of sight to the event.  </p>
+        <div>
+          <img
+            src="/assets/images/microlensing_space_parallax.png"
+            alt="Microlensing alignment seen from space and Earth"
+            width="100%"
+          />
+        </div>
+
+      <p>If observers are widely separated (e.g. on Earth and a spacecraft), then the observers will
+          measure different angular separations <em>u</em> at time <em>t</em>.  </p>
+      <p>If this is the case, then we have to take this into account when computing A(u(t)).</p>
+    </section>
+
+    <section>
+      <h1>Further reading</h1>
+      <ul>
+        <li><a href="http://adsabs.harvard.edu/abs/1997ApJ...479..119A">
+          Alcock, C. et al. (1997), ApJ, 479, 119</li></a>
+        <li><a href="http://adsabs.harvard.edu/abs/1997ApJ...487...55W">Wozniak, P & Paczy&nacute;ski,B. (1997), ApJ, 487, 55</a></li>
+        <li><a href="http://adsabs.harvard.edu/abs/1999MNRAS.309..404H">Han, C.(1999), MNRAS, 309, 373</a></li>
+        <li><a href="https://ui.adsabs.harvard.edu/abs/2013ApJ...763...67S/abstract">Street. R.A. et al. (2013), ApJ, 763, id. 67</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- <script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script> -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"
+  integrity="sha512-131e3mIrDAyUD075SVzvIjS0g97uDg0+/qAobDHd++h+lgFi4z88DVOpidm06jpb+0PzK4kcm9w79r6EHV0SkA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+  integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"
+  integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    hashOneBasedIndex: true,
+
+    width: 1600,
+    height: 900,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight],
+
+    markdown: {
+      gfm: true,
+    },
+
+    slideNumber: 'c/t',
+  });
+</script>

@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-The folling pages contain the lecture materials, video recordings, examples, and assignments that were presented during the
+The following pages contain the lecture materials, video recordings, examples, and assignments that were presented during the
 microlensing mini course which took place in May 2025:
 
 &nbsp;  

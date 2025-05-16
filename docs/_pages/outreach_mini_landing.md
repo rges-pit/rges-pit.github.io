@@ -19,7 +19,7 @@ microlensing mini course which took place in May 2025:
 * [Finite Sources]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3_finite_sources.html)
 * [Binary Lensing]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3_binary_lensing.html)
 
-### [Chapter 4: Practice Tutorial]({{ site.url }}{{site.baseurl }}/outreach_mini_ch4/)
+### [Chapter 4: Practice Tutorial]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter4.html)
 
 ### [Chapter 5: Mini Data Challenge]({{ site.url }}{{site.baseurl }}/outreach_mini_ch5/)
 

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css"
+  integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+  integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css"
+  integrity="sha512-RoEy1xOWgzryoplQ1g0eNHizP2BRqEq8eLGpRyI6OvM2FvmxpUyiPotvW4rp/I67VN6eFq4DDXQNcFKbNZ5Rrg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/zenburn.min.css"
+  integrity="sha512-JPxjD2t82edI35nXydY/erE9jVPpqxEJ++6nYEoZEpX2TRsmp2FpZuQqZa+wBCen5U16QZOkMadGXHCfp+tUdg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+    rel="stylesheet",
+    href="/assets/css/styles.css"
+  />
+
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<title>Analysing Microlensing Events</title>
+
+<div class="slide-nav-bar"><a href="/outreach_mini_landing/">Minicourse home</a></div>
+
+<div class="reveal">
+  <div class="slides">
+    <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Analysing Microlensing Events</h1-light>
+      <p>Hands-on practice</p>
+      <p>Author: Katarzyna Kruszyńska</p>
+      <p>Contributors: Amber Malaps, Somayeh Khakpash, Rachel Street</p>
+    </section>
+
+    <section>
+      <h2>Interpreting microlensing light curves</h2>
+      <p>A microlensing light curve encodes a wealth of information about the event</p>
+      <p>In this section you will:</p>
+      <ul>
+        <li>Learn to interpret key light curve features</li>
+        <li>Gain familiarity with some of the software tools available for modeling microlensing events</li>
+        <li>Practice modeling different events</li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Image Gallery</h1>
+      <p>The following images illustrate the light curve features (aka perturbations)
+        corresponding with different source images and caustic structures.  </p>
+      <p>Review these images, then work through the notebooks provided, using the gallery
+        to interpret the light curves in the exercises.</p>
+    </section>
+
+    <section>
+      <h1>Minor Image Perturbation</h1>
+      <img
+          src="/assets/images/minor_image_perturbation.png"
+          alt="Microlensing lightcurve showing perturbation of a minor image"
+          width="100%"
+        />
+    </section>
+
+    <section>
+      <h1>Major Image Perturbation</h1>
+      <img
+          src="/assets/images/major_image_perturbation.png"
+          alt="Microlensing lightcurve showing perturbation of a major image"
+          width="100%"
+        />
+    </section>
+
+    <section>
+      <h1>Minor Image, &rho; &lt; caustic</h1>
+      <img
+          src="/assets/images/minor_image_rho_sub_caustic.png"
+          alt="Microlensing lightcurve showing a minor perturbation where rho is smaller than the caustic"
+          width="100%"
+        />
+    </section>
+
+    <section>
+      <h1>Major Image, &rho; &lt; caustic</h1>
+      <img
+          src="/assets/images/major_image_rho_sub_caustic.png"
+          alt="Microlensing lightcurve showing a major perturbation where rho is smaller than the caustic"
+          width="50%"
+        />
+    </section>
+
+    <section>
+      <h1>Major Image, &rho; &gt; caustic</h1>
+      <img
+          src="/assets/images/major_image_rho_gt_caustic.png"
+          alt="Microlensing lightcurve showing a major perturbation where rho is larger than the caustic"
+          width="100%"
+        />
+    </section>
+
+    <section>
+      <h1>Notebook Exercises</h1>
+      <ul>
+        <li><a href="https://github.com/rges-pit/rges-pit.github.io/docs/assets/notebooks/Day_4_homework_fit_PSPL_event.ipynb">Day_4_homework_fit_PSPL_event.ipynb</a></li>
+        <li><a href="https://github.com/rges-pit/rges-pit.github.io/docs/assets/notebooks/Day4_Gould_Loeb_planetary_event.ipynb">Day_4_homework_fit_PSPL_event.ipynb</a></li>
+      </ul>
+      <p>In order to use them, please make sure you have
+        <a href="https://github.com/rges-pit/rges-pit.github.io/docs/assets/notebooks/requirements.txt">these packages</a>
+        installed in your environment.</p>
+    </section>
+  </div>
+</div>
+
+<!-- <script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script> -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"
+  integrity="sha512-131e3mIrDAyUD075SVzvIjS0g97uDg0+/qAobDHd++h+lgFi4z88DVOpidm06jpb+0PzK4kcm9w79r6EHV0SkA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+  integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"
+  integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    hashOneBasedIndex: true,
+
+    width: 1600,
+    height: 900,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight],
+
+    markdown: {
+      gfm: true,
+    },
+
+    slideNumber: 'c/t',
+  });
+</script>

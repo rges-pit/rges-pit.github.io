@@ -1,0 +1,97 @@
+:root {
+    --rges-light-purple: #a859e4;
+    --rges-dark-purple: #361d49;
+}
+
+.navigate-up .controls-arrow,
+.navigate-down .controls-arrow {
+  font-size: 20px;
+  color: var(--rges-light-purple);
+}
+
+.controls-arrow {
+  font-size: 10px;
+  color: var(--rges-light-purple);
+}
+
+.slide-nav-bar {
+        background-image: linear-gradient(to right, var(--rges-light-purple), black);
+        position: absolute;
+        top: 10;
+        width: 100%;
+        z-index: 1;
+    }
+
+.slide-nav-bar a {
+    color: white;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.title-slide {
+  color: white;
+  data-background-image: url("figures/roman_milkyway_bckgd.png");
+}
+
+.slides section,
+.slides h1 {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-align: left;
+width: max-content;
+}
+
+.slides h2 {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-align: left;
+width: max-content;
+}
+
+.reveal h1 {
+text-transform: none;
+border-bottom: 3pt solid var(--rges-light-purple);
+}
+
+.reveal h2 {
+text-transform: none;
+border-bottom: 3pt solid var(--rges-light-purple);
+}
+
+.image-and-caption {
+display: grid;
+grid-template-columns: max-content auto;
+}
+
+.image-and-caption * {
+align-self: center;
+}
+
+.image-bottom-caption {
+display: grid;
+grid-template-rows: max-content auto;
+}
+
+.slides h1-light {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 2em;
+margin: .67em 0;
+text-align: left;
+width: max-content;
+color: white;
+border-bottom: 3pt solid var(--rges-light-purple);
+}
+
+.body-text {
+font-size: 28px;
+}
+
+.body-text-light {
+font-family: "HelveticaNeue-Thin", Helvetica, Arial, sans-serif;
+font-size: 45px;
+color: white;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mjx-chtml{ font-size: 1.0em !important; }

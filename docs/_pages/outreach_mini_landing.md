@@ -10,7 +10,7 @@ microlensing mini course which took place in May 2025:
 
 &nbsp;  
 
-### [Chapter 1: Introduction & Historical Background]({{ site.url }}{{site.baseurl }}/outreach_mini_ch1/)
+### [Chapter 1: Introduction & Historical Background]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter1.html)
 
 ### [Chapter 2: Microlensing Theory]({{ site.url }}{{site.baseurl }}/outreach_mini_ch2/)
 

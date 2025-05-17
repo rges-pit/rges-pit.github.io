@@ -13,7 +13,7 @@ microlensing mini course which took place in May 2025:
 ### [Chapter 1: Introduction & Historical Background]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter1.html)
 
 ### [Chapter 2: Introduction to Microlensing Theory]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter2.html)
-* [Making a microlensing lightcurve notebook](https://github.com/rges-pit/rges-pit.github.io/assets/notebooks/lightcurve_example.ipynb)
+* [Making a microlensing lightcurve notebook](https://github.com/rges-pit/rges-pit.github.io/blob/main/docs/assets/notebooks/lightcurve_example.ipynb)
 
 ### Chapter 3: Intermediate Microlensing Theory
 * [Blending]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3_blending.html)

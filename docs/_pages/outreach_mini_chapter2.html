@@ -311,7 +311,7 @@
       <section>
         <h2>Making a microlensing lightcurve</h2>
 	<p>Let's code it up in Python to prove it works...</p>
-	<a href="https://github.com/rges-pit/rges-pit.github.io/assets/notebooks/lightcurve_example.ipynb">Check out this Jupyter notebook</a>
+	<a href="https://github.com/caseylam/minicourses/blob/main/chapter2/lightcurve_example.ipynb">Check out this Jupyter notebook</a>
       </section>
 
       <section>
@@ -367,7 +367,24 @@
               width="100%"
               />
       </section>
-	
+
+      <section>
+      <h1>Widely-spaced Observatories</h1>
+        <p>We can only assume that the lensing magnification is the same for all observers if they
+            share the same line of sight to the event.  </p>
+        <div>
+          <img
+            src="/assets/images/microlensing_space_parallax.png"
+            alt="Microlensing alignment seen from space and Earth"
+            width="100%"
+          />
+        </div>
+
+      <p>If observers are widely separated (e.g. on Earth and a spacecraft), then the observers will
+          measure different angular separations <em>u</em> at time <em>t</em>.  </p>
+      <p>If this is the case, then we have to take this into account when computing A(u(t)).</p>
+    </section>
+
       <section>
         <h2>Goal 2: How likely it is to see microlensing?</h2>
 	<p>Microlensing optical depth</p>
@@ -432,6 +449,40 @@
           </div>
       </section>
 
+      <section>
+        <h2>Microlensing event rate</h2>
+	<p>The microlensing event rate quantifies how often a microlensing event happens:</p>
+
+	$$\Gamma = \frac{1}{N_S \Delta T} \sum_i \frac{1}{\varepsilon (t_{E,i})}$$
+
+	<ul>
+	  <li> N<sub>S</sub> = number of stars monitored </li>
+	  <li> &Delta; T = length of survey </li>
+	  <li> t<sub>E,i</sub> = detection efficiency, as a function of the Einstein crossing timescale t<sub>E</sub> </li>
+	</ul>	      
+      </section>
+
+      <section>
+        <h2>Microlensing optical depth vs. event rate</h2>
+	Both microlensing optical depth and event rate are distinct, but related quantites.
+	<div class="row">
+          <div class="col-sm-6">
+	    <ul>
+	      <li> Defined for a specific line of sight and source distance </li>
+	      <li> Only depends on mass density of lenses along the line of sight </li>
+	      <li> Units: dimensionless </li>
+	    </ul>	      
+          </div>
+	
+          <div class="col-sm-6">
+	    <ul>
+	      <li> Defined for a specific line of sight, integrated over all sources </li>
+	      <li> Also depends on the velocities of the lenses/sources </li>
+	      <li> Units: per time (e.g., per year), or per time per angular area (e.g., per year per square degree) </li>
+	    </ul>	      
+          </div>
+      </section>
+      
     <section>
       <h1>Further reading</h1>
       <ul>

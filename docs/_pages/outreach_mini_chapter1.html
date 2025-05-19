@@ -46,7 +46,6 @@
 
 <div class="reveal">
   <div class="slides">
-
     <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
       <h1-light>Introduction and Historical Background</h1-light>
       <p>How was gravitational lensing discovered and what are the basics?</p>
@@ -226,7 +225,7 @@
       </section>
 
       <section>
-        <h2>3: Other Lensing Phenomena</h2>
+        <h2>3. Other Lensing Phenomena</h2>
   <p>Following the establishment of GR and the confirmation of gravitational lensing by Eddington and Dyson, a number of other gravitational lensing phenomena have been predicted, and also observed. Among these are Einstein "crosses" and "rings", where a compact or extended source, respectively, gets lensed multiple times by the foreground lensing mass (Pictures from NASA/ESA/STScl):</p>
 
   <div class="row">
@@ -271,6 +270,48 @@
           </div>
         </div>
 
+      </section>
+
+
+      <section>
+      <h2>Microlensing for finding Dark Matter Candidates</h2>
+  <p>While we still do not know what Dark Matter exactly is, early hypotheses included the idea that a large number of unseen massive compact halo objects (MACHOs) exist, detectable via microlensing (Paczy&nacute;ski 1986). Surveys revealed, however, that not enough of these objects exist to explain Dark Matter.</p>
+
+  <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/assets/images/MACHO.webp"
+              alt="cross"
+              width="70%"
+              />
+          </div>
+          
+        </div>
+
+      </section>
+
+      <section>
+      <h2>Microlensing for finding Exoplanets</h2>
+  <p>Following the idea that microlensing could be used to find dark compact objects, Gould & Loeb (1992) suggested to use microlensing to detection exoplanets - this detection method has some significant advantages over others, and the rest of the minicourse will focus on the technical details behind it.</p>
+
+  <div class="row">
+          <div class="col-md-6">
+            <img
+              src="/assets/images/Microlensingexoplanet.gif"
+              alt="cross"
+              width="120%"
+              />
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="/assets/images/detection_methods.png"
+              alt="cross"
+              width="100%"
+              />
+          </div>
+          
+        </div>
 
       </section>
 
@@ -304,17 +345,25 @@
 
       <section>
       <h2>Lens Equation, continued</h2>
-  <p>From previous derivations we know that</p>
 
-  $$\alpha = \theta = \frac{4 G M}{b c^2}$$
-
-  <p>Following the small angle approximation we can also define</p>
-
-  $$b = \theta D_L = \theta_S D_S$$
-
-  <p>Using these expression for \(b\) in the equation for \(\alpha\), we find</p>
-
-  $$\theta^2 = \frac{4 G M}{D_L c^2}, \theta\theta_S = \frac{4 G M}{D_S c^2}$$
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/assets/images/complicated.png"
+              alt="Lens Equation"
+              width="100%"
+              />
+          </div>
+  
+          <div class="col-sm-6">
+      <ul>
+        <li> From previous derivations: $$\alpha = \theta = \frac{4 G M}{b c^2}$$</li>
+        <li> Small angle approximation: $$b = \theta D_L = \theta_S D_S$$</li>
+        <li> Thus: $$\theta^2 = \frac{4 G M}{D_L c^2}, \theta\theta_S = \frac{4 G M}{D_S c^2}$$</li>
+      </ul>       
+          </div>
+        </div>
+  
 
       </section>
 
@@ -322,19 +371,108 @@
       <h2>Lens Equation, continued</h2>
   <p>Using the expressions for \(\theta^2\) and \(\theta\theta_S\), we define a characteristic angle for the system:</p>
 
-  $$\theta^2 - \theta\theta_S = \frac{4 G M}{c^2}(\frac{1}{D_L}-\frac{1}{D_s}) = \frac{4 G M}{c^2}\frac{D_S - D_L}{D_L D_S}$$
+  $$ \theta^2 - \theta \theta_S = \frac{4GM}{c^2} ( \frac{1}{D_L} - \frac{1}{D_s} ) = \frac{4GM}{c^2} \frac{D_S - D_L}{D_L D_S} $$
 
   <p>This indeed defines the angle known as the Einstein Radius:</p>
 
   $$\theta_E = \sqrt{\frac{4 G M}{c^2}\frac{D_S - D_L}{D_L D_S}}$$
 
-  <p>Finally, we get the lens equation, which will be further discussed in the next lectures:</p>
+  <p>Finally, we get the lens equation, which allows us to find the position of the lensed image, \(\theta\), in relation to the position of the source, \(\theta_S\), and the characteristic Einstein Radius of the lens, \(\theta_E\):</p>
 
-  $$\theta^2 - \theta\theta_S - \theta_E^2 = 0$$
+  $$ \theta^2 - \theta\theta_S - \theta_E^2 = 0 $$
+
+      </section>
+
+      <section>
+    <h2>Solving the Lens Equation</h2>
+
+    $$ \theta^2 - \theta\theta_S - \theta_E^2 = 0 $$
+
+  <p>We can solve the lens equation for \(\theta\) and determine the behavior of the lensing geometry for the following cases:</p>
+
+  <p>a) &theta;<sub>S</sub> = 0 </p>
+  <p>b) &theta;<sub>S</sub> << &theta;<sub>E</sub> </p>
+  <p>c) &theta;<sub>S</sub> >> &theta;<sub>E</sub> </p>
+
+      </section>
+
+      <section>
+    <h2>Solving the Lens Equation, continued</h2>
+
+  <p>As the lens equation is a quadratic equation, it has the following general solutions:</p>
+
+    $$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$
+
+      </section>
+
+      <section>
+  <h2>Solving the Lens Equation, continued</h2>
+
+    $$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$
+
+      <div class="row">
+
+        <div class="col-sm-6">
+      <ul>
+        <li> $$a) \quad \theta_S = 0 \implies \theta = \theta_E$$</li>
+        <li> Result: a perfect Einstein Ring</li>
+      </ul>       
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="/assets/images/einstein_ring.jpg"
+              alt="ring"
+              width="70%"
+              />
+          </div>
+
+       </div>
+
+      </section>
+
+      <section>
+  <h2>Solving the Lens Equation, continued</h2>
+
+    $$\theta = \frac{\theta_S \pm \sqrt{\theta_S^2 + 4\theta_E^2}}{2}$$
+
+      <div class="row">
+
+        <div class="col-sm-6">
+      <ul>
+        <li> $$b) \quad \theta_S \ll \theta_E \implies \theta \approx \frac{\theta_S}{2} \pm \theta_E$$</li>
+        <li> Result: If the source is inside the Einstein radius: Two images, one inside, one outside Einstein radius.</li>
+        <li> $$c) \quad \theta_S \gg \theta_E \implies \theta \approx 0, \, \theta_S$$</li>
+        <li> Result: If the source is far from the Einstein radius, you won't have lensing.</li>
+      </ul>       
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="/assets/images/image_example.png"
+              alt="images"
+              width="80%"
+              />
+          </div>
+
+       </div>
 
       </section>
      
-      
+  <section>
+      <h1>Further reading</h1>
+      <ul>
+  <li><a href='https://ui.adsabs.harvard.edu/abs/1986ApJ...304....1P/abstract'>
+      Paczy&nacute;ski (1986)</a></li>
+  <li><a href='https://ui.adsabs.harvard.edu/abs/1993Natur.365..623A/abstract'>
+      Aubourg et al. (1993)</a></li>
+  <li><a href='https://ui.adsabs.harvard.edu/abs/1993Natur.365..621A/abstract'>
+      Alcock et al. (1993)</a></li>
+  <li><a href='https://ui.adsabs.harvard.edu/abs/1992ApJ...396..104G/abstract'>
+      Gould & Loeb (1992)</a></li>
+
+      </ul>
+    </section>
    
   </div>
 </div>

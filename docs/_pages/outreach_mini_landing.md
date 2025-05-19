@@ -8,7 +8,6 @@ sidebar:
 The following pages contain the lecture materials, video recordings, examples, and assignments that were presented during the
 microlensing mini course which took place in May 2025:
 
-&nbsp;  
 
 ### [Chapter 1: Introduction & Historical Background]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter1.html)
 

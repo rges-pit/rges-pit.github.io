@@ -88,15 +88,17 @@
               <div class="col-sm">
                   <p>Lensing can be thought of as a 'mapping' of the coordinate system in the lens plane (x,y, centered on the lens) to that of
                       the source (&xi;,&eta;). </p>
+                  <p class="body-text">&theta;<sub>1,2</sub> = angular offsets of source images</p>
+                  <p class="body-text">&theta;<sub>E</sub> = angular Einstein radius</p>
+                  <p class="body-text">&theta; = angular separation between lens and source</p>
               </div>
           </div>
-          <p>It describes the angular offsets (&theta;<sub>1,2</sub>) of the images of the source in terms of
-the lens characteristics and the angular separation between lens and source (&alpha;).</p>
       </section>
 
       <section>
           <h1>Sources of Finite Extent</h1>
-            Within these reference frames, we need a way to represent the finite disk of the source star.
+            Within these reference frames, we need a way to represent the finite disk of the source star,
+          including its radial brightness profile.
           <div class="image-and-caption">
               <img
                 src="/assets/images/limb_darkening_gradient.png"
@@ -104,8 +106,10 @@ the lens characteristics and the angular separation between lens and source (&al
                 width="100%"
               />
               <div>
-                  <p>This needs to represent the radial brightness profile of the star.</p>
-             </div>
+                  <p class="body-text">R<sub>S</sub> = source star physical radius</p>
+                  <p class="body-text">&theta;<sub>*</sub> = source star angular radius</p>
+                  <p class="body-text">&rho; = &theta;<sub>*</sub> normalized by the angular Einstein radius &theta;<sub>E</sub></p>
+              </div>
           </div>
       </section>
 
@@ -219,13 +223,16 @@ the lens characteristics and the angular separation between lens and source (&al
                 alt="Finite source effects on lightcurve shape"
                 width="700"
               />
+              <div>
                 <p>The lightcurve is noticably "rounded-over" at the peak of the event
                     in comparison with the PSPL model, and the amplitude can differ
                     significantly.</p>
+              <p>These effects become significant when the impact parameter &approx; &theta;<sub>*</sub></p>
+              </div>
             </div>
           <p>In practice this prevents real events from achieving the (theoretical)
-          infinite amplification.  These effects become significant when &alpha; &asymp; &theta;<sub>0</sub>.</p>
-          </section>
+          infinite amplification.  </p>
+      </section>
 
       <section>
           <h1>Limb-darkened Finite Sources</h1>

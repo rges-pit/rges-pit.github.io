@@ -15,10 +15,7 @@ microlensing mini course which took place in May 2025:
 * [Making a microlensing lightcurve notebook](https://github.com/rges-pit/rges-pit.github.io/blob/main/docs/assets/notebooks/lightcurve_example.ipynb) 
 <a href="https://colab.research.google.com/github/rges-pit/rges-pit.github.io/blob/main/docs/assets/notebooks/lightcurve_example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-### Chapter 3: Intermediate Microlensing Theory
-* [Blending]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3_blending.html)
-* [Finite Sources]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3_finite_sources.html)
-* [Binary Lensing]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3_binary_lensing.html)
+### [Chapter 3: Intermediate Microlensing Theory]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter3.html)
 
 ### [Chapter 4: Practice Tutorial]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter4.html)
 * [Fit a PSPL event notebook](https://github.com/rges-pit/rges-pit.github.io/blob/main/docs/assets/notebooks/Day_4_homework_fit_PSPL_event.ipynb)

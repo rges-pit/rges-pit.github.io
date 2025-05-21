@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css"
+  integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
+  integrity="sha512-ITH3NSfntO7uI5n+BnxGNXpzDUoOsmAXuG37UDONLxNYIdc0EBBOOQ1xyc+t9ag9ETSuBXFApx+Rod0uURfDYw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css"
+  integrity="sha512-RoEy1xOWgzryoplQ1g0eNHizP2BRqEq8eLGpRyI6OvM2FvmxpUyiPotvW4rp/I67VN6eFq4DDXQNcFKbNZ5Rrg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/zenburn.min.css"
+  integrity="sha512-JPxjD2t82edI35nXydY/erE9jVPpqxEJ++6nYEoZEpX2TRsmp2FpZuQqZa+wBCen5U16QZOkMadGXHCfp+tUdg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link
+    rel="stylesheet",
+    href="/assets/css/styles.css"
+/>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<title>Blending</title>
+
+<div class="slide-nav-bar"><a href="/outreach_mini_landing/">Minicourse home</a></div>
+
+<div class="reveal">
+  <div class="slides">
+
+    <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Binary lensing and second order effects</h1-light>
+      <p>Authors: R.A. Street</p>
+      <p>Contributors: Y. Tsapras, K. Krusyńska, C. Lam</p>
+    </section>
+
+      <section>
+          <h1>Outline</h1>
+          <ul>
+              <li>Blending</li>
+              <li>Finite source effects</li>
+              <li>Binary lensing</li>
+          </ul>
+      </section>
+
+      <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Blending</h1-light>
+    </section>
+
+    <section>
+      <h1>Photometry in crowded fields</h1>
+      <div class="image-and-caption">
+          <img
+            src="/assets/images/OGLE-2012-BLG-0406_1.png"
+            alt="Crowded starfield containing a microlensing event"
+            width="724"
+          />
+          <div data-markdown>
+            <textarea data-template>
+              <p>Microlensing is an inherently rare phenomenon, so we need to monitor millions of stars
+                in order to detect events.  <p>
+                <p>&#8594; Monitor densely populated regions of the sky, e.g. the
+                Galactic Bulge.  </p>
+                <p>So microlensing is most often detected in crowded starfields.</p>
+              <br>
+              <p><small>The field of OGLE-2012-BLG-0406 (centered)<br>
+            </textarea>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Point Spread Functions (PSF)</h1>
+      <div class="row justify-content-center">
+        <div class="image-bottom-caption">
+          <img
+              src="/assets/images/single_star_psf.png"
+              alt="PSF of an isolated star"
+              width="95%"
+            />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Blended Point Spread Functions</h1>
+      <div class="row justify-content-center">
+        <div class="image-bottom-caption">
+          <img
+              src="/assets/images/blended_star_psf.png"
+              alt="PSFs of blended stars"
+              width="95%"
+            />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Measuring Flux</h1>
+      <p>Blending results in light from the neighbors contaminating the flux of the
+        lensed star, f<sub>&lambda;,s</sub>, measured at time t. </p>
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="row">
+                 <div class="col">
+                  <img
+                      src="/assets/images/gaussian_psf.png"
+                      alt="PSFs of isolated stars"
+                      width="200px"
+                    />
+                 </div>
+                <div class="col">
+                    <p>Isolated lensed star:</p>
+                    <p>$$f_{\lambda}(t) = f_{\lambda,s}(t)A(u(t))$$</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col">
+                    <img
+                      src="/assets/images/blended_gaussian_psf.png"
+                      alt="PSFs of blended stars"
+                      width="200px"
+                    />
+                </div>
+                <div class="col">
+                    <p>Blended star:</p>
+                    <p>$$f_{\lambda}(t) = f_{\lambda, s}(t)A(u(t)) + f_{\lambda, b}(t)$$</p>
+                </div>
+            </div>
+        </div>
+        <p class="body-text">where f<sub>&lambda;</sub>(t) = measured flux, A(u(t)) = magnification at angular separation u, and
+  f<sub>b</sub>(t) = blend flux. You may also see the <em>blend ratio</em>, g = f<sub>b</sub>/f<sub>s</sub>.</p>
+
+      <p>This is strongly time and wavelength dependent - so f<sub>s</sub>, f<sub>b</sub> are measured for each dataset</p>
+    </section>
+
+    <section>
+
+      <h2>Blending in microlensing light curves</h2>
+      <div class="row">
+          <div class="col-sm-9">
+              <img
+                src="/assets/images/blending_lightcurve_schematic.png"
+                alt="Schematic microlensing lightcurve showing blending"
+                width="80%"
+              />
+          </div>
+          <div class="col-sm-3">
+              <p>Blending can make t<sub>E</sub> appear shorter, leading to a
+                  mis-estimation of the lens parameters.  <p>
+              <p>It can be a symmetrical change in the light curve, mimicing the
+      parallax component &pi;<sub>E,&perp;</sub>.
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Dealing with Blending</h1>
+    <div class="row">
+        <p>We need observations at a range of different magnifications</p>
+        </div>
+        <div class="row">
+        <div class="col-sm">
+            <div class="row">
+                <img
+                    src="/assets/images/sim_event_magni_flux.png"
+                    alt="Plot of simulated flux versus lensing magnification"
+                    width="100%"
+                  />
+            </div>
+          </div>
+          <div class="col-sm">
+              <p>Only the source star is magnified, and A(u(t)) can usually be considered to be
+                  the same for all observers.</p>
+              <p>By measuring the total flux as a function of time for each telescope, we can find
+                  the best-fit model for A(u(t)) that includes both source and blend fluxes. </p>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h1>Further reading</h1>
+      <ul>
+        <li><a href="http://adsabs.harvard.edu/abs/1997ApJ...479..119A">
+          Alcock, C. et al. (1997), ApJ, 479, 119</li></a>
+        <li><a href="http://adsabs.harvard.edu/abs/1997ApJ...487...55W">Wozniak, P & Paczy&nacute;ski,B. (1997), ApJ, 487, 55</a></li>
+        <li><a href="http://adsabs.harvard.edu/abs/1999MNRAS.309..404H">Han, C.(1999), MNRAS, 309, 373</a></li>
+      </ul>
+    </section>
+
+      <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+      <h1-light>Finite Source Effects</h1-light>
+    </section>
+
+      <section>
+          <h1>Introduction</h1>
+          <div class="row">
+              <div class="col-sm">
+                  <p>Generally in astronomy its pretty safe to treat them as point sources given
+              their enormous distances! </p>
+                  <p>But microlensing is an extraordinarily sensitive
+              technique and even the radius of a star almost half way across the Galaxy
+              can have a measureable affect.</p>
+              </div>
+              <div class="col-sm">
+                  <img
+            src="/assets/images/solar_disk_nasa.jpg"
+            alt="Image of the solar disk by NASA"
+            width="100%"
+          /><br>
+                  <small>Image credit: JPL/NASA Solar Dynamic Observatory</small>
+              </div>
+          </div>
+
+</p>
+      </section>
+
+      <section>
+          <h1>Lens and Source Planes</h1>
+          <div class="row">
+              <div class="col-sm-8">
+                  <img
+            src="/assets/images/lens_source_plane_mapping.png"
+            alt="Geometry of the lens and source planes"
+            width="100%"
+          />
+              </div>
+              <div class="col-sm">
+                  <p>Lensing can be thought of as a 'mapping' of the coordinate system in the lens plane (x,y, centered on the lens) to that of
+                      the source (&xi;,&eta;). </p>
+                  <p class="body-text">&theta;<sub>1,2</sub> = angular offsets of source images</p>
+                  <p class="body-text">&theta;<sub>E</sub> = angular Einstein radius</p>
+                  <p class="body-text">&theta; = angular separation between lens and source</p>
+              </div>
+          </div>
+      </section>
+
+      <section>
+          <h1>Sources of Finite Extent</h1>
+            Within these reference frames, we need a way to represent the finite disk of the source star,
+          including its radial brightness profile.
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/limb_darkening_gradient.png"
+                alt="Source star with finite radius r"
+                width="100%"
+              />
+              <div>
+                  <p class="body-text">R<sub>S</sub> = source star physical radius</p>
+                  <p class="body-text">&theta;<sub>*</sub> = source star angular radius</p>
+                  <p class="body-text">&rho; = &theta;<sub>*</sub> normalized by the angular Einstein radius &theta;<sub>E</sub></p>
+             </div>
+          </div>
+      </section>
+
+      <section>
+          <h1>The Lens Equation (again)</h1>
+          <p>Here we introduce complex notation in order to parameterize the lens equation.</p>
+          <p>This provides a more natural formulation for two-dimensional vectors. Much of
+              this theory was originally explored in the context of lensed quasars and other large-scale masses.</p>
+          <div class="center-text">
+                  $$\zeta = \xi + i\eta$$
+                  $$z = x + iy,$$
+          </div>
+<p>where z and &zeta; are normalized to the Einstein radius in the lens, source planes respectively.</p>
+
+      </section>
+
+      <section>
+          <h1>The Lens Equation</h1>
+          <p>The equation for a single lens can then be re-written:</p>
+            <div class="center-text">
+                $$\zeta - \frac{D_{S}}{D_{L}}z - D_{LS}\alpha(z,\bar{z}) = 0,$$
+            </div>
+
+            <p>where &alpha; is the complex deflection angle &alpha;(z, z&#772;) = &alpha;<sub>x</sub>(x, y) + <em>i</em>&alpha;<sub>y</sub>(x, y) and
+            z&#772; is the complex conjugate of z.</p>
+
+            <p>The solutions of this form of the lens equation are then:</p>
+            <div class="center-text">
+            $$z_{1,2} = \frac{\xi}{2}\left( 1 \pm \sqrt{1 + \frac{4}{\zeta\bar{\zeta}}} \right)$$
+            </div>
+            <p><small>See Witt 1990, Witt & Mao 1994 and Mao & Witt 1998 for a full
+            derivation of finite-source expressions.</small></p>
+      </section>
+
+      <section>
+          <h1>Sources of Finite Extent</h1>
+
+            <p>In this notation a single, circular source of finite radius r can be described as:</p>
+
+            <div class="center-text">
+                $$\zeta(\phi) = \zeta_{0} + re^{i\phi},$$
+            </div>
+
+            <p>where &phi; = &theta;-2&pi; and &zeta;<sub>0</sub> is the (parameterized) impact parameter.
+            This is simply substituted into the solutions for the lens equations to derive the parameterized image locations:</p>
+
+            <div class="center-text">
+                $$z_{1,2} = \frac{\zeta_{0}+re^{i\phi}}{2}\left[ 1 \pm \sqrt{1 + \frac{4}{\zeta_{0}^{2} + 2r\zeta_{0}\cos{\phi+r^{2}}}} \right],$$
+            </div>
+      </section>
+
+      <section>
+          <h2>Finite Source Size and Magnification</h2>
+        <p>Since surface brightness is conserved, the magnification (A<sub>tot</sub>) is given
+            by the ratio of the combined image area to that of the unlensed source.</p>
+          <p>In complex notation the areas of both images is given by:</p>
+          <div class="center-text">
+            $$A_{1,2} = \frac{1}{2\pi r^{2}} \int_{0}^{2\pi} y(\phi) \frac{dx(\phi)}{d\phi},$$
+          </div>
+      </section>
+
+      <section>
+          <h2>Finite Source Size and Magnification</h2>
+          <p>In these expressions: </p>
+        <div class="center-text">
+            $$x(\phi) = \frac{\zeta_{0} + r\cos\phi}{2}f_{1,2}(\phi),$$
+            $$y(\phi) = \frac{r\sin\phi}{2}f_{1,2}(\phi),$$
+            $$f_{1,2}(\phi) = 1 \pm \sqrt{1 + \frac{4}{\zeta_{0}^{2} + r^{2} + 2\zeta_{0}r\cos\phi}}$$
+         </div>
+      </section>
+      <!--
+      <section>
+          <h2>General expressions for image magnification</h2>
+            <p>Witt & Mao 1994 derived general expressions for the image magnification
+                A<sub>1,2</sub> and total magnification (A<sub>tot</sub>).</p>
+
+            <div class="center-text">
+                $$A_{1,2} = \pm\frac{\pi}{2} + \frac{1}{2\pi}E\left(\frac{\pi}{2},k\right)\frac{\zeta_{0}+r}{2r^{2}}\sqrt{4 + (\zeta_{0} - r)^{2}}$$
+                $$-\frac{1}{2\pi}F\left(\frac{\pi}{2},k\right) \frac{\zeta_{0}-r}{r^{2}}{4+(\zeta_{0}^{2} - r^{2}/2}{\sqrt{4 + (\zeta_{0}-r)^{2}}}$$
+                $$+\frac{1}{2\pi}\Pi\left(\frac{\pi}{2},n,k\right) \frac{2(\zeta_{0}-r)^{2}}{r^{2}(\zeta_{0}+r)}\frac{1+r^{2}}{\sqrt{4+(\zeta_{0}-r)^{2}}}$$
+            </div>
+      </section>
+      <section>
+          <h2>General expressions for image magnification</h2>
+            <p>...where E,F and &Pi; are the first, second and third elliptic integrals defined by Gradshteyn & Ryzhik (1980) and</p>
+
+            <div class="center-text">
+                $$n = \frac{4\zeta_{0}r}{(\zeta_{0}+r)^{2}},$$
+                $$k = \sqrt{\frac{4n}{4+(\zeta_{0}-r)^{2}}}$$
+            </div>
+      </section>
+
+      <section>
+          <h2>Small sources</h2>
+          <p>In the case where the source can be considered to be small (r &rarr; 0) but the alignment is not perfect
+             (&zeta;<sub>0</sub>  &ne; 0), we recover the familiar magnification (A<sub>tot</sub>) equation for a point
+              source by summing the contributions from A<sub>1,2</sub> as a ratio of the unlensed area of the source:</p>
+
+            <div class="center-text">
+                $$A_{tot} = \frac{2+\zeta_{0}^{2}}{\zeta_{0}\sqrt{4+\zeta_{0}^{2}}}.$$
+            </div>
+      </section>
+      -->
+
+      <section>
+          <h1>Observable Effects</h1>
+          <p>The observable effects of the finite extent of the source are illustrated below. </p>
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/sim_finite_source_lcs.png"
+                alt="Finite source effects on lightcurve shape"
+                width="700"
+              />
+              <div>
+                <p>The lightcurve is noticably "rounded-over" at the peak of the event
+                    in comparison with the PSPL model, and the amplitude can differ
+                    significantly.</p>
+              <p>These effects become significant when the impact parameter &approx; &theta;<sub>*</sub></p>
+              </div>
+            </div>
+          <p>In practice this prevents real events from achieving the (theoretical)
+          infinite amplification.  </p>
+          </section>
+
+      <section>
+          <h1>Limb-darkened Finite Sources</h1>
+          <p>The advantage of expressing the lens and amplification equations this way is
+              that it makes it relatively straightforward to introduce one last consideration
+              for a finite source – limb darkening.
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/solar_disk.jpg"
+                alt="Solar disk"
+                width="600"
+              />
+                <p>Most stars don't have a constant brightness profile over the disk;
+                    the intensity drops towards the limb.</p>
+            </div>
+      </section>
+
+      <section>
+          <h1>Limb darkening laws</h1>
+          <p>Mao & Witt (1998) implemented a formulation of limb-darkening law that is widely-used in microlensing:</p>
+
+          <div class="center-text">
+            $$\frac{I_{\lambda}(r)}{I_{\lambda}(0)} = 1 - u_{\lambda,1} - u_{\lambda,2} + u_{\lambda,1}\sqrt{1 - \frac{R_{S}^{2}}{r^{2}}} + u_{\lambda,2}\left(1 - \frac{R_{S}^{2}}{r^{2}}\right),$$
+          </div>
+
+         <p>I<sub>&lambda;</sub>(0) = central intensity, I<sub>&lambda;</sub>(r) = intensity out to radius r.</p>
+
+          <ul>
+              <li>Wavelength- and source stellar properties dependent</li>
+              <li>Several limb-darkening laws in use; not all are convenient for microlensing modeling</li>
+          </ul>
+      </section>
+
+      <section>
+          <h1>Limb darkening Coefficients</h1>
+            <div class="image-and-caption">
+              <img
+                src="/assets/images/limb_darkening_coeff_passband.png"
+                alt="Limb darkening coefficients as a function of filter passband"
+                width="800"
+              />
+                <p>Limb-darkening coefficients appropriate to the passbands used in observations
+                    can be found in published tables e.g. Claret et al. 2011.</br>
+                <a href="https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/A+A/529/A75">Data on Vizier</a></p>
+            </div>
+      </section>
+
+      <!--<section>
+          <h2>Finite source effects with limb darkening</h2>
+          <p>Whereas a "uniform" model considers all points on the face of the source star to emit the same intensity
+              of light, we now need to apply a limb darkening law when we calculate the intensity.</p>
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/lensed_image_areas.png"
+                alt="Lens plane plot showing lensed image arcs"
+                width="500"
+              />
+              <div>
+                  <p>Remember that magnification A(r):</p>
+                      $$A(r) = \frac{\Sigma(\text{Area lensed images})}{\text{Area unlensed source}},$$
+                  <p>Equivalently:</p>
+                    $$\Sigma(\text{Area lensed images}) = A(r) \pi r^{2}.$$
+                  <p>We can represent the image area of a lensed source of radius r by integrating the over
+                  the stellar disk while taking limb-darkening into account when computing the intensity.</p>
+              </div>
+            </div>
+          </section>
+      <section>
+          <h2>Magnification with limb darkening</h2>
+          <p>We subdivide disk of the star into thin 'shell' layers of radial thickness dr.</p>
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/limb_darkening_gradient.png"
+                alt="Limb darkening as a function of radius"
+                width="500"
+              />
+              <div class="center-text">
+                  <p>The image area of each shell that contributes to the lensed images, Area<sub>image</sub>(dr),
+                  can be calculated as:</p>
+                $${\rm Area}_{\rm shell}(r+dr) = A(r+dr)\pi (r+dr)^{2} - A(r)\pi (r)^{2},$$
+                   <p>The contribution of a shell to the magnification (A<sub>shell</sub>) is given by the
+                       ratio of the shell image area
+              and the unlensed area of the shell, 2&pi;rdr:</p>
+              </div>
+            </div>
+          <div class="center-text">
+              $$A_{\rm shell} = \frac{Area_{\rm image}(r+dr) - Area_{\rm image}(r)}{2 \pi r dr},$$
+          </div>
+      </section>
+
+      <section>
+          <h2>Finite source effects with limb darkening</h2>
+          <p>Flux from a shell is the product of A<sub>shell</sub> and the intensity of the stellar
+              disk at that radius I(r).</p>
+          <p>Total flux from both images during lensing is obtained by integrating over the
+         full radius of the source. </p>
+          <p>The limb-darkened amplification A<sub>limb</sub> is then the ratio of this quantity to the integral of I(r)&times;area
+         over the unlensed disk:</p>
+
+          <div class="center-text">
+              $$A_{\rm limb} = \frac{\int_{0}^{R_{S}} A_{\rm shell}I(r)2\pi r dr}{\int_{0}^{R_{S}} I(r)2 \pi r dr}$$
+          </div>
+        </section>
+
+      <section>
+          <h2>Finite source effects event peaks</h2>
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/sim_finite_source_lcs.png"
+                alt="Finite source effects on lightcurve shape"
+                width="800"
+              />
+                <div class="center-text">
+                    <p>Ultimately, limb-darkened magnification still primarily depends on the angular separation </p>
+                    $$u = {\alpha} / {\theta_{0}},$$
+                   <p>of the lens.  For this reason, finite source effects really matter only around the event peak.</p>
+              </div>
+            </div>
+      </section>
+    -->
+
+    <section>
+      <h1>Further reading</h1>
+      <ul>
+          <li><a href="http://adsabs.harvard.edu/abs/1990A%26A...236..311W">Witt, H.J. (1990), A&A, 236, 311</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/1994ApJ...430..505W">Witt, H.J. & Mao, S. (1994), ApJ, 430, 505</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/1998MNRAS.300.1041M">Mao, S. & Witt, H.J. (1998), MNRAS, 300, 104</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/2011A%26A...529A..75C">Claret, A & Bloemen, S. (2011), A&A, 529, 75</a></li>
+      </ul>
+    </section>
+
+      <section class="title-slide" data-background-image="/assets/images/roman_milkyway_bckgd.png">
+        <h1-light>Binary Lensing</h1-light>
+    </section>
+
+    <section data-background-image="/assets/images/distant_planet_art_ESA_Hubble_NASA.jpg">
+      <h1-light>Introduction</h1-light>
+
+      <div class="row body-text-light">
+          <div class="col-sm">
+            <p>So far we have considered the lens to be a single massive object, but if a companion is present in the
+                lens system, the result can be complex and beautiful microlensing light curves. </p>
+          <p></p>Understanding binary lenses is the key to the discovery of planetary systems through microlensing. </p>
+        </div>
+          <div class="col-sm"></div>
+      </div>
+    </section>
+
+      <section>
+          <h1>The Lens Plane</h1>
+          <div class="row">
+              <div class="col-sm-6">
+                  <img
+            src="/assets/images/binary_lens_geometry.png"
+            alt="Geometry of a binary lens system"
+            width="100%"
+          />
+              </div>
+              <div class="col-sm-6">
+                <p>A binary lens has two masses, M<sub>1</sub> & M<sub>2</sub>. </p>
+                  <p>The lens plane coordinate system (x,y) is oriented so that the x-axis
+                      passes through the projection of the masses onto the lens plane, with
+                      the origin at the central point between the two lens masses.</p>
+                <p>Both are considered to be at distance D<sub>L</sub> from the observer, their separation being relatively small.</p>
+              </div>
+      </section>
+
+      <section>
+          <h1>The Source Plane</h1>
+          <div class="row">
+              <div class="col-sm-6">
+                  <img
+            src="/assets/images/binary_lens_geometry.png"
+            alt="Geometry of a binary lens system"
+            width="100%"
+          />
+              </div>
+              <div class="col-sm-6">
+                <p>The source plane coordinate system, (u,&nu;), has its origin at the
+                    point where the optical axis intersects the source plane.</p>
+                  <p>The optical axis is the line from the observer through the mid-point
+                  between the lens masses, so the coordinate system is lens-centric.</p>
+              </div>
+      </section>
+
+      <section>
+          <h2>Deflection of light by multiple lenses</h2>
+          <p>Each mass deflects a light ray from the source by angle
+                &alpha; = 4GM/c<sup>2</sup>b. </p>
+
+          <div class="image-and-caption">
+              <img
+                src="/assets/images/lens_plane_deflection.png"
+                alt="Deflection of light due to multiple lenses"
+                width="824"
+              />
+              <div>
+                  <p>The total deflection is the vector sum of the deflections
+                      by each mass. </p>
+                  <p>E.g. a ray which intersects the lens plane at &xi; = (x1, y1),
+                has a total deflection for a lens with i = 1 - n masses of:</p>
+                    <p>$$\bar{\alpha}(\bar{\xi}) = \sum_{i}\left( \frac{4GM_{i}}{c^{2}}\frac{\bar{\xi} - \bar{\xi_{i}}}{|\bar{\xi} - \bar{\xi_{i}}|^{2}}\right),$$
+                </p>
+             </div>
+          </div>
+   </section>
+
+      <!--
+      <section>
+          <h2>Deflection for a binary lens</h2>
+          <p>For a binary lens this becomes:</p>
+
+        $$\bar{\alpha}(\bar{\xi}) = \frac{4GM_{1}}{c^{2}}\frac{\bar{\xi} - \bar{\xi_{1}}}{|\bar{\xi} - \bar{\xi_{1}}|^{2}} + \frac{4GM_{2}}{c^{2}}\frac{\bar{\xi} - \bar{\xi_{2}}}{|\bar{\xi} - \bar{\xi_{2}}|^{2}},$$
+
+        <p>where &xi;&#772;<sub>1,2</sub> are the vector positions of the projection points
+            of masses M<sub>1,2</sub> in the lens plane geometry.</p>
+      </section>
+        -->
+
+      <section>
+          <h1>The Binary Lens Equation</h1>
+          <p>We now write the lens equation in a form relating the light ray origin in
+              the source plane (&eta;(u,&nu;)) to the total deflection angle:</p>
+          $$\bar{\eta} = \bar{\xi}\frac{D_{S}}{D_{L}} - D_{LS}\bar{\alpha}(\bar{\xi}),$$
+
+            <p>By substituting, we get:</p>
+
+            $$\frac{\bar{\eta}}{D_{S}} = \frac{\bar{\xi}}{D_{L}} - \frac{4GM_{1}}{c^{2}}\frac{\bar{\xi} - \bar{\xi_{1}}}{|\bar{\xi} - \bar{\xi_{1}}|^{2}}\frac{D_{LS}}{D_{S}} - \frac{4GM_{2}}{c^{2}}\frac{\bar{\xi} - \bar{\xi_{2}}}{|\bar{\xi} - \bar{\xi_{2}}|^{2}}\frac{D_{LS}}{D_{S}},$$
+      </section>
+
+      <section>
+          <h1>The Binary Lens Equation</h1>
+          <p>This is simplified by declaring:</p>
+
+            <table width="75%">
+                <tr>
+                    <td>$$\bar{w}(u,\nu) = \frac{\bar{\eta}}{D_{S}},$$</td>
+                    <td>$$\bar{z}(x,y) = \frac{\bar{\xi}}{D_{L}},$$</td>
+                    <td>$$m_{i} = \frac{4GM_{i}D_{LS}D_{L}}{c^{2}D_{S}},$$</td>
+                </tr>
+            </table>
+
+            <p>and we arrive at:</p>
+
+            $$\bar{w} = \bar{z} - m_{1}\frac{\bar{z} - \bar{z_{1}}}{|\bar{z} - \bar{z_{1}}|^{2}} - m_{2}\frac{\bar{z} - \bar{z_{2}}}{|\bar{z} - \bar{z_{2}}|^{2}},$$
+      </section>
+
+      <section>
+          <h2>Mapping between the lens and source planes</h2>
+          <div class="image-and-caption">
+              <img
+            src="/assets/images/binary_lens_geometry.png"
+            alt="Geometry of a binary lens system"
+            width="800"
+            />
+              <div class="center-text">
+                <p>This represents a mapping between the source and lens planes: </p>
+              <p>A light ray from point w&#772;(u,&nu;) in the source plane will hit the lens
+                  plane at z&#772;(x,y). </p>
+              <p>But we are most interested in extracting the locations of the
+                  source images in the lens plane geometry.</p>
+              </div>
+          </div>
+          </section>
+
+      <section>
+          <h2>Locating the source images in the lens plane</h2>
+          <p>As before, solving the binary lens equation gives us the location of the source images. </p>
+          <p>To achieve this, its convenient to write the lens equation in complex notation</p>
+            <table width="75%">
+                <tr>
+                    <td>$$w = z - m_{1}\frac{1}{\bar{z} - \bar{z_{1}}} - m_{2}\frac{1}{\bar{z} - \bar{z_{2}}},$$</td>
+                    <td>$$w = u + i\nu,$$</td>
+                    <td>$$z = x + iy,$$</td>
+                </tr>
+            </table>
+
+            <p>where w, z are complex numbers and z&#772; is the complex conjugate of z.</p>
+
+          <p>Solving this equation requires complex root-finding
+              techniques explored in detail by Schneider & Weiss (1986). </p>
+      </section>
+
+      <!--
+      <section>
+          <h1>Source Images</h1>
+          <p>Number of real solutions = number of images of the source</p>
+          <p>To find the number and locations of the source images produced we need to
+              produce an expression for z in terms of w - the inverse of the lens
+              equation. The complex conjugate of the binary lens equation is:</p>
+
+            $$\bar{w} = \bar{z} - m_{1}\frac{1}{z - z_{1}} - m_{2}\frac{1}{z - z_{2}}$$
+      </section>
+      -->
+
+      <section>
+          <h1>Source Images</h1>
+          <p>Solving this expression for z&#772; and substituting, we get (for a binary lens):</p>
+
+        $$z = w + \sum_{i=1,2}m_{i}\left[\bar{w} - \bar{z_{i}} + \sum_{k=1,2}m_{k}(z - z_{k})^{-1}\right]^{-1}$$
+
+          <p>Number of real solutions = number of images of the source</p>
+          <p>This expression generates a polynomial equation in z of order
+              (n<sup>2</sup> + 1), where n is the number of lensing masses.</p>
+            <p>For a binary lens, there are up to 5 solutions, of which either
+                3 or 5 may be real, depending on the lens-source projected separation.  </p>
+      </section>
+
+      <section>
+          <h1>Source Images - key takeaways</h1>
+          <div class="image-and-caption">
+              <video width="90%" controls>
+                      <source src="/assets/animations/binary_lens_plane_no_caustics.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                <div class="center-text">
+                    <ol>
+                      <li>Number of images scales with the number of lenses</li>
+                      <li>Not all solutions are real &#8594; not all images exist all the time</li>
+                      <li>Number and location of images changes with the lens-source projected separation </li>
+                  </ol>
+                </div>
+            </div>
+      </section>
+
+      <section>
+          <h2>Magnification for a binary lens</h2>
+          <p>Recall that magnification is the ratio of the lensed/unlensed total image area.</p>
+          <div class="row">
+              <div class="col sm center-text">
+                  <p>$$A = \left|det\frac{d \alpha}{d \theta} \right|^{-1}$$</p>
+                  <p>Single lens</p>
+              </div>
+              <div class="col sm center-text">
+                  <p>$$A = \left| det \frac{\partial\bar{w}(u,\nu)}{\partial\bar{z}(x,y)} \right|^{-1},$$</p>
+                  <p>Binary lens</p>
+              </div>
+          </div>
+          <p>I.e. we calculate the inverse of the area distortion of the lens mapping.</p>
+      </section>
+
+      <!--
+      <section>
+          <h2>Amplification for a binary lens</h2>
+          <p>To derive an expression for this we need the 'gradient' of a vector function, or
+              the matrix of first-order partial derivatives, known as the Jacobian matrix.
+              This may be written:</p>
+                <table width="75%">
+                    <tr>
+                        <td>$$J = \begin{bmatrix} \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} \\ \frac{\partial \nu}{\partial x} & \frac{\partial \nu}{\partial y} \end{bmatrix}$$</td>
+                    </tr>
+                </table>
+      </section>
+
+      <section>
+        <h2>Amplification for a binary lens</h2>
+          <p>For n lensing bodies, the Jacobian is:</p>
+
+            $$J = 1 - \left[ \sum_{n} m_{n}(\bar{z} - \bar{z_{n}})^{-2}\right]^{2} = 1 - (\bar{\kappa})^{2},$$
+
+        <p>and for a binary lens is:</p>
+
+            $$J = 1 - \left( \frac{m_{1}}{(\bar{z} - \bar{z_{1}})^{2}} + \frac{m_{2}}{(\bar{z} - \bar{z_{2}})^{2}}\right)^{2},$$
+
+        <p>The inverse Jacobian matrix elements are:</p>
+
+        <table width="75%">
+            <tr>
+                <td>$$\frac{\partial z}{\partial w} = \frac{1}{J},$$</td>
+                <td>$$\frac{\partial z}{\partial \bar{w}} = -\frac{\bar{\kappa}}{J},$$</td>
+            </tr>
+        </table>
+      </section>
+      -->
+
+      <section>
+        <h2>Magnification for a binary lens</h2>
+          <p>The total amplification is given by the sum of the magnification of each image i:</p>
+
+            $$A = \sum_{i=1}^{n}A_{i} = \sum_{i=1}^{n}|\det J|^{-1},$$
+
+          <p>where J is the Jacobian matrix:</p>
+
+          $$J = \begin{bmatrix} \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} \\ \frac{\partial \nu}{\partial x} & \frac{\partial \nu}{\partial y} \end{bmatrix}$$
+      </section>
+
+      <section>
+          <h1>Critical Curves</h1>
+          <p>As the source moves behind the binary lens, there are certain
+        positions in the source plane for which the resulting Jacobian determinant
+              drops to zero.</p>
+          <div class="row">
+              <div class="col-sm-8">
+                  <img
+            src="/assets/images/binary_lens_source_plane_mapping.png"
+            alt="Caustics in a binary lens system"
+            width="100%"
+          />
+              </div>
+              <div class="col-sm">
+                  <p>These positions form graceful curves, known as 'critical curves'.</p>
+                  <p>Theoretically, as the source crosses the critical curve, the magnification
+            becomes infinite (curtailed by finite source effects).</p>
+              </div>
+          </div>
+      </section>
+
+      <section>
+          <h1>Caustics</h1>
+          <div class="row">
+              <div class="col-sm-8">
+                  <img
+            src="/assets/images/binary_lens_source_plane_mapping.png"
+            alt="Caustics in a binary lens system"
+            width="100%"
+          />
+              </div>
+              <div class="col-sm">
+                  <p>Applying the lens equation, the positions of the critical curve in the source
+                plane can be mapped into the lens plane geometry -
+                resulting in generally spiky curves known as 'caustics'.
+            </p>
+              </div>
+          </div>
+      </section>
+
+      <section>
+          <h2>Caustics and lightcurve structure</h2>
+          <video width="100%" controls>
+              <source src="/assets/animations/binary_microlensing_event2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+      </section>
+
+      <section>
+        <h1>Number of Lensed Images</h1>
+          <div class="row">
+              <div class="col-sm">
+                  <video width="100%" controls>
+                      <source src="/assets/animations/binary_lens_plane1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+              </div>
+              <div class="col-sm">
+                <ul>
+                    <li>Outside the caustic: 3 images (1 outside and 2 inside the critical curve)</li>
+                    <li>2 images exist within the caustic region (1 outside and 1 inside)</li>
+                    <li>Caustic curve = maximum magnifcation; inside it the magnification can drop</li>
+                </ul>
+              </div>
+          </div>
+      </section>
+
+      <section>
+          <h1>Caustic variety</h1>
+          <div class="row">
+              <div class="col-sm">
+              <p>A wide variety of caustic structures are possible, depending on:</p>
+                  <ul>
+                      <li>binary mass ratio</li>
+                      <li>binary separation</li>
+                      <li>lens masses' relative angular separation from the source</li>
+                  </ul>
+                  <p>This simulation has the same parameters as the last one,
+                      but M<sub>1</sub>=0.1, M<sub>2</sub>=0.9, rather than equal masses</p>
+              </div>
+              <div class="col-sm">
+                  <video width="100%" controls>
+                      <source src="/assets/animations/binary_lens_plane2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+              </div>
+          </section>
+
+      <section>
+          <img
+                  src="/assets/images/binary_lens_caustic_grid_annotated.png"
+                  alt="Range of caustics in various binary lens systems"
+                width="90%"
+            />
+      </section>
+
+      <section>
+          <h2>Caustics and Source Trajectories</h2>
+          <p>The source can take any trajectory, relative to the lens geometry, so the
+              lightcurve for the same binary lens can look quite different depending on
+          the angle of incidence.</p>
+          <img
+                  src="/assets/images/binary_lens_alternative_trajectories.png"
+                  alt="Different source trajectories produce different lightcurves"
+                width="100%"
+            />
+      </section>
+
+      <!--
+      <section>
+          <h2>Double-peaked lightcurves</h2>
+          <div class="image-and-caption">
+              <img
+            src="/assets/images/binary_lens_alternative_trajectory_lc.png"
+            alt="Lightcurves from alternative source trajectories"
+            width="800"
+            />
+              <div class="center-text">
+                <p>One common lightcurve feature is a 'double-peak' structure
+              - the first peak caused by the source crossing into
+              the caustic region, the second caused by it exiting the caustic.</p>
+                  <p>Depending on the mass ratio and separation of the binary, the source trajectory and
+              relative velocity, the peaks can be hours or days apart.</p>
+              </div>
+          </div>
+      </section>
+        -->
+
+        <section>
+            <h1>Planetary caustics</h1>
+            <p>Any binary lens will produce caustics. </p>
+            <p>Provided the source has a favourable trajectory,
+                even an extreme mass ratio binary like a planetary system will produce
+                a detectable magnification. </p>
+                <video width="100%" controls>
+                      <source src="/assets/animations/planetary_binary_lens_event1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            <p>This makes microlensing uniquely sensitive to even low mass planetary
+                companions. </p>
+        </section>
+    <section>
+      <h1>Further reading</h1>
+      <ul>
+          <li><a href="https://ui.adsabs.harvard.edu/abs/1999A%26A...349..108D/abstract">
+              Dominik, M. (1999), A&A, 349, 108</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/1996ARA%26A..34..419P">
+              Paczy&nacute;ski, B. (1996), Ann. Rev. A&A, 34, 419</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/1973ApJ...185..747B">
+              Bourassa, R. (1973), ApJ, 185, 747</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/1992grle.book.....S">
+              Schneider, P. Ehlers, J. & Falco, E. (1992), Gravtitational Lenses, Springer-Verlag</a></li>
+          <li><a href="http://adsabs.harvard.edu/abs/1986A%26A...164..237S">Schneider, P. & Weiss, A. (1986), A&A, 164, 237</a></li>
+
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- <script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+<script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script> -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"
+  integrity="sha512-131e3mIrDAyUD075SVzvIjS0g97uDg0+/qAobDHd++h+lgFi4z88DVOpidm06jpb+0PzK4kcm9w79r6EHV0SkA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"
+  integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"
+  integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    hashOneBasedIndex: true,
+
+    width: 1600,
+    height: 900,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [RevealMarkdown, RevealHighlight],
+
+    markdown: {
+      gfm: true,
+    },
+
+    slideNumber: 'c/t',
+  });
+</script>

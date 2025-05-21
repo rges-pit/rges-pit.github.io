@@ -70,6 +70,12 @@ display: grid;
 grid-template-rows: max-content auto;
 }
 
+.side-header {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    border-bottom: 3pt solid var(--rges-light-purple);
+}
+
 .slides h1-light {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 2em;

@@ -13,10 +13,10 @@ Johnson, Penny, Gaudi, et al. 2020
 Wilson, Barclay, Powell, et al. 2023
 
 4. [Dazzle: Oversampled Image Reconstruction and Difference-Imaging Photometry for the Nancy Grace Roman Space Telescope](https://iopscience.iop.org/article/10.3847/1538-3881/adc9a1/meta){:target="_blank"},
-M. Albrow 2024
+M. Albrow 2025
 
 5. [SynthPop: A New Framework for Synthetic Milky Way Population Generation](https://iopscience.iop.org/article/10.3847/1538-3881/adcd7a){:target="_blank"},
-Klüter & Huston, et al. 2024
+Klüter & Huston, et al. 2025
 
 6. [An Alternate Method for Minimizing χ<sup>2</sup>](https://iopscience.iop.org/article/10.1088/1538-3873/adcb6c/meta){:target="_blank"},
 Yee & Gould 2025

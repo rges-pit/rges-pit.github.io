@@ -4,7 +4,7 @@ author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
-  overlay_image: /assets/images/banner.png
+  overlay_image: /assets/images/RGES_PIT_BANNER.png
 excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES PIT) is developing
           the infrastructure required to plan, execute, and extract cold exoplanet demographics 
           from the Galactic Bulge Time Domain Survey."
@@ -15,8 +15,9 @@ excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES 
 
  <span style="color:red">New Paper Alert:</span> 
  -->
- 
-&nbsp;  
+
+ <span style="color:red">**News Alert: The RGES PIT is hiring a Postdoctoral Scholar. [Job Ad Here](https://aas.org/jobregister/ad/a3fe5316){:target="_blank"}**</span>
+  
 &nbsp;  
 
 # Who We Are
@@ -56,8 +57,8 @@ Centers and project office in general. We plan to make our exoplanet yield simul
 and user-friendly, so that those interested in doing science with GBTDS data can assess how the survey parameters 
 affect their science yield, as well as that of the RGES.
 
-<img style="display: block; margin: auto;" src="/assets/images/all3_lowRes.png" width="1600"/>
-<figcaption>Figure: The left panel shows the nominal GBTDS survey field placements. The middle panel shows the expected 
+<img style="display: block; margin: auto;" src="/assets/images/tri_panel.png" width="1600"/>
+<figcaption>Figure: The left panel shows the GBTDS survey field placements. The middle panel shows the expected 
 yield of bound exoplanets from the RGES (blue). The right panel shows a simulated Roman microlensing event with a photometric 
 deviation due to an Earth-mass exoplanet.</figcaption>
 

@@ -27,6 +27,9 @@ Sangtarash & Yee 2025
 8. [Microlensing Constraints on the Stellar and Planetary Mass Functions](https://arxiv.org/abs/2503.11597){:target="_blank"},
 Yee & Kenyon 2025
 
+9. [A planet-host ratio relation to synthesize microlensing and transiting exoplanet demography from Roman](https://arxiv.org/abs/2506.24004v1){:target="_blank"},
+Edmondson & Kerins 2025
+
 --------------------------
 
 # White Papers

@@ -32,6 +32,7 @@ sidebar:
 | WG #11: Free Floating Planets | W. DeRocco |
 | WG #12: Efficiency and Occurrence Rate Analysis | J. Christiansen |
 | WG #13: Astrometry | C. Lam |
+| WG #14: Global Pipeline | G. Olmschenk |
 
 &nbsp;  
 &nbsp;  

@@ -31,7 +31,7 @@ file with additional details.
 * [GULLS](https://github.com/gulls-microlensing/gulls/tree/dev){:target="_blank"} (Penny et al. 2013)
 * [Koshimoto Galactic Model](https://github.com/nkoshimoto/genulens){:target="_blank"} (Koshimoto et al. 2021)
 * [PopSyCLE](https://github.com/jluastro/PopSyCLE){:target="_blank"} (Lam et al. 2020)
-* [SynthPop](https://github.com/synthpop-galaxy/synthpop){:target="_blank"} (Klüter & Huston 2024)
+* [SynthPop](https://github.com/synthpop-galaxy/synthpop){:target="_blank"} (Klüter & Huston 2025)
 
 ## Miscellaneous
 

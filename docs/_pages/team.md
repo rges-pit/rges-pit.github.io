@@ -47,6 +47,7 @@ sidebar:
 | Andrea Bellini | STScI| 
 | David Bennett | UMD|
 | Galen Bergsten | STScI|
+| Dex Bhadra | UMD|
 | Aparna Bhattacharya | UMD|
 | Chris Brandon | OSU|
 | Kylee Carden | OSU|

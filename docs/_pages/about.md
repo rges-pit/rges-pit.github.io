@@ -16,7 +16,7 @@ separation and mass, from terrestrials to gas giants, beyond 1 AU”*.
 The exoplanet survey will make use of Roman's wide-field instrument (WFI): The RGES PIT
 has four major scientific and programmatic objectives:
 
-* Confirm and/or reconfirm the five level-1 RGES science requirements which are:
+* Confirm and/or reconfirm the five level-2 RGES science requirements which are:
   * RGES shall be capable of measuring the mass function of exoplanets with masses 
   in the range 1 M_earth < m < 30 M_jupiter and orbital semi-major axes ≥ 1 AU to better 
   than 15% per decade in mass.

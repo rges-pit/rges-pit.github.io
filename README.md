@@ -130,6 +130,8 @@ Not yet in repo; you may create `docs/_drafts/` and add `my-post.md` without a d
 - `toc: true` to enable table of contents (if wanted; ensure theme supports)
 - `last_modified_at:` can be added for SEO freshness
 
+Note: The project defaults defined in `docs/_config.yml` automatically inject `layout: single` and `sidebar.nav: "docs"` for pages in `docs/_pages/`, so explicit declarations are only needed when overriding.
+
 ### 6.5 Includes
 Custom partials live in `docs/_includes/`. Use inside pages/posts:
 ```liquid
@@ -187,7 +189,7 @@ Propagation can take a couple of minutes. Purge local cache if you suspect stale
 4. Open Pull Request → request review
 5. After approval, squash or merge; GitHub Pages redeploys automatically.
 
-### Commit Message Conventions
+### Typical Commit Message Conventions
 - Start with verb: Add / Update / Fix / Remove
 - Limit subject line to ~72 chars
 

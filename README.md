@@ -11,20 +11,35 @@
 *Roman Galactic Exoplanet Survey – Project Infrastructure Team (PIT) public website.*
 
 ## Table of Contents
+
 [1. Overview](#1-overview)
+
 [2. Tech Stack](#2-tech-stack)
+
 [3. Repository Layout](#3-repository-layout)
+
 [4. Prerequisites](#4-prerequisites)
+
 [5. Quick Start (Local Development)](#5-quick-start-local-development)
+
 [6. Authoring Content](#6-authoring-content)
+
 [7. Navigation & Menus](#7-navigation--menus)
+
 [8. Assets (Images, Data, Video, Notebooks)](#8-assets-images-data-video-notebooks)
+
 [9. Styling & Theme Customization](#9-styling--theme-customization)
+
 [10. Deployment](#10-deployment)
+
 [11. Contribution Workflow](#11-contribution-workflow)
+
 [12. Quality & Style Guidelines](#12-quality--style-guidelines)
+
 [13. Upgrading Dependencies](#13-upgrading-dependencies)
+
 [14. Troubleshooting](#14-troubleshooting)
+
 [15. FAQ](#15-faq)
 
 ## 1. Overview

@@ -5,7 +5,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: rges-pit
 minimal_mistakes_skin: default
 search: false
-google_analytics: G-49YVZVYNP0
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-49YVZVYNP0"
+    anonymize_ip: false
+
 
 # Build settings
 markdown: kramdown

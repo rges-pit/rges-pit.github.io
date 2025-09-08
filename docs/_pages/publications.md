@@ -30,6 +30,9 @@ Yee & Kenyon 2025
 9. [A planet-host ratio relation to synthesize microlensing and transiting exoplanet demography from Roman](https://arxiv.org/abs/2506.24004v1){:target="_blank"},
 Edmondson & Kerins 2025
 
+10. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. III. Detectability of Giant Exomoons of Wide Separation Giant Planets](https://arxiv.org/abs/2509.03492){:target="_blank"},
+Lastovka, Gaudi, Johnson et al. 2025
+
 --------------------------
 
 # White Papers

@@ -14,6 +14,10 @@ The RGES PIT has developed a microlensing mini course for select students to par
 the Summer of 2025. The virtual lectures were held in mid May 2025; you can find lecture materials, recordings, and assignments at the Mini Course
 landing page [here]({{ site.url }}{{site.baseurl }}/outreach_mini_landing/).
 
-## Data Challenges and Citizen Science
+### [Data Challenges]({{ site.url }}{{site.baseurl }}/outreach_dc25_landing/)
+
+The RGES PIT will be hosting a microlensing data challenge starting sometime in Fall 2025. Check back here for more!
+
+### Citizen Science
 
 Coming Soon.

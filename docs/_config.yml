@@ -6,6 +6,13 @@ github_username: rges-pit
 minimal_mistakes_skin: default
 search: false
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-49YVZVYNP0"
+    anonymize_ip: false
+
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes

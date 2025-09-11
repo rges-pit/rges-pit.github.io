@@ -67,6 +67,8 @@ docs:
     children:
       - title: "Mini Course"
         url: /outreach_mini_landing/
+      - title: "REU 2025"
+        url: /outreach_mini_REU2025/
     #  - title: "Data Challenges"
     #    url: /outreach/
 
@@ -81,4 +83,6 @@ docs:
 
   - title: Submit
     url: /submit/
+
+
 

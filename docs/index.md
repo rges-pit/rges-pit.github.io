@@ -15,8 +15,6 @@ excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES 
 
  <span style="color:red">New Paper Alert:</span> 
  -->
-
- <span style="color:red">**News Alert: The RGES PIT is hiring a Postdoctoral Scholar. [Job Ad Here](https://aas.org/jobregister/ad/a3fe5316){:target="_blank"}**</span>
   
 &nbsp;  
 

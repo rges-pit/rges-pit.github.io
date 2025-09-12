@@ -5,7 +5,7 @@ sidebar:
   nav: "workshop"
 ---
 
->  |  January 3rd or 4th, 2026  |  9am - 5pm  |  AAS 247  |  *room current unknows*
+>  |  January 3rd or 4th, 2026  |  9am - 5pm  |  AAS 247  |  *room currently unknown*
 
 ## Requirements
 

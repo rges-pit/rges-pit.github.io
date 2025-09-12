@@ -115,7 +115,9 @@ workshop:
       url: /data-challenge/aas-workshop/notebooks/workflow/
     - title: "Microlensing Tools"
       url: /data-challenge/aas-workshop/notebooks/microlensing_tools/
-    - title: "Grid Search"
-      url: /data-challenge/aas-workshop/notebooks/grid-search/
     - title: "Submission CLI Tutorial"
       url: /data-challenge/aas-workshop/notebooks/submission-tutorial/
+    - title: "Single Lens Pipeline"
+      url: /data-challenge/aas-workshop/notebooks/pipeline/
+    - title: "Grid Search"
+      url: /data-challenge/aas-workshop/notebooks/grid-search/

@@ -16,7 +16,9 @@ Topic covered:
     * Priors
     * Parallelization
     * L2 observer
-    * Anomaly finding
+    * Anomaly finding  
+  
+  Starting from this handy [notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/pipeline/).
 
   <!-- Download and Github buttons -->
   <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">

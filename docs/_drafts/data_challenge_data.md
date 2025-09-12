@@ -8,6 +8,8 @@ sidebar:
 
 ## Nexus mounted s3fs
 
+Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access the challenge data, on the Nexus:.
+
 
 ## [Hugging Face](https://huggingface.co/RGES-PIT)
 

@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
->  |  January 4th, 2026  |  9am - 5pm  |  *room*
+>  |  January 4th, 2026  |  9am - 5pm  |  AAS 247  |  *room*
 
 ## Requirements
 
@@ -72,15 +72,14 @@ Some of these methods are computationally expensive, so we will parallelize our 
 * stochastic likelihood space, 
 * higher-order effects
 
-### [4. Information Session and Q&A]({{ site.url }}{{
-site.baseurl }}/data_challenge/aas-workshop/4-information/)
+### [4. Information Session and Q&A]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/4-info/)
 
 Ask the demonstrators anything you would like to know about microlensing and/or the data challenge. 
 They will also be providing details on:
 
 * The RGES-PIT website
     * Resources and links
-* The slack channel
+* The Slack channel
     * Resources and links
     * Nancy
     * General assistance
@@ -94,8 +93,5 @@ They will also be providing details on:
 * Publication plans
 * Important dates
 * Contact
-    * Slack `#general`
-    * [GitHub Issues]()
-    * [Web form (optionally anonymous)]({{ site.url }}{{ site.baseurl }}/data-challenge/help/
-    
+
 

@@ -1,5 +1,5 @@
 ---
-permalink: /data_challenge/
+permalink: /data-challenge/
 title: "Roman Microlensing Data Challenge 2025 (RMDC25)"
 sidebar:
     nav: "docs"
@@ -54,11 +54,11 @@ The `microlens-submit` documentation includes [detailed specifications](https://
 [Microlensing Source](https://www.microlensing-source.org/)
 
 
-## [AAS Workshop]({{ site.url }}{{ site.urlbase }}/data-challenge/aas-workshop/)
+## [AAS Workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/)
 
 
 
-[Contact us]({{ site.url }}{{ site.urlbase }}/data-challenge/help/)
+[Contact us]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)
 
 
 

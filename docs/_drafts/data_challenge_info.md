@@ -13,7 +13,7 @@ sidebar:
     * General assistance
     * Private team channels
     * Workshop content and communication
-* [Signup]({{ site }}{{ site.baseurl }}/data-challenge/signup)
+* [Signup]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/)
 * Tiers
 * Data insights
 * Submissions rules/guidelines

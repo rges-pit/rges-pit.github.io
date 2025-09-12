@@ -4,3 +4,5 @@ title: "Binary Lenses"
 sidebar:
   nav: "docs"
 ---
+
+[grid search notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/grid-search/)

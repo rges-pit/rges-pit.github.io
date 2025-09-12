@@ -26,10 +26,9 @@ sidebar:
 
 ## Session Outlines
 
-### [1. Introduction to the Nexus]({{ site.url }}{{
-site.baseurl }}/data_challenge/aas-workshop/1-nexus/)
+### [1. Introduction to the Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/1-nexus/)
 
-For discussion, information, troubleshooting, and updates about the Nexus, see the #nexus channel and the channel canvas. 
+For discussion, information, troubleshooting, and updates about the Nexus, see the `#nexus` channel and the channel canvas. 
 In this session we will be covering:
 
 * Creating Nexus accounts
@@ -39,10 +38,9 @@ In this session we will be covering:
     * Microlensing open source software
     * Accessing data and creating data challenge submissions
 * Installing packages and other technical help
-* Using the nexus with VSCode or Colab
+* Using the Nexus with VSCode or Colab
 
-### [2. Single Lenses and Pipelines]({{ site.url }}{{
-site.baseurl }}/data_challenge/aas-workshop/2-single-lenses/)
+### [2. Single Lenses and Pipelines]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/2-single-lenses/)
 
 In this session we will learn about basic microlensing parameterization and terminology and test that knowledge out on a mini modeling data challenge.
 Topic covered:
@@ -57,8 +55,7 @@ Topic covered:
     * L2 observer
     * Anomaly finding
 
-### [3. Binary Lenses]({{ site.url }}{{
-site.baseurl }}/data_challenge/aas-workshop/3-binary-lenses/)
+### [3. Binary Lenses]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/3-binary-lenses/)
 
 We will begin this sessions with a more complicated, binary-lens model, and exercises to demonstrate the challenges of binary lens fitting and common approaches to dealing with these challenges. We will fit that same event using three different methods
 

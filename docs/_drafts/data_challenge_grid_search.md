@@ -2,7 +2,7 @@
 permalink: /data-challenge/aas-workshop/notebooks/grid-search/
 title: "Binary Lens Grid Searches"
 sidebar:
-  nav: "docs"
+  nav: "workshop"
 ---
 
 <div style="margin: 1em 0;">

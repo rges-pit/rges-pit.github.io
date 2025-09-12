@@ -7,12 +7,12 @@ sidebar:
 
 <!-- sign up button -->
 <div style="text-align: center; margin: 2em 0;">
-  <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/" style="background-color: #9003d6ff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Sign Up for RMDC25</a>
+  <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Sign Up for RMDC25</a>
 </div>
 
 The purpose of RMDC25 is to...
 
-Our official launch will be during AAS 247, where we will host a workshop covering various aspects of the data challenge (specific date and time TBD).
+Our official launch will be during AAS 247, where we will host a [workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) covering various aspects of the data challenge (specific date and time TBD).
 
 ## Important Dates
 - Challenge opens

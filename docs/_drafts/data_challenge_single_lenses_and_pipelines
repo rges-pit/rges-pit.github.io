@@ -2,7 +2,7 @@
 permalink: /data-challenge/aas-workshop/2-single-lenses/
 title: "Single Lenses and Pipelines"
 sidebar:
-  nav: "docs"
+  nav: "workshop"
 ---
 
 In this session we will learn about basic microlensing parameterization and terminology and test that knowledge out on a mini modeling data challenge.

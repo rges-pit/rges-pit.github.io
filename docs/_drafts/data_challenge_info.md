@@ -2,7 +2,7 @@
 permalink: /data-challenge/aas-workshop/4-info/
 title: "Data Challenge - More Information"
 sidebar:
-  nav: "docs"
+  nav: "workshop"
 ---
 
 * The RGES-PIT website

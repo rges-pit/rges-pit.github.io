@@ -2,12 +2,19 @@
 permalink: /data-challenge/aas-workshop/
 title: "Data Challenge AAS Workshop"
 sidebar:
-  nav: "docs"
+  nav: "workshop"
 ---
 
 >  |  January 4th, 2026  |  9am - 5pm  |  AAS 247  |  *room*
 
 ## Requirements
+
+* A laptop with a functioning web browser (optionally, VSCode and Slack installed).
+* Idealy, some Python experience.
+* An intention to participate in the [Roman Microlensing Data Challenge 2025]({{ site.url }}{{ site.baseurl }}/data-challenge), or be on an already signed up team. You can sign up [here]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up).
+* Microlensing-specific knowledge or experience is **not** necessary.
+
+## How to Sign Up to the Workshop
 
 ## Itinerary
 

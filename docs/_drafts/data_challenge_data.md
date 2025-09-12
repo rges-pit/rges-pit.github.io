@@ -6,7 +6,7 @@ sidebar:
 ---
 
 
-## Nexus mounted server thingy
+## Nexus mounted s3fs
 
 
 ## [Hugging Face](https://huggingface.co/RGES-PIT)

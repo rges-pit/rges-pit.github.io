@@ -2,7 +2,7 @@
 permalink: /data-challenge/aas-workshop/notebooks/microlensing_tools/
 title: "Introduction to Microlensing Tools"
 sidebar:
-  nav: "docs"
+  nav: "workshop"
 ---
 
 <div style="margin: 1em 0;">

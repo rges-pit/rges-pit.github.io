@@ -1,6 +1,6 @@
 ---
 permalink: /data-challenge/aas-workshop/1-nexus/
-title: "Introduction to the Roman Research Nexus (Nexus)"
+title: "Introduction to the Roman Research Nexus (The Nexus)"
 sidebar:
   nav: "workshop"
 ---
@@ -33,15 +33,15 @@ At this time, we cannot guarantee prompt responses to any support requests.
 
 ## Creating Nexus accounts
 
-[Create a MyST account](https://proper.stsci.edu/proper/authentication/auth) *Required to log in to the Nexus*
+[Creating a MyST account](https://proper.stsci.edu/proper/authentication/auth) is *required** to log in to the Nexus. Click the `Sign Up for MyST` button above to navigate to the sign up page.
 
 ## How to access the Nexus
 
-1. Go to the [Nexus log in page](https://roman.science.stsci.edu/hub/)
+1. Go to the [Nexus log in page](https://roman.science.stsci.edu/hub/) (see the `Log in to Nexus` button at the top of the page).
 
-2. Sign in with your MyST account
+2. Sign in with your MyST account.
 
-3. Launch a simple server  <br>
+3. Launch a simple server.  <br>
     - Choose from the dropdown list:
     <div style="margin-left: 2em;">
       <table>
@@ -141,80 +141,7 @@ You can stop a server instance using the `Hub Control Pannel`, which is accesses
 
 ### Shared Files
 
-Team Storage can be access through `/teams/<your team name>/` (see `teams.md`)
-
-## Nexus notebook content
-
-The Nexus JupiterLab session comes pre-load with a bunch of useful pages and notebooks This live inside the `reference/` directory. `tutorials.md` has a list of all the reference notebooks and links to access them.
-
-| Note: |
-|:- |
-| The notebooks in this directory are read only but the file system itself is not, so that the reference notebooks can execute. You **should not** create and save notebooks in this directory. The directory is regularly replaced with the contents of its source repository, and any changes you make in here will be (without making someones life diffucult) lost. |
-
-Relavent to this data challenge are 3 notebooks:
-  * [Introduction to microlensing open source software]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/microlensing_tools) (`reference/content/notebooks/microlensing_tools/microlensing_tools.ipynb`)
-  
-    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
-      <!-- View on GitHub button -->
-      <a href="https://github.com/rges-pit/data-challenge-notebooks/blob/main/Microlensing_Analysis_Tools_colab.ipynb" 
-         style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        View on GitHub
-      </a>
-      
-      <!-- Download button with JavaScript -->
-      <a href="#" 
-         onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/Microlensing_Analysis_Tools_colab.ipynb', 'Microlensing_Analysis_Tools_colab.ipynb')"
-         style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        Download
-      </a>
-    </div>
-
-  * Accessing data using [`s3fs`](https://s3fs.readthedocs.io/en/latest/api.html#) (`reference/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb`) 
-  * [Data challenge workflow and creating data challenge submissions]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) (`microlens-submit`) (`reference/content/notebooks/rmdc2025_workflow/rmdc2025_workflow.ipynb`)
-
-    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
-      <!-- View on GitHub button -->
-      <a href="https://github.com/rges-pit/data-challenge-notebooks/blob/main/nexus_microlensing_data_challenge_workflow.ipynb" 
-          style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        View on GitHub
-      </a>
-      
-      <!-- Download button with JavaScript -->
-      <a href="#" 
-          onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/nexus_microlensing_data_challenge_workflow.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb')"
-          style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-        </svg>
-        Download
-      </a>
-    </div>
-
-<script>
-function downloadNotebook(url, filename) {
-  fetch(url)
-    .then(response => response.blob())
-    .then(blob => {
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    });
-}
-</script>
+Team Storage can be access through `/teams/<your team name>/` (see `teams.md`).
 
 ## Environments
 
@@ -241,20 +168,6 @@ kernel-delete <environment-name>
 ```
 
 These environments persist between sessions.
-
-## FAQ
-
-> **How do I use the terminal?**
->
-> Use "+" button on the far right of the document tabs, then select `terminal`, which is sorted under "Other".
-
-> **How do I select an environment?**
->
-> In a notebook session, click the `select kernel` text at the top right of the embedded window (between the hamburger and the bug). If an environment or kernel has already been selected, it might say something like `Python 3 (ipykernel)`. Simply click that kernel name to change to a new kernel.
-
-> **How do I open the Hub Control Panel from inside the JupyterLab instance?**
->
-> Click `File -> Hub Control Panel` 
 
 ## Using the Nexus with local tools
 
@@ -348,3 +261,130 @@ Here’s the step-by-step guide to using the Nexus with Colab.
     URL: http://localhost:8888/user/<user-name>/<server-name>/?token=<token>
 
 -->
+
+## Nexus notebook content
+
+The Nexus JupiterLab session comes pre-load with a bunch of useful pages and notebooks This live inside the `reference/` directory. `tutorials.md` has a list of all the reference notebooks and links to access them.
+
+| Note: |
+|:- |
+| The notebooks in this directory are read only but the file system itself is not, so that the reference notebooks can execute. You **should not** create and save notebooks in this directory. The directory is regularly replaced with the contents of its source repository, and any changes you make in here will be (without making someones life diffucult) lost. |
+
+Relavent to this data challenge are 3 notebooks:
+  * [Introduction to microlensing open source software]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/microlensing_tools) (`reference/content/notebooks/microlensing_tools/microlensing_tools.ipynb`).
+  
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      <!-- View on GitHub button -->
+      <a href="https://github.com/rges-pit/data-challenge-notebooks/blob/main/Microlensing_Analysis_Tools_colab.ipynb" 
+         style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View on GitHub
+      </a>
+      
+      <!-- Download button with JavaScript -->
+      <a href="#" 
+         onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/Microlensing_Analysis_Tools_colab.ipynb', 'Microlensing_Analysis_Tools_colab.ipynb')"
+         style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+        </svg>
+        Download
+      </a>
+    </div>
+
+  * Accessing data using `s3fs` (`reference/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb`).
+
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      <!-- View on GitHub button -->
+      <a href="https://github.com/rges-pit/roman_notebooks/blob/main/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb" 
+          style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View on GitHub
+      </a>
+      
+      <!-- View on Docs button -->
+      <a href="https://s3fs.readthedocs.io/en/latest/api.html#" 
+          style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View Docs
+      </a>
+    </div>
+
+  * [Data challenge workflow and creating data challenge submissions]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) (`microlens-submit`) (`reference/content/notebooks/rmdc2025_workflow/rmdc2025_workflow.ipynb`).
+
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      <!-- View on GitHub button -->
+      <a href="https://github.com/rges-pit/data-challenge-notebooks/blob/main/nexus_microlensing_data_challenge_workflow.ipynb" 
+          style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View on GitHub
+      </a>
+      
+      <!-- Download button with JavaScript -->
+      <a href="#" 
+          onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/nexus_microlensing_data_challenge_workflow.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb')"
+          style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+        </svg>
+        Download
+      </a>
+    </div>
+
+  * Alternate workflow with the submission command line tool, for non-Python users.
+
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      <a href="https://github.com/rges-pit/data-challenge-notebooks/blob/main/nexus_microlensing_data_challenge_workflow.ipynb" 
+          style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View on GitHub
+      </a>
+      <a href="https://microlens-submit.readthedocs.io/en/latest/" 
+          style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.20-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View Docs
+      </a>
+    </div>
+
+<script>
+function downloadNotebook(url, filename) {
+  fetch(url)
+    .then(response => response.blob())
+    .then(blob => {
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+}
+</script>
+
+## FAQ
+
+> **How do I use the terminal?**
+>
+> Use "+" button on the far right of the document tabs, then select `terminal`, which is sorted under "Other".
+
+> **How do I select an environment?**
+>
+> In a notebook session, click the `select kernel` text at the top right of the embedded window (between the hamburger and the bug). If an environment or kernel has already been selected, it might say something like `Python 3 (ipykernel)`. Simply click that kernel name to change to a new kernel.
+
+> **How do I open the Hub Control Panel from inside the JupyterLab instance?**
+>
+> Click `File -> Hub Control Panel` 

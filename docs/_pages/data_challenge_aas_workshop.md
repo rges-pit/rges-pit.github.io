@@ -5,7 +5,7 @@ sidebar:
   nav: "workshop"
 ---
 
->  |  January 4th, 2026  |  9am - 5pm  |  AAS 247  |  *room*
+>  |  January 3rd or 4th, 2026  |  9am - 5pm  |  AAS 247  |  *room current unknows*
 
 ## Requirements
 
@@ -15,6 +15,8 @@ sidebar:
 * Microlensing-specific knowledge or experience is **not** necessary.
 
 ## How to Sign Up to the Workshop
+
+TBD
 
 ## Itinerary
 

@@ -52,9 +52,7 @@ Our official launch will be during AAS 247, where we will host a [workshop]({{ s
 3) One final submission per team.  
 4) Submissions must pass format validation with the submission tool.  
 5) One designated team lead/contact person.  
-6) Communication with experience microlensers is encouraged.  
-   
-   
+6) Communication with experienced microlensers is encouraged.  
 
 ### Challenge Tiers
 
@@ -97,13 +95,13 @@ You can find a copy of the evaluation rubric [here](https://rges-pit.org/data-ch
 * [RGES-PIT resources page]({{ site.url }}{{ site.baseurl }}/resources/) for other helpful resources and RGES-PIT/Roman-specific information.  
 * [RGES-PIT tools page]({{ site.url }}{{ site.baseurl }}/tools/) for links to open-source microlensing tools.  
 * [REU2025]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) introductory mini course.
-* [RGES-PIT GitHub Organisation](https://github.com/rges-pit){:target="_blank"}.
+* [RGES-PIT GitHub Organization](https://github.com/rges-pit){:target="_blank"}.
 * [RMDC2025 ADS Library](https://ui.adsabs.harvard.edu/public-libraries/gRI3mf-LQAGs3HbN4fuRSg){:target="_blank"} of useful microlensing papers and reviews.  
 * [Microlensing Source](https://www.microlensing-source.org/){:target="_blank"}.  
 * [TMGTTG](https://github.com/AmberLee2427/TheMicrolensersGuideToTheGalaxy.git){:target="_blank"} introductory notebook series.  
 * [2017 Sagan Workshop](http://nexsci.caltech.edu/workshop/2017/){:target="_blank"} in microlensing. The recordings from this workshop can be found [here](https://www.youtube.com/watch?v=QPfKucBb9B8&list=PLIbTYGsIVYthWRS14eCEK8SK9IOTcaYsf){:target="_blank"}. 
-* [Glossary of Terms](https://www.microlensing-source.org/glossary/).  
-* Ask [Nancy](https://rmdc2025.slack.com/archives/D098SMZTNR2) on the RMDC2025 Slack. <!-- or connect to her MCP server -->
+* [Glossary of Terms](https://www.microlensing-source.org/glossary/){:target="_blank"}.  
+* Ask [Nancy](https://rmdc2025.slack.com/archives/D098SMZTNR2){:target="_blank"} on the RMDC2025 Slack. <!-- or connect to her MCP server -->
 
 ## Contact
 

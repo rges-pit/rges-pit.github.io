@@ -18,7 +18,7 @@ file with additional details.
 
 ## Microlensing Modeling Software
 
-* [BAGLE](https://github.com/MovingUniverseLab/BAGLE_Microlensing/tree/dev){:target="_blank"} — photometric and astrometric microlensing; Maintained: Yes (Moving Universe Lab); [Lu et al. (2025)](){:target="_blank"}  <!-- paper doesn't currently exist, but that's what their docs say to cite -->
+* [BAGLE](https://github.com/MovingUniverseLab/BAGLE_Microlensing/tree/dev){:target="_blank"} — photometric and astrometric microlensing; Maintained: Yes (Moving Universe Lab); Lu et al. (2025)  <!-- paper doesn't currently exist, but that's what their docs say to cite -->
 * [MulensModel](https://github.com/rges-pit/MulensModel){:target="_blank"} — user‑friendly single/binary lens fitting; Maintained: Yes (Poleski); [Poleski & Yee (2019)](https://ui.adsabs.harvard.edu/abs/2019A%26C....26...35P/abstract){:target="_blank"}  
 * [pyLIMA](https://github.com/ebachelet/pyLIMA){:target="_blank"} — modeling and simulation toolkit; Maintained: Yes (Bachelet); [Bachelet et al. (2017)](https://ui.adsabs.harvard.edu/abs/2017AJ....154..203B/abstract){:target="_blank"}  
 * [RTModel](https://github.com/valboz/RTModel){:target="_blank"} — hands‑off model fitting with built‑in interpretation; Maintained: Yes (Bozza); [Bozza (2024)](https://ui.adsabs.harvard.edu/abs/2024A%26A...688A..83B/abstract){:target="_blank"}
@@ -32,17 +32,17 @@ file with additional details.
 
 ## Simulation Software
 
-* [Dazzle](https://github.com/MichaelDAlbrow/Dazzle){:target="_blank"} — for over-sampled image construction, difference-imaging, transient detection, and difference-image PSF photometry; Maintained: Yes (Albrow); [Albrow (2024)](https://ui.adsabs.harvard.edu/abs/2025AJ....169..297A/abstract){:target="_blank"}  
-* [GULLS](https://github.com/gulls-microlensing/gulls/tree/dev){:target="_blank"} — microlensing survey simulator; Maintained: Yes (Penny); [Penny et al. (2013)](https://ui.adsabs.harvard.edu/abs/2013AAS...22143503P/abstract)  
-* [genulens](https://github.com/nkoshimoto/genulens){:target="_blank"} — simulate microlensing events using simulation of the Koshimoto Galactic model; Maintained: Yes (Koshimoto); [Koshimoto, Baba, & Bennett (2021)](https://ui.adsabs.harvard.edu/abs/2021ApJ...917...78K/abstract){:target="_blank"}   
+* [Dazzle](https://github.com/MichaelDAlbrow/Dazzle){:target="_blank"} — over‑sampled image construction, difference‑imaging, transient detection, and difference‑image PSF photometry; Maintained: Yes (Albrow); [Albrow (2025)](https://ui.adsabs.harvard.edu/abs/2025AJ....169..297A/abstract){:target="_blank"}  
+* [GULLS](https://github.com/gulls-microlensing/gulls/tree/dev){:target="_blank"} — microlensing survey simulator; Maintained: Yes (Penny); [Penny et al. (2013)](https://ui.adsabs.harvard.edu/abs/2013AAS...22143503P/abstract){:target="_blank"}  
+* [genulens](https://github.com/nkoshimoto/genulens){:target="_blank"} — simulate microlensing events using the Koshimoto Galactic model; Maintained: Yes (Koshimoto); [Koshimoto, Baba, & Bennett (2021)](https://ui.adsabs.harvard.edu/abs/2021ApJ...917...78K/abstract){:target="_blank"}   
 * [PopSyCLE](https://github.com/jluastro/PopSyCLE){:target="_blank"} — code to simulate a model of the Milky Way including compact objects and multiple systems and perform a mock microlensing survey; Maintained: Yes (Lu); [Lam et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020ApJ...889...31L/abstract){:target="_blank"}   
-* [SynthPop](https://github.com/synthpop-galaxy/synthpop){:target="_blank"} — generating synthetic star catalogs following specified model and configurations; Maintained: Yes (Huston); [Klüter & Huston (2025)](https://ui.adsabs.harvard.edu/abs/2025AJ....169..317K/abstract)
+* [SynthPop](https://github.com/synthpop-galaxy/synthpop){:target="_blank"} — generate synthetic star catalogs following specified models and configurations; Maintained: Yes (Huston); [Klüter & Huston (2025)](https://ui.adsabs.harvard.edu/abs/2025AJ....169..317K/abstract){:target="_blank"}
 
 ## Miscellaneous
 
-* [popclass](https://github.com/LLNL/popclass){:target="_blank"} — probabilistic lens classification; Maintained: Yes (LLNL); [Sallaberry et al. (2024)](https://ui.adsabs.harvard.edu/abs/2025JOSS...10.7769S/abstract){:target="_blank"}   
+* [popclass](https://github.com/LLNL/popclass){:target="_blank"} — probabilistic lens classification; Maintained: Yes (LLNL); [Sallaberry et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025JOSS...10.7769S/abstract){:target="_blank"}   
 * [pyLIMASS](https://github.com/ebachelet/pyLIMA/tree/master/pyLIMA/pyLIMASS){:target="_blank"} — physical property estimates for lens systems; Maintained: Yes (Bachelet); [Bachelet, Hundertmark, Calchi Novati (2024)](https://ui.adsabs.harvard.edu/abs/2024AJ....168...24B/abstract){:target="_blank"}  
 * [GBTDS Optimizer](https://github.com/mtpenny/gbtds_optimizer){:target="_blank"} — survey optimization utilities; Maintained: Yes (Penny)  
-* [nbi](https://github.com/kmzzhang/nbi.git){:target="_blank"} — posterior estimation using neural bayesian inference; Maintained: Yes (Zhang); [Zhang, Bloom, & Hernitschek (2023)](https://ui.adsabs.harvard.edu/abs/2023mla..confE..38Z/abstract)
+* [nbi](https://github.com/kmzzhang/nbi.git){:target="_blank"} — posterior estimation using neural bayesian inference; Maintained: Yes (Zhang); [Zhang, Bloom, & Hernitschek (2023)](https://ui.adsabs.harvard.edu/abs/2023mla..confE..38Z/abstract){:target="_blank"}
 
 We would like this to be a comprehensive list. If you have an open-source code you would like to contribute, please tell us about it using the [submit form]({{ site.url }}{{site.baseurl }}/submit/).

@@ -5,15 +5,15 @@ sidebar:
   nav: "docs"
 ---
 
-
 ## Nexus mounted s3fs
 
-Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access the challenge data, on the Nexus:.
+Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access the challenge data, on the Nexus.
 
+## [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
 
-## [Hugging Face](https://huggingface.co/RGES-PIT)
+There are two datasets available for download from HuggingFace Hub. These include the. [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} datasets. These include challenge data for each tier (`"challenge.csv"`). The [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} repo includes training data for machine learning purposes (`"train.csv"`), labeled, with an order of magnitude more events than the challenge set (~100 000 events).  
 
-Hugging FaceThere are two datasets available for download from HuggingFace Hub. These include the. [`Beginner`](https://huggingface.co/RGES-PIT/Beginner) and [`Experienced`](https://huggingface.co/RGES-PIT/Experienced) datasets. Below are instructions for downloading the [`Beginner`](https://huggingface.co/RGES-PIT/Beginner) dataset. Replace "Beginner" with "Experienced" to download the experienced data sets included more lens arrangements and higher order effects. 
+Below are instructions for downloading the [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} dataset. Replace "Beginner" with "Experienced" to download the experienced datasets, including more lens arrangements and higher order effects and labeled training data. 
 
 ### Download Instructions
 
@@ -28,7 +28,7 @@ from huggingface_hub import hf_hub_download
 import pandas as pd
 
 REPO_ID = "YRGES-PIT/Beginner"
-FILENAME = "train.csv"
+FILENAME = "challenge.csv"
 
 dataset = pd.read_csv(
     hf_hub_download(

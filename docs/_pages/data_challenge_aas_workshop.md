@@ -84,13 +84,7 @@ Ask the demonstrators anything you would like to know about microlensing and/or 
 They will also be providing details on:
 
 * The RGES-PIT website
-    * Resources and links
 * The Slack channel
-    * Resources and links
-    * Nancy
-    * General assistance
-    * Private team channels
-    * Workshop content
 * Signup
 * Tiers
 * Data insights

@@ -56,5 +56,3 @@ function downloadNotebook(url, filename) {
     });
 }
 </script>
-
-<!-- Embed nb here -->

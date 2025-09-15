@@ -22,5 +22,5 @@ sidebar:
 * Important dates
 * Contact
     * Slack `#general`
-    * [GitHub Issues](https://github.com/rges-pit/microlens-submit/issues)
+    * [GitHub Issues](https://github.com/rges-pit/microlens-submit/issues){:target="_blank"}
     * [Web form (optionally anonymous)]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)

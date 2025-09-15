@@ -33,11 +33,11 @@ At this time, we cannot guarantee prompt responses to any support requests.
 
 ## Creating Nexus accounts
 
-[Creating a MyST account](https://proper.stsci.edu/proper/authentication/auth) is *required** to log in to the Nexus. Click the `Sign Up for MyST` button above to navigate to the sign up page.
+[Creating a MyST account](https://proper.stsci.edu/proper/authentication/auth){:target="_blank"} is *required** to log in to the Nexus. Click the `Sign Up for MyST` button above to navigate to the sign up page.
 
 ## How to access the Nexus
 
-1. Go to the [Nexus log in page](https://roman.science.stsci.edu/hub/) (see the `Log in to Nexus` button at the top of the page).
+1. Go to the [Nexus log in page](https://roman.science.stsci.edu/hub/){:target="_blank"} (see the `Log in to Nexus` button at the top of the page).
 
 2. Sign in with your MyST account.
 
@@ -96,22 +96,15 @@ To use the Research Nexus, you need a MyST account. If you do not have a MyST ac
 For Faster Start-up Time
 The small server option is staged with the latest image resulting in faster start-up times. It is recommended that first time users and those without high performance computing needs select this default option. Other server options will provide greater computing resources with a slower start-up times.
 
-
-
 Personal Server (Credits used: 0.05)
 Servers
 
 Images
 
-
 rges-pit
 Servers
 
 Images
-
-
-
-
 
 Additional Information
 This site is currently under development and as such, you should have no expectations regarding service uptime, data preservation, etc. We anticipate greater reliability as we approach a wider community release. At this time, no data you upload or create within RRN is guaranteed to remain for any duration. Your usage of the nexus is monitored, so that we can improve the functionality and reliability of this service.
@@ -203,8 +196,6 @@ Here’s the step-by-step guide to using the Nexus with VSCode.
 
     **TL;DR**  
     `server-URL`: `https://roman.science.stsci.edu/user/<user-name>/<server-name>/?token=<token>`
-
-    <!-- https://roman.science.stsci.edu/user/malpas-1/instruction-test/?token=df7b23a5f66240b8b49c18289650518c -->
 
 7.  **Connect VSCode to the Kernel:**
     * Ensure you have the Jupyter extension pack (by Microsoft) installed.

@@ -5,9 +5,9 @@ sidebar:
   nav: "workshop"
 ---
 
-> Getting Started with `microlens-submit`
+> Getting Started with [`microlens-submit`](https://microlens-submit.readthedocs.io/en/latest/tutorial.html){:target="_blank"}
 
-This comprehensive tutorial covers everything you need to know about using the `microlens-submit` toolkit for packaging your data challenge solutions, using the command line.
+This comprehensive tutorial covers everything you need to know about using the [`microlens-submit`](https://microlens-submit.readthedocs.io/en/latest/tutorial.html){:target="_blank"} toolkit for packaging your data challenge solutions, using the command line.
 
 <div style="margin: 1em 0;">
   <iframe src="https://microlens-submit.readthedocs.io/en/latest/tutorial.html" 
@@ -44,7 +44,7 @@ pip install microlens-submit
 
 ## Why Use microlens-submit?
 
-Using the `microlens-submit` toolkit is strongly recommended for the data challenge because it:
+Using the [`microlens-submit`](https://microlens-submit.readthedocs.io/en/latest/tutorial.html){:target="_blank"} toolkit is strongly recommended for the data challenge because it:
 
 - **Reduces Errors**: Automatic validation catches common mistakes
 - **Saves Time**: Automated workflow eliminates manual steps  

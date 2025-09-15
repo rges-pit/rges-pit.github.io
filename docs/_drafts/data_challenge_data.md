@@ -1,9 +1,13 @@
 ---
 permalink: /data-challenge/data/
-title: "Data Challenge Data"
+title: "RMDC2025 Data"
 sidebar:
   nav: "docs"
 ---
+
+The data created for the ROman Microlensing Data Challenge 2025 (RMDC2025) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey. 
+
+It should be noted that in the simulated data, the inertial frame of reference was defined with the $x$-axis increasing from the binary center of mass towards the less massive lens at `t0`, the time of closest approach to the center of mass. If viewed from the solar system barycenter, the inertial frame moves at the relative velocity `vlens_CoM - vobserver(t0)`. The inclination of the orbit is a counter-clockwise rotation about the $x$-axis. $\alpha$ is the angle that the source trajectory made with the $x$-axis (if parallax was 0). Where finite source effects were significant, a linear limb darkening law was applied.
 
 ## Nexus mounted s3fs
 
@@ -27,7 +31,7 @@ Python:
 from huggingface_hub import hf_hub_download
 import pandas as pd
 
-REPO_ID = "YRGES-PIT/Beginner"
+REPO_ID = "RGES-PIT/Beginner"
 FILENAME = "challenge.csv"
 
 dataset = pd.read_csv(

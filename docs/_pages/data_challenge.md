@@ -18,7 +18,7 @@ in preparation for the Roman mission.
 
 Roman is expected to detect ten of thousands of microlenisng events during it's prime mission and thousands of exoplanets, probing a fundamentally different regions of the exoplanet parameters space than earier missions.
 
-<!-- Add a figure -->
+<!-- Add a figure? -->
 
 The data in this challenge is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey. 
 

@@ -5,12 +5,12 @@ sidebar:
   nav: "workshop"
 ---
 
-In this session we will learn about basic microlensing parameterization and terminology and test that knowledge out on a mini modeling data challenge.
-Topic covered:
+In this session, we will learn about basic microlensing parameterization and terminology and test that knowledge on a mini modeling Data Challenge.
+Topics covered:
 
-* An introduction to microlensing: [part 1]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter1.html), [part 2]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter2.html).
-* [Helpful microlensing resources]({{ site.url }}{{site.baseurl }}/resourcers/) <!-- Add to this -->
-* [Alternate data access, for those not using the Nexus]({{ site.url }}{{site.baseurl }})
+* An introduction to microlensing: [part 1]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter1.html), [part 2]({{ site.url }}{{site.baseurl }}/_pages/outreach_mini_chapter2.html)
+* [Helpful microlensing resources]({{ site.url }}{{site.baseurl }}/resources/) <!-- Add to this -->
+* [Alternate data access for those not using the Nexus]({{ site.url }}{{site.baseurl }}/data-challenge/data/)
 * Hack-session where we will learn about:
     * Single lens fitting
     * Priors
@@ -32,7 +32,7 @@ Topic covered:
 
     <!-- Download button with JavaScript -->
     <a href="#" 
-        onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/Single_Lens_Pipeline.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb')"
+        onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/Single_Lens_Pipeline.ipynb', 'Single_Lens_Pipeline.ipynb')"
         style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>

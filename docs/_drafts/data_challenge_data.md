@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-The data created for the ROman Microlensing Data Challenge 2025 (RMDC2025) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey. 
+The data created for the Roman Microlensing Data Challenge 2025 (RMDC2025) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey.
 
 It should be noted that in the simulated data, the inertial frame of reference was defined with the $x$-axis increasing from the binary center of mass towards the less massive lens at `t0`, the time of closest approach to the center of mass. If viewed from the solar system barycenter, the inertial frame moves at the relative velocity `vlens_CoM - vobserver(t0)`. The inclination of the orbit is a counter-clockwise rotation about the $x$-axis. $\alpha$ is the angle that the source trajectory made with the $x$-axis (if parallax was 0). Where finite source effects were significant, a linear limb darkening law was applied.
 
@@ -15,9 +15,9 @@ Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-wor
 
 ## [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
 
-There are two datasets available for download from HuggingFace Hub. These include the. [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} datasets. These include challenge data for each tier (`"challenge.csv"`). The [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} repo includes training data for machine learning purposes (`"train.csv"`), labeled, with an order of magnitude more events than the challenge set (~100 000 events).  
+There are two datasets available for download from the Hugging Face Hub: [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"}. Each includes challenge data for its tier (`challenge.csv`). The [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} repository also includes labeled training data for machine-learning purposes (`train.csv`), with roughly an order of magnitude more events than the challenge set (~100,000 events).  
 
-Below are instructions for downloading the [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} dataset. Replace "Beginner" with "Experienced" to download the experienced datasets, including more lens arrangements and higher order effects and labeled training data. 
+Below are instructions for downloading the [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} dataset. Replace "Beginner" with "Experienced" to download the experienced dataset, which includes more lens arrangements, higher-order effects, and labeled training data. 
 
 ### Download Instructions
 

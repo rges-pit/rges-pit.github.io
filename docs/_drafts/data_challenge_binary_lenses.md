@@ -7,4 +7,4 @@ sidebar:
 
 
 <!-- Arjun's notebook -->
-[grid search notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/grid-search/)
+[Grid search notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/grid-search/)

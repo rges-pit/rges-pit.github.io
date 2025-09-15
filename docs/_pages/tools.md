@@ -5,10 +5,10 @@ sidebar:
   nav: "docs"
 ---
 
-Many software tools have been developed by members of the RGES PIT. 
-These include microlensing light curve modeling codes, Roman image-level 
+Many software tools have been developed by members of the RGES-PIT. 
+These include microlensing light-curve modeling codes, Roman image-level 
 simulation tools, data-level simulation tools, galactic population synthesis 
-modeling codes, and more. All of the tools are publicly hosted via GitHub.
+modeling codes, and more. All tools are publicly hosted on GitHub.
 
 &nbsp;  
 Click on a tool below to access its repository which includes a README
@@ -20,7 +20,7 @@ file with additional details.
 
 * [BAGLE](https://github.com/MovingUniverseLab/BAGLE_Microlensing/tree/dev){:target="_blank"} (Lu et al. 2025)
 * [eesunhong](https://github.com/rges-pit/eesunhong){:target="_blank"} (Bennett & Rhie 1996, Bennett 2010)
-* [MuLensModel](https://github.com/rges-pit/MulensModel){:target="_blank"} (Poleski & Yee 2018)
+* [MulensModel](https://github.com/rges-pit/MulensModel){:target="_blank"} (Poleski & Yee 2018)
 * [pyLIMA](https://github.com/ebachelet/pyLIMA){:target="_blank"} (Bachelet et al. 2017)
 * [RTModel](https://github.com/valboz/RTModel){:target="_blank"} (Bozza et al. 2024)
 * [VBMicrolensing](https://github.com/valboz/VBMicrolensing/tree/main){:target="_blank"} (Bozza et al. 2025)
@@ -57,5 +57,4 @@ file with additional details.
 | SingleLensFitter | Fits single lens events with finite source effects | No ([Albrow](https://github.com/MichaelDAlbrow)) | [GitHub](https://github.com/MichaelDAlbrow/SingleLensFitter) | No |
 <br> -->
 
-We would like this to be a comprehensive list, so if you have an open source code you would like to contribute, please refer tell us about it using the [submmit form]({{ site.url }}{{site.baseurl }}/submit/). 
-
+We would like this to be a comprehensive list. If you have an open-source code you would like to contribute, please tell us about it using the [submit form]({{ site.url }}{{site.baseurl }}/submit/).

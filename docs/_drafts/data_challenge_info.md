@@ -7,16 +7,16 @@ sidebar:
 
 * The RGES-PIT website
     * Resources and links
-* The slack channel
-    * Resources and links - canvases with everything you need to know (or where to find it) to participate in the data challenge
-    * Nancy the AI slackbot with microlensing RAG - has a knowledge base of all the most influence journal articles, learning resources, and microlensing tool repos.
+* The Slack channel
+    * Resources and links — canvases with everything you need to know (or where to find it) to participate in the Data Challenge
+    * Nancy the AI Slackbot with microlensing RAG — has a knowledge base of influential journal articles, learning resources, and microlensing tool repositories
     * General assistance
     * Private team channels
     * Workshop content and communication
 * [Signup]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/)
 * Tiers
 * Data insights
-* Submissions rules/guidelines
+* Submission rules/guidelines
 * Evaluation process and rubric
 * Publication plans
 * Important dates

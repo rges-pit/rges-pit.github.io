@@ -12,7 +12,7 @@ sidebar:
   <a href="https://stsci.service-now.com/roman" style="background-color: #4078c0; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Get Help</a>
 </div>
 
-The Roman Research Nexus (AKA Nexus), is a Jupyter Hub service with public, shared, compute resources, which is ultimately intended to be used for Roman related data analysis.
+The Roman Research Nexus (aka “the Nexus”) is a JupyterHub service with public, shared compute resources, intended for Roman-related data analysis.
 
 <!--
 Welcome to Roman Research Nexus
@@ -33,15 +33,15 @@ At this time, we cannot guarantee prompt responses to any support requests.
 
 ## Creating Nexus accounts
 
-[Creating a MyST account](https://proper.stsci.edu/proper/authentication/auth){:target="_blank"} is *required** to log in to the Nexus. Click the `Sign Up for MyST` button above to navigate to the sign up page.
+[Creating a MyST account](https://proper.stsci.edu/proper/authentication/auth){:target="_blank"} is required to log in to the Nexus. Click the “Sign Up for MyST” button above to navigate to the sign-up page.
 
 ## How to access the Nexus
 
-1. Go to the [Nexus log in page](https://roman.science.stsci.edu/hub/){:target="_blank"} (see the `Log in to Nexus` button at the top of the page).
+1. Go to the [Nexus login page](https://roman.science.stsci.edu/hub/){:target="_blank"} (see the “Log In to Nexus” button at the top of the page).
 
 2. Sign in with your MyST account.
 
-3. Launch a simple server.  <br>
+3. Launch a server.  <br>
     - Choose from the dropdown list:
     <div style="margin-left: 2em;">
       <table>
@@ -77,9 +77,9 @@ At this time, we cannot guarantee prompt responses to any support requests.
       </table>
     </div>
     
-    - Choose an Image: e.g. `roman-17.1.1 (June 2025 patched)`.
+    - Choose an image: e.g., `roman-17.1.1 (June 2025 patched)`.
 
-That's all. You might have to wait a few minutes for the server to start. When it does, an instance of Jupyter lab will be automatically launched in your browser.
+That’s all. You might have to wait a few minutes for the server to start. When it does, an instance of JupyterLab will automatically launch in your browser.
 
 <!--
 Welcome to the Roman Research Nexus
@@ -112,36 +112,36 @@ This site is currently under development and as such, you should have no expecta
 If you encounter difficulties or questions while using the nexus, please contact the STScI help desk. As this platform is still in active development, we cannot guarantee prompt resolutions to any support requests.
 -->
   
-## Named Server
+## Named servers
 
-You might decide that you would like to open more than oen server at a time or just create a more organized server set-up. You create multiple or named server by clicking `Home` on the top navigation bar instead of launching a server imediately when you log in. <!-- Does this save the details of your server? -->
+You might decide to open more than one server at a time or simply create a more organized setup. Create multiple or named servers by clicking `Home` on the top navigation bar instead of launching a server immediately when you log in. <!-- Does this save the details of your server? -->
 
 Type in a name for your new server (e.g. "test-server") and select the smaller blue button `Add new server`.
 
-That's it. You should be greated with a "Welcome to the Roman Research Nexus!" page in a JupyterLab instance.
+That’s it. You should be greeted with a “Welcome to the Roman Research Nexus!” page in a JupyterLab instance.
 
 ## Stopping a server
 
 The virtual server that runs your personal instance of the Nexus will shut down after approximately an hour of inactivity. You can restart this virtual server the next time you access the Nexus.
 
-You can stop a server instance using the `Hub Control Pannel`, which is accesses for the JupiterLab UI by clicking `File -> Hub Control Panel`.
+You can stop a server instance using the `Hub Control Panel`, which is accessed from the JupyterLab UI by clicking `File -> Hub Control Panel`.
 
 ## Teams
 
-### Creating Teams 
+### Creating teams 
 
 <!--Ask Nexus people about this) -->
 
-### Shared Files
+### Shared files
 
-Team Storage can be access through `/teams/<your team name>/` (see `teams.md`).
+Team storage can be accessed through `/teams/<your team name>/` (see `teams.md`).
 
 ## Environments
 
-There exist robust documentation on the creation of environments on the Nexus in `software.md`, which you can get to by clicking the `Installing extra software` link on the welcome page.
+There is robust documentation on creating environments on the Nexus in `software.md`, which you can reach by clicking the “Installing extra software” link on the welcome page.
 
 **TL;DR**
-Environments are created, listed, activated, exported and removed using
+Environments are created, listed, activated, exported, and removed using:
 
 ```
 # Create
@@ -156,7 +156,7 @@ source kernel-activate <environment-name>
 # Export
 kernel-export <environment-name> <output-file-name.yaml>
 
-# Removed
+# Remove
 kernel-delete <environment-name>
 ```
 
@@ -164,14 +164,14 @@ These environments persist between sessions.
 
 ## Using the Nexus with local tools
 
-### VSCode
+### VS Code
 
-Here’s the step-by-step guide to using the Nexus with VSCode.
+Here’s a step-by-step guide to using the Nexus with VS Code.
 
 1.  **Log in to the Nexus**  
     See above.
 
-2.  **Create a Named Server (trust me-it's just easier that way)**  
+2.  **Create a named server (trust me — it’s easier)**  
     See above.
 
 3.  **Open the terminal and Create an Environment**  
@@ -180,32 +180,32 @@ Here’s the step-by-step guide to using the Nexus with VSCode.
 4.  **Reopen the Hub Control Panel**  
     See above.
 
-5.  **Get Your Secret Handshake (The Token):**
+5.  **Get your secret token:**
     * Click on `Token`, which is in the navigation bar at the top of the page.
-    * Fill on the form:
-      - Note: Give it a name that reminds you what it's for.
-      - Expiry: Shorter is always more secure, but also more admin.
-      - Permision: leave this blank (full permissions), or specifiy specific permissions; it's up to you.
+    * Fill out the form:
+      - Note: Give it a name that reminds you what it’s for.
+      - Expiry: Shorter is more secure, but requires more maintenance.
+      - Permissions: leave blank (full permissions) or specify a subset — your choice.
     * `Request a new API token`. 
-    * **Copy the token.** Treat it like your diary key.
+    * **Copy the token.** Treat it like a password.
 
-6.  **Build the Magic URL:**
+6.  **Build the URL:**
     * Take your server's base URL (like `https://roman.science.stsci.edu`).
-    * Add your specific server path (like `/user/<user-name>/< server-name>/`). This is where having a sensibly named server is helpful. You can find this on the Token page in the `Hub Control Panel`, under "Authorized Applications" > "Application" > "Server at <your-server_path>
+    * Add your specific server path (like `/user/<user-name>/<server-name>/`). This is where having a sensibly named server is helpful. You can find this on the Token page in the `Hub Control Panel`, under “Authorized Applications” → “Application” → “Server at <your-server-path>”.
     * Tack on `?token=` and then paste your secret token at the end. 
 
     **TL;DR**  
     `server-URL`: `https://roman.science.stsci.edu/user/<user-name>/<server-name>/?token=<token>`
 
-7.  **Connect VSCode to the Kernel:**
+7.  **Connect VS Code to the kernel:**
     * Ensure you have the Jupyter extension pack (by Microsoft) installed.
-    * In VSCode, in an open notebook, click the `select kernel` or `<current-kernel-name>`, if one is already selected. Then select the following options when prompted:
+    * In VS Code, with a notebook open, click `Select Kernel` or the current kernel name (if one is already selected). Then choose:
       - "Select Another Kernel..."
       - "Existing Jupyter Server..."
       - "Enter the URL of the running Jupyter Server..."
       - Paste your `server-URL` into the box and hit `Enter`.
       - Select your created kernel/environment.
-        If your kernel doesn't show up, it is likely because of a missing ipython. `pip install ipython` in a terminal on the Nexus's JupyterLab, with your environment activated, and try again.
+        If your kernel doesn't show up, it is likely due to a missing IPython. Run `pip install ipython` in a terminal on the Nexus (with your environment activated) and try again.
 
 <!-- This is currently not working
 
@@ -255,13 +255,13 @@ Here’s the step-by-step guide to using the Nexus with Colab.
 
 ## Nexus notebook content
 
-The Nexus JupiterLab session comes pre-load with a bunch of useful pages and notebooks This live inside the `reference/` directory. `tutorials.md` has a list of all the reference notebooks and links to access them.
+The Nexus JupyterLab session comes preloaded with useful pages and notebooks. These live inside the `reference/` directory. `tutorials.md` lists all the reference notebooks and links to access them.
 
 | Note: |
-|:- |
-| The notebooks in this directory are read only but the file system itself is not, so that the reference notebooks can execute. You **should not** create and save notebooks in this directory. The directory is regularly replaced with the contents of its source repository, and any changes you make in here will be (without making someones life diffucult) lost. |
+| :- |
+| The notebooks in this directory are read-only, but the file system itself is not, so the reference notebooks can execute. You should not create and save notebooks in this directory. It is regularly replaced with the contents of its source repository, and any changes you make here will be lost. |
 
-Relavent to this data challenge are 3 notebooks:
+Relevant to this Data Challenge are 3 notebooks:
   * [Introduction to microlensing open source software]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/microlensing_tools) (`reference/content/notebooks/microlensing_tools/microlensing_tools.ipynb`).
   
     <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">

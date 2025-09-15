@@ -93,7 +93,7 @@ You can find a copy of the evaluation rubric [here](https://rges-pit.org/data-ch
 
 ## Microlensing Resources and References
 
-* [AAS 247 RMDC2025 workshop content]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) specifically related to this Data Challenge.
+* [AAS 247 RMDC2025 workshop content]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) specifically related to this Data Challenge (**not yet released**).
 * [RGES-PIT resources page]({{ site.url }}{{ site.baseurl }}/resources/) for other helpful resources and RGES-PIT/Roman-specific information.  
 * [RGES-PIT tools page]({{ site.url }}{{ site.baseurl }}/tools/) for links to open-source microlensing tools.  
 * [REU2025]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) introductory mini course.

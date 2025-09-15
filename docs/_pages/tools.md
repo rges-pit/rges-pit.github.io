@@ -3,6 +3,7 @@ permalink: /tools/
 title: "Tools"
 sidebar:
   nav: "docs"
+description: "Open-source microlensing tools for Roman: modeling, simulation, and utilities with maintenance status and literature references."
 ---
 
 Many software tools have been developed by members of the RGES-PIT. 

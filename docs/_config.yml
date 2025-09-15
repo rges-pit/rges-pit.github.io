@@ -6,6 +6,10 @@ github_username: rges-pit
 minimal_mistakes_skin: default
 search: false
 
+# Canonical site URL configuration
+url: https://rges-pit.org
+baseurl: ""
+
 analytics:
   provider: "google-gtag"
   google:

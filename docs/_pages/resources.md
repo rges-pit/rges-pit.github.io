@@ -1,6 +1,7 @@
 ---
 permalink: /resources/
 title: "Resources"
+description: "Resources for the Roman mission and microlensing: technical documentation, primers, workshops, and background materials curated by RGES-PIT."
 ---
 
 The following is a list of resources and other materials related to the NASA Roman project:

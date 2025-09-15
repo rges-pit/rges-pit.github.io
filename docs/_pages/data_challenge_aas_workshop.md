@@ -3,6 +3,7 @@ permalink: /data-challenge/aas-workshop/
 title: "Data Challenge AAS Workshop"
 sidebar:
   nav: "workshop"
+description: "AAS 247 workshop for RMDC25: requirements, agenda, Roman Research Nexus access, and session outlines."
 ---
 
 > | January 3 or 4, 2026 | 9 am – 5 pm | AAS 247 | Room TBD |
@@ -89,4 +90,3 @@ They will also provide details on:
 * Publication plans
 * Important dates
 * Contact
-

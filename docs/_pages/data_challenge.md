@@ -3,6 +3,7 @@ permalink: /data-challenge/
 title: "Roman Microlensing Data Challenge 2025 (RMDC25)"
 sidebar:
     nav: "docs"
+description: "Roman Microlensing Data Challenge 2025 (RMDC25): overview, datasets, ground rules, key dates, submission tooling, and AAS 247 workshop details."
 ---
 
 <!-- sign up button -->

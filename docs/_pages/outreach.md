@@ -5,6 +5,7 @@ categories:
 
 tags:
 
+description: "RGES-PIT outreach: microlensing mini course (2025), Data Challenge updates, and upcoming citizen science opportunities."
 ---
 
 

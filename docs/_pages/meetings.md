@@ -1,6 +1,7 @@
 ---
 permalink: /meetings/
 title: "Meetings"
+description: "Upcoming and past RGES-PIT meetings and related microlensing conferences."
 ---
 
 ## Future Meetings

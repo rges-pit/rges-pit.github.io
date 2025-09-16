@@ -3,6 +3,7 @@ permalink: /microlensing27/
 title: "27th International Microlensing Conference"
 sidebar:
   nav: "docs"
+description: "27th International Microlensing Conference: overview, photos, and RGES-PIT contributions."
 ---
 **27th-31st January, 2025**
 

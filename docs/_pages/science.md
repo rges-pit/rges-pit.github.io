@@ -1,6 +1,7 @@
 ---
 permalink: /science/
 title: "RGES Key Science Cases"
+description: "RGES key science cases for the Roman Galactic Bulge Time Domain Survey (GBTDS)."
 ---
 
 The RGES will address three key science objectives:
@@ -19,7 +20,6 @@ planets by ~1.5 orders of magnitude.
 &nbsp;  
 * **Compact Objects**: Detection and characterization of compact objects (black holes, neutron stars, etc) through measurements 
 of astrometric microlensing. There are expected to be ~100 compact object detections during the nominal Roman GBTDS.
-
 
 
 

@@ -3,6 +3,7 @@ permalink: /about/team/
 title: "Team"
 sidebar:
   nav: "docs"
+description: "RGES-PIT team, leadership, and working group leads."
 ---
 
 # RGES PIT Leadership
@@ -116,5 +117,4 @@ sidebar:
 
 | Marcus Alfred | Howard U. |
 | Leland Cheyne | UMD |
-
 

@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
+description: "Publications related to RGES-PIT and the Roman mission."
 ---
 
 1. [Predictions of the WFIRST Microlensing Survey. I. Bound Planet Detection Rates](https://iopscience.iop.org/article/10.3847/1538-4365/aafb69/meta){:target="_blank"},

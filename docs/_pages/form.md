@@ -1,6 +1,7 @@
 ---
 permalink: /submit/
 title: "Submit"
+description: "Submit website content, report issues, or send feedback to RGES-PIT."
 ---
 
 Please use the following form to:
@@ -35,5 +36,4 @@ Please use the following form to:
         <button type="submit">Submit</button>
     </form>
 </body>
-
 

@@ -1,6 +1,7 @@
 ---
 permalink: /data/
 title: "RGES Data Products"
+description: "RGES data products for Roman microlensing and links to past data challenges."
 ---
 
 The number of US scientists working in the exoplanet microlensing field is small, 

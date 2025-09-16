@@ -3,6 +3,7 @@ permalink: /science/ffps/
 title: "Free-Floating Planets"
 sidebar:
   nav: "docs"
+description: "Roman science case: discovery and demographics of free-floating planets (FFPs)."
 ---
 
 <figure>

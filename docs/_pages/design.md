@@ -1,6 +1,7 @@
 ---
 permalink: /design/
 title: "RGES Design"
+description: "Overview of the Roman GBTDS observing strategy and design references."
 ---
 
 As part of the Galactic Bulge Time Domain Survey (GBTDS), Roman will conduct the first ever dedicated 
@@ -34,5 +35,4 @@ to be extracted for all sources in each field. Finally, as there will be a signi
         <br>
     Credit: R. Wilson (NASA GSFC).</figcaption>
 </figure>
-
 

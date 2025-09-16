@@ -28,8 +28,6 @@ docs:
   - title: About RGES
     url: /about/
     children:
-      - title: "Overview"
-        url: /about/
       - title: "Team"
         url: /about/team/
 #      - title: "Schedule"
@@ -73,12 +71,8 @@ docs:
   - title: Data Challenge
     url: /data-challenge/
     children:
-      - title: "Overview"
-        url: /data-challenge/
       - title: "Sign Up"
         url: /data-challenge/sign-up/
-      - title: "Data"
-        url: /data-challenge/data/
       - title: "Help"
         url: /data-challenge/help/
       - title: "AAS Workshop"

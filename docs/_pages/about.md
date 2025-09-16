@@ -3,6 +3,7 @@ permalink: /about/
 title: "About RGES PIT"
 sidebar:
   nav: "docs"
+description: "About the Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES-PIT)."
 ---
 
 RGES PIT stands for the **R**oman **G**alactic **E**xoplanet **S**urvey 
@@ -41,6 +42,5 @@ Click through for more details on the [Team]({{ site.url }}{{
 site.baseurl }}/about/team/), [RGES Design]({{ site.url }}{{
 site.baseurl }}/design/), or [RGES Science]({{ site.url }}{{
 site.baseurl }}/science/).
-
 
 

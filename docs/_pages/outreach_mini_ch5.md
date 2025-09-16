@@ -3,6 +3,7 @@ permalink: /outreach_mini_ch5/
 title: "Mini Data Challenge"
 sidebar:
   nav: "docs"
+description: "Microlensing Mini Course — Mini Data Challenge notebook and resources."
 ---
 
 Download the notebook below to try out our mini microlensing Data Challenge!

@@ -3,6 +3,7 @@ permalink: /outreach_mini_REU2025/
 title: "Microlensing REU at Vanderbilt University 2025"
 sidebar:
   nav: "docs"
+description: "Vanderbilt 2025 Microlensing REU collaboration with RGES-PIT: projects, advisers, and participants."
 ---
 
 Vanderbilt University's Department of Physics and Astronomy 2025 participation in the [Research Experiences for Undergraduates (REU) program](http://astro.phy.vanderbilt.edu/~reu/astro.htm) collaborated with the RGES PIT to train future microlensing astrophysicists. The participating students attended the [microlensing mini course lectures]({{ site.url }}{{site.baseurl }}/outreach_mini_landing/) and were assigned RGES PIT members as advisers, with their projects all being related to the future Roman Microlensing Survey.

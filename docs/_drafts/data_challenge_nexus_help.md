@@ -132,13 +132,15 @@ You can stop a server instance using the `Hub Control Panel`, which is accessed 
 
 <!--Ask Nexus people about this) -->
 
+To create a team, put in a request with the [Nexus helpdesk](https://stsci.service-now.com/roman).
+
 ### Shared files
 
 Team storage can be accessed through `/teams/<your team name>/` (see `teams.md`).
 
 ## Environments
 
-There is robust documentation on creating environments on the Nexus in `software.md`, which you can reach by clicking the “Installing extra software” link on the welcome page.
+There is robust documentation on creating environments on the Nexus, in `software.md`, which you can reach by clicking the “Installing extra software” link on the welcome page.
 
 **TL;DR**
 Environments are created, listed, activated, exported, and removed using:
@@ -164,9 +166,9 @@ These environments persist between sessions.
 
 ## Using the Nexus with local tools
 
-### VS Code
+### VS Code (or Cursor)
 
-Here’s a step-by-step guide to using the Nexus with VS Code.
+Here’s a step-by-step guide to using the Nexus with VS Code, through Jupyter notebooks.
 
 1.  **Log in to the Nexus**  
     See above.
@@ -206,6 +208,8 @@ Here’s a step-by-step guide to using the Nexus with VS Code.
       - Paste your `server-URL` into the box and hit `Enter`.
       - Select your created kernel/environment.
         If your kernel doesn't show up, it is likely due to a missing IPython. Run `pip install ipython` in a terminal on the Nexus (with your environment activated) and try again.
+
+> Note. If you are using AI agents in your workflow, ensure you have selected one with notebook editing capabilities. E.g. Claude Sonnet with Github Copilot
 
 <!-- This is currently not working
 

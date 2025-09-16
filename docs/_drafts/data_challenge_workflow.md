@@ -22,8 +22,8 @@ sidebar:
   </a>
   
   <!-- Download button with JavaScript -->
-  <a href="#" 
-     onclick="downloadNotebook('https://github.com/rges-pit/data-challenge-notebooks/raw/main/nexus_microlensing_data_challenge_workflow.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb')"
+  <a href="javascript:void(0)" 
+     onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/nexus_microlensing_data_challenge_workflow.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb'); return false;"
      style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
     <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
       <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
@@ -35,15 +35,23 @@ sidebar:
 
 <script>
 function downloadNotebook(url, filename) {
-  fetch(url)
-    .then(response => response.blob())
+  fetch(url, { mode: 'cors', redirect: 'follow' })
+    .then(response => {
+      if (!response.ok) throw new Error('Download failed: ' + response.status);
+      return response.blob();
+    })
     .then(blob => {
       const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
+      const objectUrl = URL.createObjectURL(blob);
+      link.href = objectUrl;
       link.download = filename;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+      setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+    })
+    .catch(() => {
+      window.open(url, '_blank', 'noopener');
     });
 }
 </script>

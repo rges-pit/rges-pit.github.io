@@ -7,9 +7,16 @@ description: "Roman Microlensing Data Challenge 2025 (RMDC25): overview, dataset
 ---
 
 <!-- Pre‑launch notice (replace with Sign Up button at launch) -->
-<div style="text-align: center; margin: 1.5em 0; padding: 12px 16px; border-radius: 6px; background: #f6f6f7; border: 1px solid #e2e2e2; display: inline-block;">
-  <strong>RMDC25 is coming December 2025</strong><br>
-  Sign‑up is not yet open. Join us at AAS 247 for the kick‑off workshop and check back here for updates.
+<div style="display: flex; justify-content: center; gap: 10px; margin: 1em 0; align-items: center; flex-wrap: wrap;">
+  <div style="text-align: center; margin: 1.5em 0; padding: 12px 16px; border-radius: 6px; background: #f6f6f7; border: 1px solid #e2e2e2; display: inline-block;">
+    <strong>RMDC25 is coming December 2025</strong><br>
+    Sign‑up is not yet open. Join us at AAS 247 for the kick‑off workshop and check back here for updates.
+  </div>
+  <!-- Registration button -->
+  <div style="text-align: center; margin: 2em 0;">
+    <a href="https://aas.org/meetings/aas247/registration" target="_blank" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Workshop Sign Up</a>
+    <div style="margin-top: 0.5em; color: #555;">AAS 247 registration and workshop sign up - now open</div>
+  </div>
 </div>
 
 RMDC25 is a community challenge to model simulated Roman microlensing data ahead of the mission’s Galactic Bulge Time Domain Survey. The goal is to broaden participation, standardize best practices, and spur innovation in microlensing modeling and tooling.
@@ -32,7 +39,7 @@ Our official launch will be during AAS 247, where we will host a [workshop]({{ s
 | Milestone | Date |
 | :- | -: |
 | Challenge sign-up opens | early December 2025 |
-| Kick-off workshop at AAS 247 | January 3 or 4, 2026 |
+| Kick-off workshop at AAS 247 | January 4, 2026 |
 | Submission deadline | April 2026 |
 | Evaluation begins | May 2026 |
 | Evaluation panel discussions | July 2026 |
@@ -42,8 +49,8 @@ Our official launch will be during AAS 247, where we will host a [workshop]({{ s
 
 - [Data]({{ site.url }}{{ site.baseurl }}/data-challenge/data/)
 - [Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/1-nexus/)
-- [AAS 247 Workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/)
-- [Sign up]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/) (*sign‑up is not currently open*).
+- [AAS 247 Workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) (*workshop sign-up is now open*)
+- [Sign up]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/) (*RMDC25 sign‑up is not currently open*)
 - [Help form]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)
 
 ## Challenge Overview
@@ -94,7 +101,7 @@ You can find a copy of the evaluation rubric [here](https://rges-pit.org/data-ch
 
 ## Microlensing Resources and References
 
-* [AAS 247 RMDC2025 workshop content]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) specifically related to this Data Challenge (**not yet released**).
+* [AAS 247 RMDC2025 workshop content]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) specifically related to this Data Challenge (*not yet released*).
 * [RGES-PIT resources page]({{ site.url }}{{ site.baseurl }}/resources/) for other helpful resources and RGES-PIT/Roman-specific information.  
 * [RGES-PIT tools page]({{ site.url }}{{ site.baseurl }}/tools/) for links to open-source microlensing tools.  
 * [REU2025]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) introductory mini course.

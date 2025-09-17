@@ -6,11 +6,18 @@ sidebar:
 description: "Roman Microlensing Data Challenge 2025 (RMDC25): overview, datasets, ground rules, key dates, submission tooling, and AAS 247 workshop details."
 ---
 
-<!-- Sign up button (enable this when RMDC25 launches) -->
-<div style="text-align: center; margin: 2em 0;">
-  <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Sign Up for RMDC25</a>
-  <div style="margin-top: 0.5em; color: #555;">Now open — join the challenge</div>
+<div style="display: flex; justify-content: center; gap: 10px; margin: 1em 0; align-items: center; flex-wrap: wrap;">
+  <!-- Sign up button (enable this when RMDC25 launches) -->
+  <div style="text-align: center; margin: 2em 0;">
+    <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">RMDC25 Sign Up</a>
+    <div style="margin-top: 0.5em; color: #555;">Now open</div>
   </div>
+  <!-- Registration button -->
+  <div style="text-align: center; margin: 2em 0;">
+    <a href="https://aas.org/meetings/aas247/registration" target="_blank" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Workshop Sign Up</a>
+    <div style="margin-top: 0.5em; color: #555;">Now open</div>
+  </div>
+</div>
 
 RMDC25 is a community challenge to model simulated Roman microlensing data ahead of the mission’s Galactic Bulge Time Domain Survey. The goal is to broaden participation, standardize best practices, and spur innovation in microlensing modeling and tooling.
 
@@ -30,7 +37,7 @@ Our official launch will be during AAS 247, where we will host a [workshop]({{ s
 | Milestone | Date |
 | :- | -: |
 | Challenge sign-up opens | early December 2025 |
-| Kick-off workshop at AAS 247 | January 3 or 4, 2026 |
+| Kick-off workshop at AAS 247 | January 4, 2026 |
 | Submission deadline | April 2026 |
 | Evaluation begins | May 2026 |
 | Evaluation panel discussions | July 2026 |
@@ -40,8 +47,8 @@ Our official launch will be during AAS 247, where we will host a [workshop]({{ s
 
 - [Data]({{ site.url }}{{ site.baseurl }}/data-challenge/data/)
 - [Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/1-nexus/)
-- [AAS 247 Workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/)
-- [Sign up]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/)
+- [AAS 247 Workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) (*workshop sign-up is now open*)
+- [Sign up]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/) (*RMDC25 sign‑up is now open*)
 - [Help form]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)
 
 ## Challenge Overview

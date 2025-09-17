@@ -115,3 +115,11 @@ workshop:
       url: /data-challenge/aas-workshop/notebooks/pipeline/
     - title: "Grid Search"
       url: /data-challenge/aas-workshop/notebooks/grid-search/
+
+  - title: Data Challenge
+    url: /data-challenge/
+    children:
+      - title: "Sign Up"
+        url: /data-challenge/sign-up/
+      - title: "Help"
+        url: /data-challenge/help/

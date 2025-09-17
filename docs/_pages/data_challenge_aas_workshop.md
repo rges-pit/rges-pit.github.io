@@ -6,7 +6,22 @@ sidebar:
 description: "AAS 247 workshop for RMDC25: requirements, agenda, Roman Research Nexus access, and session outlines."
 ---
 
-> | January 3 or 4, 2026 | 9 am – 5 pm | AAS 247 | Room TBD |
+> | January 4, 2026 | 9 am – 5 pm | AAS 247 | Room TBD |
+
+## Registration
+
+<!-- https://aas.org/meetings/aas247/registration -->
+<!-- Registration button -->
+<div style="text-align: center; margin: 2em 0;">
+  <a href="https://aas.org/meetings/aas247/registration" target="_blank" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Sign Up</a>
+  <div style="margin-top: 0.5em; color: #555;">Workshop/AAS 247 Registration</div>
+</div>
+
+You can register for this workshop when you register for the AAS 247 Meeting. Select "Roman Galactic Bulge Time Domain Survey Data Challenge" from the list of offered workshops.
+
+## Description
+
+The RMDC25 AAS Workshop is a hands-on, full-day session designed to get participants—from newcomers to seasoned microlensers—set up and productive with the Roman Research Nexus and the core open-source tools used in the Roman Microlensing Data Challenge. We’ll walk through Nexus access and environment setup, introduce essential microlensing concepts and modeling workflows, explore single- and binary-lens fitting (including grid searches and practical strategies for degeneracies and higher-order effects), and show how to organize, validate, and package results for submission using microlens-submit. Bring a laptop and a willingness to experiment; light Python experience is helpful but not required. The day closes with an information session and Q&A covering timelines, tiers, data access, evaluation, and how to get help throughout the challenge.
 
 ## Requirements
 
@@ -14,10 +29,6 @@ description: "AAS 247 workshop for RMDC25: requirements, agenda, Roman Research 
 * Ideally, some Python experience.
 * An intention to participate in the [Roman Microlensing Data Challenge 2025]({{ site.url }}{{ site.baseurl }}/data-challenge/) or be on an already signed-up team. You can sign up [here]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/).
 * Microlensing-specific knowledge or experience is **not** necessary.
-
-## How to Sign Up for the Workshop
-
-TBD
 
 ## Itinerary
 

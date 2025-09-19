@@ -59,7 +59,7 @@ In this session we will be covering:
     * Microlensing open source software
     * Accessing data and creating data challenge submissions
 * Installing packages and other technical help
-* Using the Nexus with VSCode or Colab
+* Using the Nexus with VSCode
 
 ### [2. Single Lenses and Pipelines]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/2-single-lenses/)
 

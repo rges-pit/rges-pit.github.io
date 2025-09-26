@@ -117,4 +117,4 @@ You can find a copy of the evaluation rubric [here](https://rges-pit.org/data-ch
 
 * [Contact us page]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)
 * Open an Issue on GitHub (see issues tab on the appropriate [`microlens-submit`](https://github.com/rges-pit/microlens-submit/issues){:target="_blank"} or [`data-challenge-notebooks`](https://github.com/rges-pit/data-challenge-notebooks/issues){:target="_blank"} repo.)
-* Message us on the [`#general`](https://rmdc2025.slack.com/archives/C096QG09P5F){:target="_blank"} channel on the RMDC2026 Slack workspace.
+* Message us on the [`#general`](https://rmdc2026.slack.com/archives/C096QG09P5F){:target="_blank"} channel on the RMDC2026 Slack workspace.

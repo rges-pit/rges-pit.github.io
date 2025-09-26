@@ -3,6 +3,7 @@ permalink: /outreach_mini_landing/
 title: "Microlensing Mini Course"
 sidebar:
   nav: "docs"
+description: "Microlensing Mini Course (2025) materials, recordings, examples, and assignments."
 ---
 
 The following pages contain the lecture materials, video recordings, examples, and assignments that were presented during the

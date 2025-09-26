@@ -3,6 +3,7 @@ permalink: /science/compact_obj/
 title: "Compact Objects"
 sidebar:
   nav: "docs"
+description: "Roman science case: detection and characterization of compact objects via astrometric microlensing."
 ---
 
 <figure>

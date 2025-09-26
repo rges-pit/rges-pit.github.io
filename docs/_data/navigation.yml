@@ -28,8 +28,6 @@ docs:
   - title: About RGES
     url: /about/
     children:
-      - title: "Overview"
-        url: /about/
       - title: "Team"
         url: /about/team/
 #      - title: "Schedule"
@@ -69,8 +67,16 @@ docs:
         url: /outreach_mini_landing/
       - title: "REU 2025"
         url: /outreach_mini_REU2025/
-    #  - title: "Data Challenges"
-    #    url: /outreach/
+
+  - title: Data Challenge
+    url: /data-challenge/
+    children:
+      - title: "Sign Up"
+        url: /data-challenge/sign-up/
+      - title: "Help"
+        url: /data-challenge/help/
+      - title: "AAS Workshop"
+        url: /data-challenge/aas-workshop/
 
   - title: Resources
     url: /resources/
@@ -84,5 +90,36 @@ docs:
   - title: Submit
     url: /submit/
 
+workshop:
+  - title: "AAS Workshop Home"
+    url: /data-challenge/aas-workshop/
+    children:
+    - title: "1. Nexus"
+      url: /data-challenge/aas-workshop/1-nexus/
+    - title: "2. Single Lenses"
+      url: /data-challenge/aas-workshop/2-single-lenses/
+    - title: "3. Binary Lenses"
+      url: /data-challenge/aas-workshop/3-binary-lenses/
+    - title: "4. Info & Q&A"
+      url: /data-challenge/aas-workshop/4-info/
 
+  - title: "Notebooks"
+    children:
+    - title: "Workflow"
+      url: /data-challenge/aas-workshop/notebooks/workflow/
+    - title: "Microlensing Tools"
+      url: /data-challenge/aas-workshop/notebooks/microlensing_tools/
+    - title: "Submission CLI Tutorial"
+      url: /data-challenge/aas-workshop/notebooks/submission-tutorial/
+    - title: "Single Lens Pipeline"
+      url: /data-challenge/aas-workshop/notebooks/pipeline/
+    - title: "Grid Search"
+      url: /data-challenge/aas-workshop/notebooks/grid-search/
 
+  - title: Data Challenge
+    url: /data-challenge/
+    children:
+      - title: "Sign Up"
+        url: /data-challenge/sign-up/
+      - title: "Help"
+        url: /data-challenge/help/

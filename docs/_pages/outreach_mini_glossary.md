@@ -3,6 +3,7 @@ permalink: /outreach_mini_glossary/
 title: "Microlensing Mini Course Glossary"
 sidebar:
   nav: "docs"
+description: "Glossary of microlensing terms from the Microlensing Mini Course."
 ---
 
 Microlensing has quite a lot of parameters! This glossary is intended to disambiguate the different 

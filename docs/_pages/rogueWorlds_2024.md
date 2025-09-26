@@ -3,6 +3,7 @@ permalink: /rogueworlds_2024/
 title: "Rogue Worlds 2024 Workshop"
 sidebar:
   nav: "docs"
+description: "Rogue Worlds 2024 workshop summary, photos, and resources."
 ---
 **11th-14th December, 2024**
 

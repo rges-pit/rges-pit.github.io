@@ -3,6 +3,7 @@ permalink: /science/transits/
 title: "Transiting Planets"
 sidebar:
   nav: "docs"
+description: "Roman science case: transiting exoplanets discovered in the Galactic Bulge Time Domain Survey."
 ---
 
 <figure class="full">

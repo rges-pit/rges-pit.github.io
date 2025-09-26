@@ -3,6 +3,7 @@ permalink: /rgespit_2024/
 title: "RGES PIT Annual Meeting"
 sidebar:
   nav: "docs"
+description: "RGES-PIT Annual Meeting 2024 overview and highlights."
 ---
 **28th-31st October, 2024**
 

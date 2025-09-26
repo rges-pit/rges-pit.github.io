@@ -3,6 +3,7 @@ permalink: /science/ulens_planets/
 title: "Bound Microlensing Planets"
 sidebar:
   nav: "docs"
+description: "Roman science case: bound microlensing planets beyond the snow line."
 ---
 
 <figure class="full">

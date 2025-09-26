@@ -3,6 +3,7 @@ permalink: /outreach_mini_ch3_video/
 title: "Chapter 3 Recording"
 sidebar:
   nav: "docs"
+description: "Microlensing Mini Course — Chapter 3 recording."
 ---
 
 <iframe width="660" height="371" 

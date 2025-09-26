@@ -17,7 +17,7 @@ landing page [here]({{ site.url }}{{site.baseurl }}/outreach_mini_landing/).
 
 ### [Data Challenge]({{ site.url }}{{site.baseurl }}/data-challenge/)
 
-The RGES-PIT will host a microlensing Data Challenge starting in Winter 2025. Check back here for updates!
+The RGES-PIT will host a microlensing Data Challenge starting in late 2025/early 2026. Check back here for updates!
 
 ### Citizen Science
 

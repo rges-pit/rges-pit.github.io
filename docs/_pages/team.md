@@ -51,6 +51,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Dex Bhadra | UMD|
 | Aparna Bhattacharya | UMD|
 | Chris Brandon | OSU|
+| Sebastiano Calchi Novati | IPAC|
 | Kylee Carden | OSU|
 | Sean Carey | IPAC|
 | Jessie Christiansen | NExScI|
@@ -71,8 +72,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Arjun Murlidhar | OSU| 
 | Casey Lam | Canegie Obs.| 
 | Jessica Lu | UC Berkeley| 
-| David Nataf | U. Iowa|
-| Sebastiano Calchi Novati | IPAC| 
+| David Nataf | U. Iowa| 
 | Greg Olmschenk | UMD| 
 | Matthew Penny | LSU|
 | Jennifer Sobeck | IPAC| 

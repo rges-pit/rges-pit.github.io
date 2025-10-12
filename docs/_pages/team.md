@@ -65,7 +65,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Stela Ishitani Silva | NASA/GSFC| 
 | Sinclaire Jones | OSU| 
 | Victor Karkour | OSU|
-| Somayeh Khakpash | U. Delaware| 
+| Somayeh Khakpash | Lehigh U.| 
 | Katarzyna Kruszyńska | LCO| 
 | Amber Malpas | OSU| 
 | Carissma McGee | MIT| 
@@ -84,7 +84,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Himanshu Verma | LSU|
 | Jennifer Yee | CfA| 
 | Weicheng Zang | CfA|
-| Keming Zhang | UCSD|
+| Keming Zhang | MIT|
 | Farzaneh Zohrabi | LSU|
 
 &nbsp;  

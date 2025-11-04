@@ -15,6 +15,9 @@ excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES 
 
  <span style="color:red">New Paper Alert:</span> 
  -->
+
+ <span style="color:red">**News Alert: RGES PIT is hosting a Microlensing Data Challenge for 2026, find more details on our [Data Challenge Page]({{ site.url }}{{site.baseurl }}/data-challenge).    
+                            If interested please complete the form [here](https://docs.google.com/forms/d/e/1FAIpQLScgLGAG9o49wW8_76o323SeLSMDOiAw2UPqPgej1mgUTDvmKQ/viewform?usp=header){:target="_blank"}**</span>
   
 &nbsp;  
 

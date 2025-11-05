@@ -22,17 +22,20 @@ Klüter & Huston, et al. 2025
 6. [An Alternate Method for Minimizing χ<sup>2</sup>](https://iopscience.iop.org/article/10.1088/1538-3873/adcb6c/meta){:target="_blank"},
 Yee & Gould 2025
 
-7. [Investigating the 1L2S Degeneracy for Wide-Orbit Planets](https://arxiv.org/abs/2503.11768){:target="_blank"},
+7. [Investigating the Binary Source Degeneracy for Wide-orbit Planets](https://iopscience.iop.org/article/10.3847/1538-3881/adeb76){:target="_blank"},
 Sangtarash & Yee 2025
 
-8. [Microlensing Constraints on the Stellar and Planetary Mass Functions](https://arxiv.org/abs/2503.11597){:target="_blank"},
+8. [Microlensing Constraints on the Stellar and Planetary Mass Functions](https://iopscience.iop.org/article/10.3847/1538-3881/adeb84){:target="_blank"},
 Yee & Kenyon 2025
 
 9. [A planet-host ratio relation to synthesize microlensing and transiting exoplanet demography from Roman](https://arxiv.org/abs/2506.24004v1){:target="_blank"},
 Edmondson & Kerins 2025
 
-10. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. III. Detectability of Giant Exomoons of Wide Separation Giant Planets](https://arxiv.org/abs/2509.03492){:target="_blank"},
+10. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. III. Detectability of Giant Exomoons of Wide Separation Giant Planets](https://iopscience.iop.org/article/10.3847/1538-3881/ae0196/meta){:target="_blank"},
 Lastovka, Gaudi, Johnson et al. 2025
+
+11. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. IV. Lens Mass and Distance Measurements](https://arxiv.org/abs/2510.13974){:target="_blank"},
+Terry, Bachelet, Zohrabi et al. 2025
 
 --------------------------
 

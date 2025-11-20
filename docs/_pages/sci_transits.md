@@ -19,7 +19,7 @@ description: "Roman science case: transiting exoplanets discovered in the Galact
 Monitoring of over 100 million stars with exquisite photometric precision will enable RGES to potentially discover 
 between 60,000 and 200,000 transiting exoplanets. Most of these planets will be giants on close-in orbits, but Roman should
 also discover approximately 10,000 planets with small radii (< 4R_earth). A comprehensive, pixel-level simulation study was
-conducted by [Wislon et al. 2023](https://iopscience.iop.org/article/10.3847/1538-4365/acf3df/meta){:target="_blank"} to estimate the predicted yield of transiting planets by Roman, assuming recent survey designs
+conducted by [Wilson et al. 2023](https://iopscience.iop.org/article/10.3847/1538-4365/acf3df/meta){:target="_blank"} to estimate the predicted yield of transiting planets by Roman, assuming recent survey designs
 and occurrence rates for transiting planets.
 
 <figure>

@@ -24,7 +24,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | WG #2: Education, Outreach, and Community | K. Stassun |
 | WG #3: Event Modeling | D. Bennett, V. Bozza |
 | WG #4: Lens Flux Analysis | A. Bhattacharya |
-| WG #5: Event and Anomaly Detection | W. Zang |
+| WG #5: Event and Anomaly Detection | S. Ishitani Silva |
 | WG #6: Variable Stars | A. Stephan, R. Street |
 | WG #7: Survey Simulations and Pipeline Validation | M. Penny |
 | WG #8: Contemporaneous and Precursor Observations | C. Beichman, S. Terry |

@@ -5,6 +5,7 @@ sidebar:
   nav: "workshop"
 description: "AAS 247 workshop for RMDC25: requirements, agenda, Roman Research Nexus access, and session outlines."
 ---
+<!-- END PREAMBLE -->
 
 > | January 4, 2026 | 9 am – 5 pm | AAS 247 | Room TBD |
 
@@ -47,9 +48,12 @@ The RMDC25 AAS Workshop is a hands-on, full-day session designed to get particip
 
 ## Session Outlines
 
-### [1. Introduction to the Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/1-nexus/)
+### [A. Introduction to the Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/1-nexus/)
 
-For discussion, information, troubleshooting, and updates about the Nexus, see the `#nexus` channel and the channel canvas.
+<!-- BEGIN SESSION A OVERVIEW -->
+
+In this session you will learn how to access the Nexus, create Nexus accounts, activate kernels, install packages, acess data, create your submission and get other technical help.
+
 In this session we will be covering:
 
 * Creating Nexus accounts
@@ -61,22 +65,32 @@ In this session we will be covering:
 * Installing packages and other technical help
 * Using the Nexus with VSCode
 
+For discussion, information, troubleshooting, and updates about the Nexus, see the `#nexus` channel and the channel canvas.
+
+<!-- END SESSION A OVERVIEW -->
+
 ### [2. Single Lenses and Pipelines]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/2-single-lenses/)
+
+<!-- BEGIN SESSION B OVERVIEW -->
 
 In this session, we will learn about basic microlensing parameterization and terminology and test that knowledge on a mini modeling Data Challenge.
 Topics covered:
 
-* An introduction to microlensing
-* Helpful microlensing resources
-* Alternate data access, for those not using the Nexus
+* An introduction to microlensing: [part 1]({{ site.url }}{{ site.baseurl }}/_pages/outreach_mini_chapter1.html), [part 2]({{ site.url }}{{ site.baseurl }}/outreach_mini_chapter2.html)
+* [Helpful microlensing resources]({{ site.url }}{{ site.baseurl }}/resources/) 
+    including [alternate data access for those not using the Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/data/)
 * Hack-session where we will learn about:
     * Single lens fitting
     * Priors
     * Parallelization
     * L2 observer
-    * Anomaly finding
+    * Anomaly finding 
+
+<!-- END SESSION B OVERVIEW -->
 
 ### [3. Binary Lenses]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/3-binary-lenses/)
+
+<!-- BEGIN SESSION C OVERVIEW -->
 
 We will begin this session with a more complicated binary-lens model and exercises to demonstrate the challenges of binary-lens fitting and common approaches to addressing them. We will fit that same event using three different methods:
 
@@ -86,18 +100,29 @@ We will begin this session with a more complicated binary-lens model and exercis
 
 Some of these methods are computationally expensive, so we will parallelize our efforts and discuss common challenges in microlensing binary-lens modeling, e.g., degeneracies, stochastic likelihood space, and higher-order effects.
 
+<!-- END SESSION C OVERVIEW -->
+
 ### [4. Information Session and Q&A]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/4-info/)
 
+<!-- BEGIN SESSION D OVERVIEW -->
+
 Ask the demonstrators anything you would like to know about microlensing and/or the Data Challenge.
+
 They will also provide details on:
 
-* The RGES-PIT website
-* The Slack channel
-* Sign-up
-* Tiers
-* Data insights
-* Submission rules and guidelines
-* Evaluation process and rubric
+* [The RGES-PIT website](https://rges-pit.github.io/) - come here for resources, important links, data challenge info, AAS Workshop content, sign-up, and annonymous help submissions.
+* [The Slack channel](https://rmdc2026.slack.com){:target="_blank"}
+    - canvases with everything you need to know (or where to find it) to participate in the Data Challenge
+    - General assistance
+    - Private team channels
+    - Nancy the AI Slackbot with microlensing RAG
+* [Sign-up](https://rges-pit.github.io/data-challenge/sign-up)
+* [Tiers](https://rges-pit.github.io/data-challenge/#challenge-tiers)
+* [Data insights](https://rges-pit.github.io/data-challenge/data)
+* [Submission rules and guidelines](https://rges-pit.github.io/data-challenge/#ground-rules)
+* [Evaluation process and rubric](https://docs.google.com/spreadsheets/d/1ymVG75DV3CWnTdrn9Tk4VU-4AUrE4NwwT8IpY5RIu2c/edit?usp=sharing){:target="_blank"}
 * Publication plans
-* Important dates
-* Contact
+* [Important dates](https://rges-pit.github.io/data-challenge/#)
+* [Contact](https://rges-pit.github.io/data-challenge/help)
+
+<!-- END SESSION D OVERVIEW -->

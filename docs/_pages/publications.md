@@ -37,6 +37,9 @@ Lastovka, Gaudi, Johnson et al. 2025
 11. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. IV. Lens Mass and Distance Measurements](https://arxiv.org/abs/2510.13974){:target="_blank"},
 Terry, Bachelet, Zohrabi et al. 2025
 
+12. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. V. Detection Rates of Multiplanetary Systems in High Magnification Microlensing Events](https://arxiv.org/abs/2512.05182v1){:target="_blank"},
+Saggese, Bachelet, Calchi Novati et al. 2025
+
 --------------------------
 
 # White Papers

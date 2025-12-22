@@ -92,7 +92,7 @@ Topics covered:
 
 <!-- BEGIN SESSION C OVERVIEW -->
 
-We will begin this session with a more complicated binary-lens model and exercises to demonstrate the challenges of binary-lens fitting and common approaches to addressing them. We will fit that same event using three different methods:
+We will use this session to explore a more complicated, binary-lens model and exercises to demonstrate the challenges of binary-lens fitting and common approaches to addressing them. We will fit that same event using three different methods:
 
 1. Start a fit from an uninformed guess
 2. Start with a grid search 

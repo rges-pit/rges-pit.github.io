@@ -94,13 +94,13 @@ workshop:
   - title: "AAS Workshop Home"
     url: /data-challenge/aas-workshop/
     children:
-    - title: "1. Nexus"
+    - title: "A. Nexus"
       url: /data-challenge/aas-workshop/1-nexus/
-    - title: "2. Single Lenses"
+    - title: "B. Single Lenses"
       url: /data-challenge/aas-workshop/2-single-lenses/
-    - title: "3. Binary Lenses"
+    - title: "C. Binary Lenses"
       url: /data-challenge/aas-workshop/3-binary-lenses/
-    - title: "4. Info & Q&A"
+    - title: "D. Info & Q&A"
       url: /data-challenge/aas-workshop/4-info/
 
   - title: "Notebooks"
@@ -113,8 +113,8 @@ workshop:
       url: /data-challenge/aas-workshop/notebooks/submission-tutorial/
     - title: "Single Lens Pipeline"
       url: /data-challenge/aas-workshop/notebooks/pipeline/
-    - title: "Grid Search"
-      url: /data-challenge/aas-workshop/notebooks/grid-search/
+    - title: "Binary Lenses"
+      url: /data-challenge/aas-workshop/notebooks/binary/
 
   - title: Data Challenge
     url: /data-challenge/

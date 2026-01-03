@@ -9,11 +9,42 @@ sidebar:
 <!-- BEGIN WEB CONTENT -->
 ## Introduction to Microlensing
 
-If you attend the AAS Workshop for the RMDC26 then this introduction will be given in person by Dr. Scott Gaudi. If you are not in person for the workshop, you can still follow along with the slides or see the recording on our [minicourses page]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) for more lecture-style content.
+If you attend the AAS Workshop for the RMDC26 then this introduction will be given in person by Dr. Scott Gaudi. If you are not in person for the workshop, you can still follow along with the slides or see the recordings on our [minicourses page]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) for more lecture-style content.
 
-> Note. The slides for this section have not yet been added here. Please refer back later.
+### Introductory Slides (Presented by Dr B Scott Gaudi)
 
-[//]: # (Scott will give a presentation. We will embed the slides before the January workshop commences.)
+<!-- View and Download buttons -->
+<div style="display: flex; gap: 10px; margin: 1em 0; align-items: center; flex-wrap: wrap;">
+  <!-- View button -->
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/docs/intro_microlensing.pdf#page=1&zoom=page-width" target="_blank" rel="noopener" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8.636 3.5a.5.5 0 0 0-.5-.5h-1.5a.5.5 0 0 0 0 1h.793L3.146 8.293a.5.5 0 1 0 .708.708L8 4.707V5.5a.5.5 0 0 0 1 0v-2z"/>
+      <path d="M14 13.5V6a2 2 0 0 0-2-2h-1.5a.5.5 0 0 0 0 1H12a1 1 0 0 1 1 1v7.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.5a.5.5 0 0 0 0-1H4a2 2 0 0 0-2 2v7.5a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"/>
+    </svg>
+    View
+  </a>
+
+  <!-- Download button -->
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/docs/intro_microlensing.pdf" download="intro_microlensing.pdf" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+    </svg>
+    Download
+  </a>
+</div>
+
+<!-- 16:9 embedded PDF viewer -->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 1px solid #ddd; border-radius: 4px;">
+  <iframe
+    src="{{ site.url }}{{ site.baseurl }}/assets/docs/intro_microlensing.pdf#page=1&zoom=page-width"
+    title="Introduction to Microlensing slides (PDF)"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    loading="lazy">
+  </iframe>
+</div>
+
+If the embed doesn’t load, open the PDF in a new tab: <a href="{{ site.url }}{{ site.baseurl }}/assets/docs/intro_microlensing.pdf#page=1&zoom=page-width" target="_blank" rel="noopener">intro_microlensing.pdf</a>.
 
 ## Mini Data Challenge/Hack Session
 

@@ -15,24 +15,6 @@ If you attend the AAS Workshop for the RMDC26 then this introduction will be giv
 
 [//]: # (Scott will give a presentation. We will embed the slides before the January workshop commences.)
 
-## Additional Resources
-
-### Data Challenge
-- [Session D resources]({{ site.url }}{{ site.baseurl }}/data-challenge/)
-- [Slack](https://rmdc2026.slack.com){:target="_blank"}
-- [microlens-submit docs](https://microlens-submit.readthedocs.io/en/latest/){:target="_blank"} — workflow for packaging and validating challenge submissions.
-- [Roman Research Nexus](https://roman.ipac.caltech.edu/nexus){:target="_blank"} — information about kernels, data access, and team spaces.
-
-### Alternate Data Access
-- [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
-
-### General Microlensing
-- [RGES-PIT resource list]({{ site.url }}{{ site.baseurl }}/resources/)
-
-### Microlensing Tools
-- [Tool examples notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/microlensing_tools/)
-- [List of open-source tools]({{ site.url }}{{ site.baseurl }}/tools/)
-
 ## Mini Data Challenge/Hack Session
 
 For the remainder of the session we will be following along with this [notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/pipeline/):
@@ -128,6 +110,24 @@ You might also consider browsing through this notebook at some point:
     Open
   </a>
 </div>
+
+## Additional Resources
+
+### Data Challenge
+- [Session D resources]({{ site.url }}{{ site.baseurl }}/data-challenge/)
+- [Slack](https://rmdc2026.slack.com){:target="_blank"}
+- [microlens-submit docs](https://microlens-submit.readthedocs.io/en/latest/){:target="_blank"} — workflow for packaging and validating challenge submissions.
+- [Roman Research Nexus](https://roman.ipac.caltech.edu/nexus){:target="_blank"} — information about kernels, data access, and team spaces.
+
+### Alternate Data Access
+- [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
+
+### General Microlensing
+- [RGES-PIT resource list]({{ site.url }}{{ site.baseurl }}/resources/)
+
+### Microlensing Tools
+- [Tool examples notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/microlensing_tools/)
+- [List of open-source tools]({{ site.url }}{{ site.baseurl }}/tools/)
 
 <!-- END WEB CONTENT -->
 <!-- COPY TO: "bin/data_challenge_single_lenses_and_piepelines.md" -->

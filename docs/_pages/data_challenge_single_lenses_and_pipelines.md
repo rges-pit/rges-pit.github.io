@@ -9,9 +9,9 @@ sidebar:
 <!-- BEGIN WEB CONTENT -->
 ## Introduction to Microlensing
 
-If you attend the AAS Workshop for the RMDC26 then this introduction will be given in person by Dr. Scott Gaudi. If you are not in person for the workshop, you can still follow along with the slides or see the recordings on our [minicourses page]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) for more lecture-style content.
+If you attend the AAS Workshop for the RMDC26, this introduction will be given in person by Dr. Scott Gaudi. If you are not attending in person, you can still follow along with the slides or watch the recordings on our [minicourses page]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) for more lecture-style content.
 
-### Introductory Slides (Presented by Dr B Scott Gaudi)
+### Introductory Slides (Presented by Dr. B. Scott Gaudi)
 
 <!-- View and Download buttons -->
 <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center; flex-wrap: wrap;">

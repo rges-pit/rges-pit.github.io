@@ -148,7 +148,7 @@ There is robust documentation on creating environments on the Nexus, in `softwar
 **TL;DR**
 Environments are created, listed, activated, exported, and removed using:
 
-```
+```bash
 # Create
 kernel-create <environment-name> [<python-version>] [<lab-display-name>]
 
@@ -165,7 +165,23 @@ kernel-export <environment-name> <output-file-name.yaml>
 kernel-delete <environment-name>
 ```
 
-These environments persist between sessions.
+These environments persist between sessions, whereas a conda environment may not. Alternatively, <python-version> may be replaced with a path to a YAML file, for conda-like environment creation. Using the provided YAML for this workshop, you can create a kernel with all the packages you need for running workshop notebook content:
+
+```bash
+kernel-create rges-pit-dc env.yml "rges-pit-dc"  # This may take a while to solve the environment and download and install the packages. We will have an image available in the future to avoid this tedious process.
+```
+
+You can download the YAML [here](https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/refs/heads/main/env.yml) or clone the [data-challenge-notebooks](https://github.com/rges-pit/data-challenge-notebooks.git) repo, which includes the YAML and all the RGES-PIT-provided assistive notebooks to help you with this challenge:
+
+```bash
+cd ~ # changes to the landing directory on the Nexus do not persist between updates
+git clone https://github.com/rges-pit/data-challenge-notebooks.git
+cd data-challenge-notebooks
+kernel-create rges-pit-dc env.yml "rges-pit-dc"
+```
+
+For further instructions on Nexus setup and usage, see this [STScI page](https://roman-docs.stsci.edu/data-handbook/roman-research-nexus) or any of the helpful documentation pages in the landing directory on the Nexus. This content can also be found in the [`roman_notebooks` repo](https://github.com/spacetelescope/roman_notebooks) when you are not on the Nexus.
+
 
 ## Using the Nexus with local tools
 
@@ -265,7 +281,7 @@ Here's the step-by-step guide to using the Nexus with Colab.
 
 ## Microlensing Data Challenge Tools
 
-The **RGES-PIT Microlensing Data Challenge** uses the `microlens-submit` toolkit - a stateful submission tool that provides version-controlled workflow for managing, validating, and packaging your challenge submissions. The general recommended challenge workflow and modeling guides are the contents of  
+The **RGES-PIT Microlensing Data Challenge** uses the `microlens-submit` toolkit—a stateful submission tool that provides a version-controlled workflow for managing, validating, and packaging your challenge submissions.
 
 The official challenge repositories and documentation are hosted at:
 
@@ -299,7 +315,7 @@ In the notebook directory (`notebooks/microlensing-data-challenge/`) you will fi
 
 ### Using the Environment Files
 
-You should not need to use the provided environment file; you only need to select the rges-pit-kernel in the Nexus hosted notebook. Should you wish to use them anyway, you can refer to this readme [`README.md`](https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS_Workshop/README.md) for instructions on how.
+You should not need to use the provided environment file; you only need to select the appropriate kernel in the Nexus-hosted notebook. If you wish to use these files anyway, refer to this README: [`AAS Workshop/README.md`](https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/README.md).
 
 # Nexus Specific Notebooks
 

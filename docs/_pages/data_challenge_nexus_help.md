@@ -148,7 +148,7 @@ There is robust documentation on creating environments on the Nexus, in `softwar
 **TL;DR**
 Environments are created, listed, activated, exported, and removed using:
 
-```
+```bash
 # Create
 kernel-create <environment-name> [<python-version>] [<lab-display-name>]
 
@@ -165,7 +165,22 @@ kernel-export <environment-name> <output-file-name.yaml>
 kernel-delete <environment-name>
 ```
 
-These environments persist between sessions.
+These environments persist between sessions while a conda environment may not. Alternatively, <python-version> may be replaced with a path to a YAML file, for conda-like environment creation. Using the provided yaml for this workshop, you can create a kernel with all the package you need for running workshop notebook content:
+
+```bash
+kernel-create rges-pit-dc env.yml "rges-pit-dc"  # This may take a while to solve the environment, download and install the packages. We will have an image available in the future to avoid this tedious process. 
+```
+
+You can download the yaml [here](https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/refs/heads/main/env.yml) or clone the [data-challenge-notebooks](https://github.com/rges-pit/data-challenge-notebooks.git) repo, with the yaml and all the rges-pit provided assistive notebooks to help you with this challenge:
+
+```bash
+cd ~ # changes to the landing directory on the Nexus do not persist between updates
+git clone https://github.com/rges-pit/data-challenge-notebooks.git
+cd data-challenge-notebooks
+kernel-create rges-pit-dc env.yml "rges-pit-dc"
+```
+
+For further instruction on Nexus setup and usage, see tihs [STSci page](https://roman-docs.stsci.edu/data-handbook/roman-research-nexus) or any of the helpful documentation pages in the landing directory on the Nexus. This content can also be found in the [`roman-notebooks` repo](https://github.com/spacetelescope/roman_notebooks), when you are not on the Nexus.
 
 ## Using the Nexus with local tools
 

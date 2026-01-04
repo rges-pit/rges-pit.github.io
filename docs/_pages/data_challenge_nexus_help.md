@@ -182,7 +182,6 @@ kernel-create rges-pit-dc env.yml "rges-pit-dc"
 
 For further instructions on Nexus setup and usage, see this [STScI page](https://roman-docs.stsci.edu/data-handbook/roman-research-nexus) or any of the helpful documentation pages in the landing directory on the Nexus. This content can also be found in the [`roman_notebooks` repo](https://github.com/spacetelescope/roman_notebooks) when you are not on the Nexus.
 
-
 ## Using the Nexus with local tools
 
 ### VS Code (or Cursor)

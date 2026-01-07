@@ -9,10 +9,10 @@ description: "Upcoming and past RGES-PIT meetings and related microlensing confe
 ### [28th International Microlensing Conference](https://microlensing2026.de/){:target="_blank"}
 The 28th International Conference on Microlensing will be held in Heidelberg Germany on February 23-27, 2026. Registration and abstract submission for the conference is currently open.
 
-### [Rogue Worlds 2025](https://indico.iap.fr/event/47/overview){:target="_blank"}
-The 2025 Rogue Worlds Meeting will be held in Paris France on December 15-17, 2025. Registration for the conference has now closed.
-
 ## Previous Meetings
+
+### [Rogue Worlds 2025](https://indico.iap.fr/event/47/overview){:target="_blank"}
+The 2025 Rogue Worlds Meeting was held in Paris France on December 15-17, 2025.
 
 ### [RGES PIT 2025]({{ site.url }}{{site.baseurl }}/rgespit_2025/)
 The 2025 RGES PIT annual meeting was held at the Ohio State University on October 15-17, 2025. The meeting included a joint session with the Transiting planets in the Roman Galactic Exoplanet Survey 

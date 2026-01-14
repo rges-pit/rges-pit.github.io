@@ -52,7 +52,7 @@ The RMDC25 AAS Workshop is a hands-on, full-day session designed to get particip
 
 <!-- BEGIN SESSION A OVERVIEW -->
 
-In this session you will learn how to access the Nexus, create Nexus accounts, activate kernels, install packages, access data, create your submission and get other technical help.
+In this session, you will learn how to access the Nexus, create Nexus accounts, activate kernels, install packages, access data, create your submission, and get other technical help.
 
 In this session we will be covering:
 

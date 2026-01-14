@@ -8,7 +8,7 @@ sidebar:
 
 <!-- BEGIN WEB CONTENT -->
 
-This session will follow along with this [notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/binary/) on binary lens modeling:
+This session will follow along with this [notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/binary/) on binary-lens modeling:
 
 <!-- Download and Github buttons -->
 <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center; flex-wrap: wrap;">

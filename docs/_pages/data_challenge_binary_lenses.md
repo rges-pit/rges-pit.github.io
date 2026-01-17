@@ -7,6 +7,7 @@ sidebar:
 <!-- END PREAMBLE -->
 
 <!-- BEGIN WEB CONTENT -->
+<!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-bnotebooks/blob/main/AAS%20Workshop/Session%20C%3A%20Binary%20Lens/ReadMe.md -->
 
 This session will follow along with this [notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/binary/) on binary-lens modeling:
 

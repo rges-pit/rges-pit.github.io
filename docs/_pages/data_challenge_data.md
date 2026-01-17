@@ -7,6 +7,7 @@ sidebar:
 <!-- END PREAMBLE -->
 
 <!-- BEGIN WEB CONTENT -->
+<!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-bnotebooks/blob/main/AAS%20Workshop/Session%20D%3A%20Data%20Challenge%20Q%26A/DATA.md -->
 
 The data created for the Roman Microlensing Data Challenge 2026 (RMDC2026) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey.
 

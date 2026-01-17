@@ -7,6 +7,7 @@ sidebar:
 <!-- END PREAMBLE -->
 
 <!-- BEGIN WEB CONTENT -->
+<!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-bnotebooks/blob/main/AAS%20Workshop/Session%20B%3A%20Single%20Lens%20%26%20Pipelines/ReadMe.md -->
 ## Introduction to Microlensing
 
 If you attend the AAS Workshop for the RMDC26, this introduction will be given in person by Dr. Scott Gaudi. If you are not attending in person, you can still follow along with the slides or watch the recordings on our [minicourses page]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) for more lecture-style content.

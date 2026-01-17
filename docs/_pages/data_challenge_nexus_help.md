@@ -7,6 +7,7 @@ sidebar:
 <!-- END PREAMBLE -->
 
 <!-- BEGIN WEB CONTENT -->
+<!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-bnotebooks/blob/main/AAS%20Workshop/Session%20A%3A%20Nexus/ReadMe.md -->
 
 <!-- Login, sign up, and help buttons -->
 <div style="text-align: center; margin: 2em 0; display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">

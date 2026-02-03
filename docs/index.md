@@ -12,16 +12,14 @@ excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES 
 &nbsp;  
 
 <!-- Put new paper alerts here:
-
- <span style="color:red">New Paper Alert:</span> 
- -->
-
  <span style="color:red">**News Alert: The Roman Cycle 1 call for proposals is now out!  The proposals are due on Tuesday, March 17, 2026 at 5:00 PM Pacific Daylight Time. 
                             For more information, read the public release [here](https://roman-docs.ipac.caltech.edu/roman-proposals-home/cycle-1-call-for-proposals){:target="_blank"}.**</span>
   &nbsp;
   &nbsp;
+ <span style="color:red">New Paper Alert:</span> 
+ -->
 
-<span style="color:red">**RGES PIT is hosting a Microlensing Data Challenge for 2026, find more details on our [Data Challenge Page]({{ site.url }}{{site.baseurl }}/data-challenge).    
+<span style="color:red">**News Alert: RGES PIT is hosting a Microlensing Data Challenge for 2026, find more details on our [Data Challenge Page]({{ site.url }}{{site.baseurl }}/data-challenge).    
                             The Data Challenge sign-up form can be found [here]({{ site.url }}{{site.baseurl }}/data-challenge/sign-up).**</span>
   
 &nbsp;  

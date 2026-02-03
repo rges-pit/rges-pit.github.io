@@ -6,6 +6,11 @@ description: "Upcoming and past RGES-PIT meetings and related microlensing confe
 
 ## Future Meetings
 
+### [2026 Sagan Summer Workshop: Exoplanets with Roman Surveys: Microlensing and Transits](https://nexsci.caltech.edu/workshop/2026/){:target="_blank"}
+The 2026 Sagan Summer Workshop will take place at Caltech/IPAC from July 20-24, 2026. This workshop will concentrate on exoplanet science from the Roman Galactic Bulge Time Domain Survey (GBTDS), 
+both transiting and microlensing science will be presented. The RGES PIT will have substantial representation at the meeting, with PIT membership leading discussions, presentations, 
+workshops, and more.
+
 ### [28th International Microlensing Conference](https://microlensing2026.de/){:target="_blank"}
 The 28th International Conference on Microlensing will be held in Heidelberg Germany on February 23-27, 2026. Registration and abstract submission for the conference is currently open.
 

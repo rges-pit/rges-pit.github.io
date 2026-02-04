@@ -24,8 +24,8 @@ a measurable astrometric deflection of the background source star (called astrom
 &nbsp;  
 Recently, the first ever isolated black hole was confirmed through a measurement of astrometric microlensing with high-resolution
 data from the Hubble Space Telescope ([Lam et al. 2022](https://iopscience.iop.org/article/10.3847/2041-8213/ac7442/meta){:target="_blank"},
-[Lam & Lu 2023](https://iopscience.iop.org/article/10.3847/1538-4357/aced4a/meta){:target="_blank"}
-[Sahu et al. 2022](https://iopscience.iop.org/article/10.3847/1538-4357/ac739e/meta){:target="_blank"}). The total astrometric
+[Sahu et al. 2022](https://iopscience.iop.org/article/10.3847/1538-4357/ac739e/meta){:target="_blank"},
+[Lam & Lu 2023](https://iopscience.iop.org/article/10.3847/1538-4357/aced4a/meta){:target="_blank"}). The total astrometric
 deflection measured was approximately 1 milliarcsecond. With the exquisite astrometric precision that Roman will deliver, 
 upwards of ~100 isolated compact objects including black holes are expected to be detected and characterized with GBTDS data.
 
@@ -33,10 +33,10 @@ upwards of ~100 isolated compact objects including black holes are expected to b
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/roman_bh_simulated.png">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/roman_bh_simulated.png">
     </a>
-    <figcaption>Caption: A simulated black hole microlensing event observed with the Roman F146W filter. The first three
+    <figcaption>Caption: A simulated black hole microlensing event observed with the Roman F146 filter. The first three
     seasons of the GBTDS capture the photometric microlensing signal (outer panel), while the astrometric signal changes across all six 
     seasons (inset panel) and is well characterized by an 8.5 solar-mass black hole lensing a background bulge star. 
-    The 72-second exposures are taken every ~15 minutes and are combined in 1-day bins (e.g. ~90 frames stacked each day).
+    The 67-second exposures are taken every ~12 minutes and are combined in 1-day bins (e.g. ~100 frames stacked each day).
     <br>
     Credit: S. Terry (UMD).</figcaption>
 </figure>

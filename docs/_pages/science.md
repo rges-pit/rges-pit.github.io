@@ -4,7 +4,7 @@ title: "RGES Key Science Cases"
 description: "RGES key science cases for the Roman Galactic Bulge Time Domain Survey (GBTDS)."
 ---
 
-The RGES will address three key science objectives:
+The RGES and GBTDS will address several science objectives:
 
 * **Microlensing Planets**: Completing the census of exoplanet systems in the Milky Way by discovering and characterizing
 cold planets orbiting beyond their host stars snow line.

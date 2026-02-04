@@ -33,7 +33,7 @@ on the [2018 Data Challenge](https://www.microlensing-source.org/data-challenge/
 All of the photometric data used in the 2018 Data Challenge is public, and can be downloaded from the
 [Github repository](https://github.com/microlensing-data-challenge/data-challenge-1){:target="_blank"}.
 
-## ## 2026 Data Challenge
+## 2026 Data Challenge
 
 The RGES PIT is currently holding a data challenge in 2026. Some of the objectives of this challenge are similar to 
 the 2018 challenge, however there is added emphasis on the realism and total data volume. The data challenge has two tiers; 

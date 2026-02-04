@@ -24,7 +24,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | WG #2: Education, Outreach, and Community | K. Stassun |
 | WG #3: Event Modeling | D. Bennett, V. Bozza |
 | WG #4: Lens Flux Analysis | A. Bhattacharya |
-| WG #5: Event and Anomaly Detection | S. Ishitani Silva |
+| WG #5: Event and Anomaly Detection |  |
 | WG #6: Variable Stars | A. Stephan, R. Street |
 | WG #7: Survey Simulations and Pipeline Validation | M. Penny |
 | WG #8: Contemporaneous and Precursor Observations | C. Beichman, S. Terry |
@@ -32,7 +32,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | WG #10: Microlensing Mini-Courses | A. Crisp, A. Malpas, K. Stassun, A. Stephan |
 | WG #11: Free Floating Planets | W. DeRocco |
 | WG #12: Efficiency and Occurrence Rate Analysis | J. Christiansen |
-| WG #13: Astrometry | C. Lam |
+| WG #13: Astrometry | Ca. Lam |
 | WG #14: Global Pipeline | G. Olmschenk |
 
 &nbsp;  
@@ -42,7 +42,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 
 | Natasha Abrams | UC Berkeley| 
 | Jay Anderson | STScI| 
-| Etienne Bachelet | IPAC|
+| Etienne Bachelet | UMLP Besançon|
 | Fatima Bagheri | NASA/GSFC|
 | Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
@@ -50,7 +50,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Galen Bergsten | STScI|
 | Dex Bhadra | UMD|
 | Aparna Bhattacharya | UMD|
-| Chris Brandon | OSU|
+| Christopher Brandon | OSU|
 | Sebastiano Calchi Novati | IPAC|
 | Kylee Carden | OSU|
 | Sean Carey | IPAC|
@@ -70,7 +70,8 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Amber Malpas | OSU| 
 | Carissma McGee | MIT| 
 | Arjun Murlidhar | OSU| 
-| Casey Lam | Canegie Obs.| 
+| Casey Lam | Canegie Obs.|
+| Christopher Lam | IPAC| 
 | Jessica Lu | UC Berkeley| 
 | David Nataf | U. Iowa| 
 | Greg Olmschenk | UMD| 
@@ -82,8 +83,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Sean Terry | UMD|
 | Aikaterini Vandorou | UMD|
 | Himanshu Verma | LSU|
-| Jennifer Yee | CfA| 
-| Weicheng Zang | CfA|
+| Jennifer Yee | CfA|
 | Keming Zhang | MIT|
 | Farzaneh Zohrabi | LSU|
 
@@ -93,13 +93,14 @@ description: "RGES-PIT team, leadership, and working group leads."
 # International Collaborators
 
 | Michael Albrow | U. Canterbury |
-| Makiko Ban | U. Warsaw |
+| Makiko Ban | |
 | Jean-Philippe Beaulieu | IAP |
 | Ian Bond | Massey U. |
 | Valerio Bozza | U. Salerno |
 | Eamonn Kerins | Manchester |
-| Shota Miyazaki | Osaka U. |
+| Shota Miyazaki | JAXA |
 | Przemek Mróz | U. Warsaw |
+| Kansuke Nunota | Osaka U. |
 | Radek Poleski | U. Warsaw |
 | Clément Ranc | IAP |
 | Nicholas Rattenbury | U. Auckland |
@@ -109,6 +110,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Erica Thygesen | U. Tasmania |
 | Meet Vyas | Ahmedabad U. |
 | Joachim Wambsganss | U. Heidelberg |
+| Weicheng Zang | Westlake U.|
 
 &nbsp;  
 &nbsp;  

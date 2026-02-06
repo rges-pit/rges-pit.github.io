@@ -42,7 +42,6 @@ description: "RGES-PIT team, leadership, and working group leads."
 
 | Natasha Abrams | UC Berkeley| 
 | Jay Anderson | STScI| 
-| Etienne Bachelet | UMLP Besançon|
 | Fatima Bagheri | NASA/GSFC|
 | Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
@@ -93,6 +92,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 # International Collaborators
 
 | Michael Albrow | U. Canterbury |
+| Etienne Bachelet | UMLP Besançon|
 | Makiko Ban | |
 | Jean-Philippe Beaulieu | IAP |
 | Ian Bond | Massey U. |

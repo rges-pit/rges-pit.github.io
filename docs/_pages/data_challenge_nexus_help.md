@@ -9,14 +9,19 @@ sidebar:
 <!-- BEGIN WEB CONTENT -->
 <!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/Session%20A%3A%20Nexus/ReadMe.md -->
 
+The Roman Research Nexus (aka “the Nexus”) is a JupyterHub service, provided by Space Telescope Science Institute (STScI), with public, shared compute resources, intended for Roman-related data analysis. The Nexus is a high-level processing environment for Roman science data that is in close network proximity to cloud data storage.
+
+Compute power is limited and use of resources expends tokens. Teams who are registered participants of the Roman Microlensing Data Challenge 2026 (RMDC26) or the Roman Galactic Exoplanet - Project Infrastructure Team (RGES-PIT) can chose the team they wish to open a server under and charge usage to. Please refrain from using Nexus resources for task unrelated to Roman data or your teams intended purpose.
+
+If you encounter difficulties or questions while using the nexus, please contact the STScI help desk (see the button below).
+
 <!-- Login, sign up, and help buttons -->
 <div style="text-align: center; margin: 2em 0; display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
   <a href="https://roman.science.stsci.edu/hub/" target="_blank" style="background-color: #4078c0; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Log In to Nexus</a>
   <a href="https://proper.stsci.edu/proper/authentication/auth" target="_blank" style="background-color: #4078c0; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Sign Up for MyST</a>
   <a href="https://stsci.service-now.com/roman" target="_blank" style="background-color: #4078c0; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Get Help</a>
 </div>
-
-The Roman Research Nexus (aka “the Nexus”) is a JupyterHub service with public, shared compute resources, intended for Roman-related data analysis.
+<!-- End buttons -->
 
 <!--
 Welcome to Roman Research Nexus
@@ -25,7 +30,6 @@ The Roman Research Nexus (RRN) is a JupyterHub instance provided by the Space Te
 
 Getting Started with RRN
 To use the Research Nexus, you need a MyST account. If you do not have a MyST account, go to the MyST account page, click on Create to request an account. Once you have your account, click the Launch button in the Registered Users panel to set properties and preferences for your account. You will then be able to “Sign in with MyST” below.
-
 
 Additional information
 Compute power is limited but comparable to a modern laptop. Four cores are available to enable multi-processing.
@@ -81,9 +85,11 @@ At this time, we cannot guarantee prompt responses to any support requests.
       </table>
     </div>
     
-    - Choose an image: e.g., `roman-17.1.1 (June 2025 patched)`.
+    - Choose an image: e.g., `RGES PIT Nexus`.
 
 That’s all. You might have to wait a few minutes for the server to start. When it does, an instance of JupyterLab will automatically launch in your browser.
+
+> If you use the `RGES PIT Nexus` image it will launch the RGES-PIT specific welcome page on start up and preload packages we think you will need to complete the challenge. 
 
 <!--
 Welcome to the Roman Research Nexus
@@ -132,9 +138,9 @@ You can stop a server instance using the `Hub Control Panel`, which is accessed 
 
 ## Teams
 
-### Creating teams 
+Team on the Nexus have shared storage and token allocations, and can work together on collaborative servers.
 
-<!--Ask Nexus people about this) -->
+### Creating teams 
 
 To create a team, put in a request with the [Nexus helpdesk](https://stsci.service-now.com/roman).
 
@@ -182,6 +188,10 @@ kernel-create rges-pit-dc env.yml "rges-pit-dc"
 ```
 
 For further instructions on Nexus setup and usage, see this [STScI page](https://roman-docs.stsci.edu/data-handbook/roman-research-nexus) or any of the helpful documentation pages in the landing directory on the Nexus. This content can also be found in the [`roman_notebooks` repo](https://github.com/spacetelescope/roman_notebooks) when you are not on the Nexus.
+
+<!-- nexus notebook info start -->
+
+<
 
 
 ## Using the Nexus with local tools
@@ -299,10 +309,11 @@ The official challenge repositories and documentation are hosted at:
 
 The `microlens-submit` documentation includes detailed specifications for how to create a submission. **Strict adherence to the submission criteria is required**, as much of the evaluation process is automated.
 
-A comprehensive tutorial notebook is available in the `microlens-submit` repository:
-- **Tutorial:** `docs/Submission_Tool_Tutorial.ipynb`
+A comprehensive tutorial notebook is available here and in the `microlens-submit` repository:
+- **Tutorial:** https://microlens-submit.readthedocs.io/en/latest/cli_tutorial.html
+- **Python API Documentation:** https://microlens-submit.readthedocs.io/en/latest/api.html
+- **Usage Examples:** https://microlens-submit.readthedocs.io/en/latest/usage_examples.html
 - **Manual Submission Format:** https://microlens-submit.readthedocs.io/en/latest/submission_manual.html
-
 
 ## Nexus notebook content
 
@@ -316,54 +327,19 @@ In the notebook directory (`notebooks/microlensing-data-challenge/`) you will fi
 
 ### Using the Environment Files
 
-You should not need to use the provided environment file; you only need to select the appropriate kernel in the Nexus-hosted notebook. If you wish to use these files anyway, refer to this README: [`AAS Workshop/README.md`](https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/README.md).
+You should not need to use the provided environment file; you only need to select the appropriate kernel in the Nexus-hosted notebook (`RGES PIT Nexus`). If you wish to use these files anyway, refer to this README: [`AAS Workshop/README.md`](https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/README.md).
 
 # Nexus Specific Notebooks
 
-<!-- Uncomment when the notebooks are up
+Included here is a series of notebook meant to assist you in your data challenge journey. Relevant notebooks are:
 
-Included with this content is a series of notebook meant to assist you in your data challenge journey, some of those notebooks, we will go through or discuss in this session.
--->
+  * Data challenge workflow and creating data challenge submissions [(`reference/content/notebooks/rmdc2025_workflow/rmdc2025_workflow.ipynb`)](references/nexus-notebooks/notebooks/a_rmdc26_workflow.ipynb).
 
-Relevant notebooks to this session are:
-  * Accessing data using `s3fs` (`reference/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb`).
-
+    <!-- start buttons -->
     <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
       
       <!-- View on GitHub button -->
-      <a href="https://github.com/rges-pit/roman_notebooks/blob/main/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-      </svg>
-      View on GitHub
-      </a>
-      
-      <!-- View on Docs button -->
-      <a href="https://s3fs.readthedocs.io/en/latest/api.html#" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-      <rect x="1" y="2" width="6" height="12" rx="1"></rect>
-      <rect x="9" y="2" width="6" height="12" rx="1"></rect>
-      <path d="M8 3v10" stroke="currentColor" stroke-width="1" fill="none"></path>
-      </svg>
-      View Docs
-      </a>
-
-      <!-- Download button -->
-      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/roman_notebooks/main/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb', 'data_discovery_and_access.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-      </svg>
-      Download
-      </a>
-    </div>
-
-  * [Data challenge workflow and creating data challenge submissions]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) (`microlens-submit`) (`reference/content/notebooks/rmdc2025_workflow/rmdc2025_workflow.ipynb`).
-
-    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
-      
-      <!-- View on GitHub button -->
-      <a href="https://github.com/rges-pit/data-challenge-notebooks/blob/main/nexus_microlensing_data_challenge_workflow.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <a href="https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/AAS%20Workshop/Session%20A:%20Nexus/Nexus_Workflow.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
       </svg>
@@ -371,7 +347,7 @@ Relevant notebooks to this session are:
       </a>
       
       <!-- Download button with JavaScript -->
-      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/nexus_microlensing_data_challenge_workflow.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/AAS%20Workshop/Session%20A:%20Nexus/Nexus_Workflow.ipynb', 'nexus_microlensing_data_challenge_workflow.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
       <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
       <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -380,12 +356,14 @@ Relevant notebooks to this session are:
       </a>
       <!-- Open on RGES-PIT Website -->
       <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/" style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-      Open
+      Web View
       </a>
     </div>
+    <!-- end buttons -->
 
-  * [Alternate workflow with the submission command line tool, for non-Python users.]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/submission-tutorial/)
+  * Alternate workflow with the submission command line tool, for non-Python users. [(`references/nexus-notebooks/notebooks/x_microlens-submit_cli_tutorial.ipynb`)](`references/nexus-notebooks/notebooks/x_microlens-submit_CLI_tutorial.ipynb`)
 
+    <!-- start buttons -->
     <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
       <a href="https://microlens-submit.readthedocs.io/en/latest/tutorial.html" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
@@ -407,9 +385,138 @@ Relevant notebooks to this session are:
 
       <!-- Open on RGES-PIT Website -->
       <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/submission-tutorial/" style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
-      Open
+      RGES-PIT.org
       </a>
     </div>
+  
+  * Single lens fitting & pipelined full-season demonstration [(`references/nexus-notebooks/notebooks/b_single_lens.ipynb`)](references/nexus-notebooks/notebooks/b_single_lens.ipynb)
+
+    <!-- start buttons -->
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      
+      <!-- View on GitHub button -->
+      <a href="https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/AAS%20Workshop/Session%20B:%20Single%20Lens%20%26%20Pipelines/Single_Lens_Pipeline.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      View on GitHub
+      </a>
+      
+      <!-- Download button with JavaScript -->
+      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/AAS%20Workshop/Session%20B:%20Single%20Lens%20%26%20Pipelines/Single_Lens_Pipeline.ipynb', 'single_lens_pipeline.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+      </svg>
+      Download
+      </a>
+      <!-- Open on RGES-PIT Website -->
+      <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/pipeline/" style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      RGES-PIT.org
+      </a>
+    </div>
+
+    <a href="https://colab.research.google.com/github/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/Session%20B:%20Single%20Lens%20%26%20Pipelines/Single_Lens_Pipeline.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    <!-- end buttons -->
+
+  * Binary lens fitting approaches [(`references/nexus-notebooks/notebooks/c_binary_lens.ipynb`)](references/nexus-notebooks/notebooks/c_binary_lens.ipynb)
+
+    <!-- start buttons -->
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      
+      <!-- View on GitHub button -->
+      <a href="https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/AAS%20Workshop/Session%20C:%20Binary%20Lens/Fitting_Binary_Lenses.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      View on GitHub
+      </a>
+      
+      <!-- Download button with JavaScript -->
+      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/AAS%20Workshop/Session%20C:%20Binary%20Lens/Fitting_Binary_Lenses.ipynb', 'binary_lens_fitting.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+      </svg>
+      Download
+      </a>
+      <!-- Open on RGES-PIT Website -->
+      <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/binary/" style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      RGES-PIT.org
+      </a>
+    </div>
+
+    <a href="https://colab.research.google.com/github/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/Session%20C:%20Binary%20Lens/Fitting_Binary_Lenses.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    <!-- end buttons -->
+
+  * Microlensing open-source tool demonstrations [(`references/nexus-notebooks/notebooks/x_microlensing_tools.ipynb`)](references/nexus-notebooks/notebooks/x_microlensing_tools_.ipynb)
+
+    <!-- start buttons -->
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      
+      <!-- View on GitHub button -->
+      <a href="https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/Extras/Microlensing_Tools.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      View on GitHub
+      </a>
+      
+      <!-- Download button with JavaScript -->
+      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/data-challenge-notebooks/main/Extras/Microlensing_Tools.ipynb', 'microlensing_tools.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+      </svg>
+      Download
+      </a>
+      <!-- Open on RGES-PIT Website -->
+      <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/microlensing_tools/" style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      RGES-PIT.org
+      </a>
+    </div>
+
+    <a href="https://colab.research.google.com/github/rges-pit/data-challenge-notebooks/blob/main/Extras/Microlensing_Tools.ipynb" target="_blank" rel="noopener"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/></a>
+    <!-- end buttons -->
+
+    <div>
+      </a>
+      <!-- Open on RGES-PIT Website -->
+      <a href="{{ site.url }}{{ site.baseurl }}/tools/" style="background-color: #a859e4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      Find More Tools...
+      </a>
+    </div>
+
+<!-- Removing this until I know if we need s3fs
+  * Accessing data using `s3fs` [(`reference/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb`)](references/roman_notebooks/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb). 
+
+    <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">
+      
+      <a href="https://github.com/rges-pit/roman_notebooks/blob/main/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      View on GitHub
+      </a>
+      
+      <a href="https://s3fs.readthedocs.io/en/latest/api.html#" target="_blank" style="background-color: #4078c0; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+      <rect x="1" y="2" width="6" height="12" rx="1"></rect>
+      <rect x="9" y="2" width="6" height="12" rx="1"></rect>
+      <path d="M8 3v10" stroke="currentColor" stroke-width="1" fill="none"></path>
+      </svg>
+      View Docs
+      </a>
+
+      <a href="javascript:void(0)" onclick="downloadNotebook('https://raw.githubusercontent.com/rges-pit/roman_notebooks/main/content/notebooks/data_discovery_and_access/data_discovery_and_access.ipynb', 'data_discovery_and_access.ipynb'); return false;" style="background-color: #28a745; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 14px; display: inline-flex; align-items: center; gap: 5px;">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+      </svg>
+      Download
+      </a>
+    </div>
+end buttons -->
 
 <script>
 function downloadNotebook(url, filename) {

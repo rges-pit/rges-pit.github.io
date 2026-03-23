@@ -40,10 +40,10 @@ Our official launch will be during AAS 247, where we will host a [workshop]({{ s
 | :- | -: |
 | Challenge sign-up opens | early December 2025 |
 | Kick-off workshop at AAS 247 | January 4, 2026 |
-| Submission deadline | April 2026 |
-| Evaluation begins | May 2026 |
-| Evaluation panel discussions | July 2026 |
-| Evaluation panel final reports due | July 2026 |
+| Submission deadline | June 26, 2026 |
+| Evaluation begins | July 2026 |
+| Evaluation panel discussions | September 2026 |
+| Evaluation panel final reports due | September 2026 |
 
 ## Important Links
 

@@ -61,7 +61,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Scott Gaudi | OSU| 
 | Jon Hulberg | CUA| 
 | Macy Huston | UC Berkeley|
-| Stela Ishitani Silva | NASA/GSFC| 
+| Stela Ishitani Silva | IPAC| 
 | Sinclaire Jones | OSU| 
 | Victor Karkour | OSU|
 | Somayeh Khakpash | Lehigh U.| 

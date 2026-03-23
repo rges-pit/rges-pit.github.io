@@ -11,10 +11,10 @@ The 2026 Sagan Summer Workshop will take place at Caltech/IPAC from July 20-24, 
 both transiting and microlensing science will be presented. The RGES PIT will have substantial representation at the meeting, with PIT membership leading discussions, presentations, 
 workshops, and more.
 
-### [28th International Microlensing Conference](https://microlensing2026.de/){:target="_blank"}
-The 28th International Conference on Microlensing will be held in Heidelberg Germany on February 23-27, 2026. Registration and abstract submission for the conference is currently open.
-
 ## Previous Meetings
+
+### [28th International Microlensing Conference](https://microlensing2026.de/){:target="_blank"}
+The 28th International Conference on Microlensing was held in Heidelberg Germany on February 23-27, 2026.
 
 ### [Rogue Worlds 2025](https://indico.iap.fr/event/47/overview){:target="_blank"}
 The 2025 Rogue Worlds Meeting was held in Paris France on December 15-17, 2025.

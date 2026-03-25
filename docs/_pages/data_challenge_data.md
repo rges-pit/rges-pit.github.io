@@ -15,7 +15,7 @@ It should be noted that in the simulated data, the inertial frame of reference w
 
 ## Nexus mounted data
 
-Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access the challenge data, on the Nexus.
+Chanllenge data is hosted on the Nexus, for easy access, at `/data/data-challenge/rges/RMDC26_Beginner_Tier.parquet`. Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access the challenge data, on the Nexus. See the `README.md` for dataset specific details. 
 
 ## [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
 
@@ -36,7 +36,7 @@ from huggingface_hub import hf_hub_download
 import pandas as pd
 
 REPO_ID = "RGES-PIT/Beginner"
-FILENAME = "challenge.csv"
+FILENAME = "RMDC26_Beginner_Tier_test.parquet" # "_test" indicate to HF that this is a test set instead of a training set
 
 dataset = pd.read_csv(
     hf_hub_download(

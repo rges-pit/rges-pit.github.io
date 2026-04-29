@@ -29,18 +29,18 @@ Why participate:
 
 The data in this challenge is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey. 
 
-Our official launch will be during AAS 247, where we will host a [workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) covering various aspects of the Data Challenge (specific date and time TBD).
+Our official launch was during AAS 247, where we hosted a [workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) covering various aspects of the Data Challenge.
 
 ## Important Dates
 
-| Milestone | Date |
-| :- | -: |
-| Challenge sign-up opens | early December 2025 |
-| Kick-off workshop at AAS 247 | January 4, 2026 |
-| Submission deadline | June 26, 2026 |
-| Evaluation begins | July 2026 |
-| Evaluation panel discussions | September 2026 |
-| Evaluation panel final reports due | September 2026 |
+| Milestone | Date |  
+| :- | -: |  
+| Challenge sign-up opens | early December 2025 |  
+| Kick-off workshop at AAS 247 | January 4, 2026 |  
+| Submission deadline | June 26, 2026 |  
+| Evaluation begins | July 2026 |  
+| Evaluation panel discussions | September 2026 |  
+| Evaluation panel final reports due | September 2026 |  
 
 ## Important Links
 
@@ -110,7 +110,7 @@ You can find a copy of the evaluation rubric [here]({{ site.url }}{{ site.baseur
 * [RMDC2026 ADS Library](https://ui.adsabs.harvard.edu/public-libraries/gRI3mf-LQAGs3HbN4fuRSg){:target="_blank"} of useful microlensing papers and reviews.  
 * [Microlensing Source](https://www.microlensing-source.org/){:target="_blank"}.  
 * [TMGTTG](https://github.com/AmberLee2427/TheMicrolensersGuideToTheGalaxy.git){:target="_blank"} introductory notebook series.  
-* [2017 Sagan Workshop](http://nexsci.caltech.edu/workshop/2017/){:target="_blank"} in microlensing. The recordings from this workshop can be found [here](https://www.youtube.com/watch?v=QPfKucBb9B8&list=PLIbTYGsIVYthWRS14eCEK8SK9IOTcaYsf){:target="_blank"}. 
+* [2017 Sagan Workshop](http://nexsci.caltech.edu/workshop/2017/){:target="_blank"} on microlensing. The recordings from this workshop can be found [here](https://www.youtube.com/watch?v=QPfKucBb9B8&list=PLIbTYGsIVYthWRS14eCEK8SK9IOTcaYsf){:target="_blank"}. 
 * [Glossary of Terms](https://www.microlensing-source.org/glossary/){:target="_blank"}.  
 * Ask [Nancy](https://rmdc2026.slack.com/archives/D098SMZTNR2){:target="_blank"} on the RMDC2026 Slack.
 

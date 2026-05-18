@@ -19,7 +19,7 @@ Chanllenge data is hosted on the Nexus, for easy access, at `/data/data-challeng
 
 ## [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
 
-There are two challenge datasets available for download from the Hugging Face Hub: [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"}. Each includes challenge data for its tier (`challenge.csv`). The [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} The organization will also be updated with labeled training data for machine-learning purposes (`train.csv`), with roughly an order of magnitude more events than the challenge set (~100,000 events), as it is generated.
+There are two challenge datasets available for download from the Hugging Face Hub: [`Beginner`](https://huggingface.co/datasets/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/datasets/RGES-PIT/Experienced){:target="_blank"}. Each includes challenge data for its tier (`challenge.csv`). The [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} The organization will also be updated with labeled training data for machine-learning purposes (`train.csv`), with roughly an order of magnitude more events than the challenge set (~100,000 events), as it is generated.
 
 Below are instructions for downloading the [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} dataset. Replace "Beginner" with "Experienced" to download the experienced dataset, which includes more lens arrangements, higher-order effects, and labeled training data. 
 

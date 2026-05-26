@@ -42,7 +42,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 
 | Natasha Abrams | UC Berkeley| 
 | Jay Anderson | STScI| 
-| Fatima Bagheri | NASA/GSFC|
+| Fatima Bagheri | LANL|
 | Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
 | David Bennett | UMD|
@@ -51,7 +51,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Aparna Bhattacharya | UMD|
 | Christopher Brandon | OSU|
 | Sebastiano Calchi Novati | IPAC|
-| Kylee Carden | OSU|
+| Kylee Carden | JHU|
 | Sean Carey | IPAC|
 | Jessie Christiansen | NExScI|
 | Ali Crisp | OSU| 
@@ -66,13 +66,15 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Victor Karkour | OSU|
 | Somayeh Khakpash | Lehigh U.| 
 | Katarzyna Kruszyńska | LCO| 
-| Amber Malpas | OSU| 
-| Carissma McGee | MIT| 
-| Arjun Murlidhar | OSU| 
 | Casey Lam | Canegie Obs.|
 | Christopher Lam | IPAC| 
 | Jessica Lu | UC Berkeley| 
-| David Nataf | U. Iowa| 
+| Amber Malpas | OSU| 
+| Carissma McGee | MIT| 
+| Peter McGill | LLNL| 
+| Arjun Murlidhar | OSU|  
+| David Nataf | U. Iowa|
+| Marz Newman | LSU| 
 | Greg Olmschenk | UMD| 
 | Matthew Penny | LSU|
 | Jennifer Sobeck | IPAC| 
@@ -97,6 +99,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Jean-Philippe Beaulieu | IAP |
 | Ian Bond | Massey U. |
 | Valerio Bozza | U. Salerno |
+| Markus Hundertmark | U. Heidelberg |
 | Eamonn Kerins | Manchester |
 | Shota Miyazaki | JAXA |
 | Przemek Mróz | U. Warsaw |
@@ -104,6 +107,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Radek Poleski | U. Warsaw |
 | Clément Ranc | IAP |
 | Nicholas Rattenbury | U. Auckland |
+| Krzysztof Rybicki | U. Warsaw |
 | Vitto Saggese | U. Salerno |
 | Takahiro Sumi | Osaka U. |
 | Daisuke Suzuki | Osaka U. |

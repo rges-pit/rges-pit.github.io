@@ -28,17 +28,20 @@ Sangtarash & Yee 2025
 8. [Microlensing Constraints on the Stellar and Planetary Mass Functions](https://iopscience.iop.org/article/10.3847/1538-3881/adeb84){:target="_blank"},
 Yee & Kenyon 2025
 
-9. [A planet-host ratio relation to synthesize microlensing and transiting exoplanet demography from Roman](https://arxiv.org/abs/2506.24004v1){:target="_blank"},
+9. [A planet-host ratio relation to synthesize microlensing and transiting exoplanet demography from Roman](https://academic.oup.com/mnras/article/546/2/stag088/8429605?guestAccessKey=){:target="_blank"},
 Edmondson & Kerins 2025
 
 10. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. III. Detectability of Giant Exomoons of Wide Separation Giant Planets](https://iopscience.iop.org/article/10.3847/1538-3881/ae0196/meta){:target="_blank"},
 Lastovka, Gaudi, Johnson et al. 2025
 
-11. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. IV. Lens Mass and Distance Measurements](https://arxiv.org/abs/2510.13974){:target="_blank"},
-Terry, Bachelet, Zohrabi et al. 2025
+11. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. IV. Lens Mass and Distance Measurements](https://iopscience.iop.org/article/10.3847/1538-3881/ae43e6/meta){:target="_blank"},
+Terry, Bachelet, Zohrabi et al. 2026
 
 12. [Predictions of the Nancy Grace Roman Space Telescope Galactic Exoplanet Survey. V. Detection Rates of Multiplanetary Systems in High Magnification Microlensing Events](https://arxiv.org/abs/2512.05182v1){:target="_blank"},
-Saggese, Bachelet, Calchi Novati et al. 2025
+Saggese, Bachelet, Calchi Novati et al. 2026
+
+13. [An Updated SynthPop Model for Microlensing Simulations I: Model Description & Evaluation](https://arxiv.org/abs/2603.12219){:target="_blank"},
+Huston, Crisp, Newman et al. 2026
 
 --------------------------
 

@@ -18,9 +18,9 @@ a recap of these designs can be found in the following works:
 4. [GBTDS Definition Committee Report (Jan 2025)](https://asd.gsfc.nasa.gov/roman/comm_forum/forum_17/Core_Community_Survey_Reports-rev03-compressed.pdf){:target="_blank"}
 5. [Roman Observations Time Allocation Committee Final Report and Recommendations (April 2025)](https://roman.gsfc.nasa.gov/science/ccs/ROTAC-Report-20250424-v1.pdf){:target="_blank"}
 
-## Pre-launch Observing Strategy (as of 2025)
+## Pre-launch Observing Strategy (as of 2026)
 The nominal GBTDS observing strategy will use the wide-field instrument (WFI) to image a total of six fields
- (five 'contiguous' + one 'GC') for six 72-day seasons. Each exposure will be 67 seconds, and the imaging cadence for all fields (including the GC) will be 12.1 minutes.
+ (five 'contiguous' + one 'GC') for six 70-day seasons. Each exposure will be 66.9 seconds, and the imaging cadence for all fields (including the GC) will be 12.1 minutes.
 &nbsp;  
 &nbsp;  
 

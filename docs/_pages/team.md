@@ -31,7 +31,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | WG #9: Data Challenges, Outreach, and Citizen Science | A. Crisp, R. Street |
 | WG #10: Microlensing Mini-Courses | A. Crisp, A. Malpas, K. Stassun, A. Stephan |
 | WG #11: Free Floating Planets | W. DeRocco |
-| WG #12: Efficiency and Occurrence Rate Analysis | J. Christiansen |
+| WG #12: Efficiency and Occurrence Rate Analysis | J. Christiansen, Ch. Lam |
 | WG #13: Astrometry | Ca. Lam |
 | WG #14: Global Pipeline | G. Olmschenk |
 

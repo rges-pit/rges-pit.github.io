@@ -7,7 +7,7 @@ description: "Resources for the Roman mission and microlensing: technical docume
 The following is a list of resources and other materials related to the NASA Roman project:
  
 
-* **[RGES-PIT Statement & Requirements](https://roman.gsfc.nasa.gov/science/Roman_teamlist_pit.html#gau){:target="_blank"}**
+* **[RGES-PIT Statement & Requirements](https://science.nasa.gov/mission/roman-space-telescope/the-roman-galactic-exoplanet-survey-project-infrastructure-team/){:target="_blank"}**
 &nbsp;  
 * **[NASA Roman Mission](https://roman.gsfc.nasa.gov/){:target="_blank"}**
 &nbsp;  

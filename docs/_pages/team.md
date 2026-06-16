@@ -49,6 +49,7 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Galen Bergsten | STScI|
 | Dex Bhadra | UMD|
 | Aparna Bhattacharya | UMD|
+| Tabetha Boyajian | LSU|
 | Christopher Brandon | OSU|
 | Sebastiano Calchi Novati | IPAC|
 | Kylee Carden | JHU|
@@ -82,9 +83,9 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Alexander Stephan | Vanderbilt|
 | Rachel Street | LCO|
 | Sean Terry | UMD|
+| Emelly Tiburcio | LSU|
 | Aikaterini Vandorou | UMD|
 | Himanshu Verma | LSU|
-| Jennifer Yee | CfA|
 | Keming Zhang | MIT|
 | Farzaneh Zohrabi | LSU|
 

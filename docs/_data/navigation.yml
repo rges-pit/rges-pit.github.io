@@ -67,6 +67,8 @@ docs:
         url: /outreach_mini_landing/
       - title: "REU 2025"
         url: /outreach_mini_REU2025/
+      - title: "Games"
+        url: /games/
 
   - title: Data Challenge
     url: /data-challenge/

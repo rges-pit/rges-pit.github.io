@@ -22,7 +22,7 @@ The RGES-PIT will host a microlensing Data Challenge starting in late 2025/early
 ### [RGES PIT Games]({{ site.url }}{{site.baseurl }}/games/)
 
 Several games have been developed by the RGES-PIT as part of outreach materials leading up to Roman's launch and science operations. Check out the Games page
-for the full game list and descriptions of each game.
+for the full games list.
 
 
 ### Citizen Science

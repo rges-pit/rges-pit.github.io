@@ -11,7 +11,8 @@ description: "RGES PIT Games."
 ---
 
 
-This page contains the list of currently available RGES PIT games that have been developed as part of Roman preparatory and launch activities.
+This page contains a list of currently available RGES-PIT games that have been developed as part of outreach materials and 
+Roman launch activities.
 
 
 ### [Roman Telescope: Journey to L2!](https://romanjourney.streamlit.app/)

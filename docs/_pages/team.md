@@ -102,7 +102,9 @@ description: "RGES-PIT team, leadership, and working group leads."
 | Valerio Bozza | U. Salerno |
 | Markus Hundertmark | U. Heidelberg |
 | Eamonn Kerins | Manchester |
+| Michał Małkowski | U. Warsaw |
 | Shota Miyazaki | JAXA |
+| Mateusz Mróz | U. Warsaw |
 | Przemek Mróz | U. Warsaw |
 | Kansuke Nunota | Osaka U. |
 | Radek Poleski | U. Warsaw |

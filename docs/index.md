@@ -20,10 +20,10 @@ excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES 
  -->
 
 <span style="color:red">**News Alert: RGES PIT Games are now live and can be found [here]({{ site.url }}{{site.baseurl }}/games).**</span>
-  &nbsp;
-  &nbsp;
-  **RGES PIT is hosting a Microlensing Data Challenge for 2026, find more details on our [Data Challenge Page]({{ site.url }}{{site.baseurl }}/data-challenge).    
-                            The Data Challenge sign-up form can be found [here]({{ site.url }}{{site.baseurl }}/data-challenge/sign-up).**
+
+<br><br>
+
+<span style="color:red">**News Alert: RGES PIT is hosting a Microlensing Data Challenge for 2026, find more details on our [Data Challenge Page]({{ site.url }}{{site.baseurl }}/data-challenge). The Data Challenge sign-up form can be found [here]({{ site.url }}{{site.baseurl }}/data-challenge/sign-up).**</span>
   
 &nbsp;  
 

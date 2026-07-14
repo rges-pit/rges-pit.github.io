@@ -9,6 +9,15 @@ sidebar:
 <!-- BEGIN WEB CONTENT -->
 <!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/Session%20D%3A%20Data%20Challenge%20Q%26A/DATA.md -->
 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [["$", "$"], ["\\(", "\\)"]]
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 The data created for the Roman Microlensing Data Challenge 2026 (RMDC26) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey.
 
 In the simulated data, the inertial frame of reference is defined with the $x$-axis increasing from the binary center of mass toward the less massive lens at `t0`, the time of closest approach to the center of mass. When viewed from the Solar System barycenter, the inertial frame moves at the relative velocity `vlens_CoM - vobserver(t0)`. The orbital inclination is a counterclockwise rotation about the $x$-axis. $\alpha$ is the angle between the source trajectory and the $x$-axis when parallax is zero. Where finite-source effects are significant, a linear limb-darkening law is applied.

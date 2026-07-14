@@ -21,7 +21,7 @@ The RGES-PIT launched the Roman Microlensing Data Challenge 2026 (RMDC26) in ear
 
 Submissions for the Beginner tier are closed.
 
-The Experienced tier challenge is now running. [Sign-up]({{ site.url }}{{site.baseurl }}/data-challenge/sign-up/) and submissions close October 2, 2026.
+The Experienced tier challenge is now running. [Sign-up]({{ site.url }}{{site.baseurl }}/data-challenge/sign-up/) and submissions close on October 2, 2026.
 
 ### [RGES PIT Games]({{ site.url }}{{site.baseurl }}/games/)
 

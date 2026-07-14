@@ -1,6 +1,6 @@
 ---
 permalink: /data-challenge/data/
-title: "RMDC2026 Data"
+title: "RMDC26 Data"
 sidebar:
   nav: "docs"
 ---
@@ -9,17 +9,17 @@ sidebar:
 <!-- BEGIN WEB CONTENT -->
 <!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/Session%20D%3A%20Data%20Challenge%20Q%26A/DATA.md -->
 
-The data created for the Roman Microlensing Data Challenge 2026 (RMDC2026) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey.
+The data created for the Roman Microlensing Data Challenge 2026 (RMDC26) is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey.
 
-It should be noted that in the simulated data, the inertial frame of reference was defined with the $x$-axis increasing from the binary center of mass towards the less massive lens at `t0`, the time of closest approach to the center of mass. If viewed from the solar system barycenter, the inertial frame moves at the relative velocity `vlens_CoM - vobserver(t0)`. The inclination of the orbit is a counter-clockwise rotation about the $x$-axis. $lpha$ is the angle that the source trajectory made with the $x$-axis (if parallax was 0). Where finite source effects were significant, a linear limb darkening law was applied.
+In the simulated data, the inertial frame of reference is defined with the $x$-axis increasing from the binary center of mass toward the less massive lens at `t0`, the time of closest approach to the center of mass. When viewed from the Solar System barycenter, the inertial frame moves at the relative velocity `vlens_CoM - vobserver(t0)`. The orbital inclination is a counterclockwise rotation about the $x$-axis. $\alpha$ is the angle between the source trajectory and the $x$-axis when parallax is zero. Where finite-source effects are significant, a linear limb-darkening law is applied.
 
 ## Nexus mounted data
 
-Chanllenge data is hosted on the Nexus, for easy access, at `/data/data-challenge/rges/RMDC26_Beginner_Tier.parquet`. Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access the challenge data, on the Nexus. See the `README.md` for dataset specific details. 
+Challenge data is hosted on the Nexus at `/data/data-challenge/rges/RMDC26_Beginner_Tier.parquet`. Refer to [this notebook]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/notebooks/workflow/) for examples of how to access it. See the `README.md` for dataset-specific details.
 
 ## [Hugging Face](https://huggingface.co/RGES-PIT){:target="_blank"}
 
-There are two challenge datasets available for download from the Hugging Face Hub: [`Beginner`](https://huggingface.co/datasets/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/datasets/RGES-PIT/Experienced){:target="_blank"}. Each includes challenge data for its tier (`challenge.csv`). The [`Experienced`](https://huggingface.co/RGES-PIT/Experienced){:target="_blank"} The organization will also be updated with labeled training data for machine-learning purposes (`train.csv`), with roughly an order of magnitude more events than the challenge set (~100,000 events), as it is generated.
+Two challenge datasets are available from the Hugging Face Hub: [`Beginner`](https://huggingface.co/datasets/RGES-PIT/Beginner){:target="_blank"} and [`Experienced`](https://huggingface.co/datasets/RGES-PIT/Experienced){:target="_blank"}. Each includes challenge data for its tier (`challenge.csv`). The organization will also be updated with labeled training data for machine-learning purposes (`train.csv`), containing roughly an order of magnitude more events than the challenge set (approximately 100,000 events), as those data are generated.
 
 Below are instructions for downloading the [`Beginner`](https://huggingface.co/RGES-PIT/Beginner){:target="_blank"} dataset. Replace "Beginner" with "Experienced" to download the experienced dataset, which includes more lens arrangements, higher-order effects, and labeled training data. 
 

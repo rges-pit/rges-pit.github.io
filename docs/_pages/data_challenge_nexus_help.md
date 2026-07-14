@@ -233,7 +233,7 @@ You should not need to use the provided environment file; you only need to selec
 
 Included here is a series of notebook meant to assist you in your data challenge journey. Relevant notebooks are:
 
-  * Data challenge workflow and creating data challenge submissions [(`~/reference/content/notebooks/rmdc2025_workflow.ipynb`)](../notebooks/a_rmdc26_workflow.ipynb).
+  * Data challenge workflow and creating data challenge submissions [(`~/reference/content/notebooks/a_rmdc26_workflow.ipynb`)](../notebooks/a_rmdc26_workflow.ipynb).
 
     <!-- start buttons -->
     <div style="display: flex; gap: 10px; margin: 1em 0; align-items: center;">

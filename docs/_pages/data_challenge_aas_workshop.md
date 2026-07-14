@@ -3,7 +3,7 @@ permalink: /data-challenge/aas-workshop/
 title: "Data Challenge AAS Workshop"
 sidebar:
   nav: "workshop"
-description: "AAS 247 workshop for RMDC25: requirements, agenda, Roman Research Nexus access, and session outlines."
+description: "AAS 247 workshop for RMDC26: requirements, agenda, Roman Research Nexus access, and session outlines."
 ---
 <!-- END PREAMBLE -->
 
@@ -13,13 +13,13 @@ description: "AAS 247 workshop for RMDC25: requirements, agenda, Roman Research 
 
 ## Description
 
-The RMDC25 AAS Workshop is a hands-on, full-day session designed to get participants—from newcomers to seasoned microlensers—set up and productive with the Roman Research Nexus and the core open-source tools used in the Roman Microlensing Data Challenge. We’ll walk through Nexus access and environment setup, introduce essential microlensing concepts and modeling workflows, explore single- and binary-lens fitting (including grid searches and practical strategies for degeneracies and higher-order effects), and show how to organize, validate, and package results for submission using microlens-submit. Bring a laptop and a willingness to experiment; light Python experience is helpful but not required. The day closes with an information session and Q&A covering timelines, tiers, data access, evaluation, and how to get help throughout the challenge.
+The RMDC26 AAS Workshop was a hands-on, full-day session designed to help participants—from newcomers to seasoned microlensers—get set up and productive with the Roman Research Nexus and the core open-source tools used in the Roman Microlensing Data Challenge. The workshop covered Nexus access and environment setup, essential microlensing concepts and modeling workflows, single- and binary-lens fitting, and organizing, validating, and packaging results for submission with `microlens-submit`. The day concluded with an information session and Q&A covering timelines, tiers, data access, evaluation, and support throughout the challenge.
 
-## Requirements
+## Workshop Requirements
 
 * A laptop with a functioning web browser (optionally, VS Code and Slack installed).
 * Ideally, some Python experience.
-* An intention to participate in the [Roman Microlensing Data Challenge 2025]({{ site.url }}{{ site.baseurl }}/data-challenge/) or be on an already signed-up team. You can sign up [here]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/).
+* An intention to participate in the [Roman Microlensing Data Challenge 2026]({{ site.url }}{{ site.baseurl }}/data-challenge/) or membership on a registered team.
 * Microlensing-specific knowledge or experience is **not** necessary.
 
 ## Itinerary

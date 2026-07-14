@@ -10,15 +10,16 @@ description: "Roman Microlensing Data Challenge 2026 (RMDC26): overview, dataset
 <!-- BEGIN WEB CONTENT -->
 <!-- SOURCE (web content): https://github.com/rges-pit/data-challenge-notebooks/blob/main/AAS%20Workshop/Session%20D%3A%20Data%20Challenge%20Q%26A/ABOUT.md -->
 
-<div style="display: flex; justify-content: center; gap: 10px; margin: 1em 0; align-items: center; flex-wrap: wrap;">
-  <!-- Sign up button (enable this when RMDC26 launches) -->
-  <div style="text-align: center; margin: 2em 0;">
-    <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">RMDC26 Sign Up</a>
-    <div style="margin-top: 0.5em; color: #555;">Now open</div>
-  </div>
+> **Experienced tier:** Challenge data is now live on the [Roman Research Nexus](https://roman.science.stsci.edu/){:target="_blank"} and [Hugging Face](https://huggingface.co/datasets/RGES-PIT/Experienced){:target="_blank"}. Submissions close October 2, 2026.
+>
+> **Beginner tier:** Submissions are now closed, but the [data remain available on Hugging Face](https://huggingface.co/datasets/RGES-PIT/Beginner){:target="_blank"}.
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="{{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/" style="background-color: #a859e4; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">Sign Up for RMDC26</a>
+  <div style="margin-top: 0.5em; color: #555;">Sign-up is open until the Experienced tier closes on October 2, 2026.</div>
 </div>
 
-RMDC26 is a community challenge to model simulated Roman microlensing data ahead of the mission’s Galactic Bulge Time Domain Survey. The goal is to broaden participation, standardize best practices, and spur innovation in microlensing modeling and tooling.
+**RMDC26** is a community challenge to model simulated Roman microlensing data ahead of the mission’s Galactic Bulge Time Domain Survey. The goal is to broaden participation, standardize best practices, and spur innovation in microlensing modeling and tooling.
 
 Roman is expected to detect tens of thousands of microlensing events during its prime mission and thousands of exoplanets, probing regions of exoplanet parameter space beyond earlier surveys.
 
@@ -29,25 +30,26 @@ Why participate:
 
 The data in this challenge is intended to be a semi-realistic representation of the microlensing data volume and type expected from the Roman Galactic Bulge Time Domain Survey. 
 
-Our official launch was during AAS 247, where we hosted a [workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) covering various aspects of the Data Challenge.
+The challenge launched at AAS 247, where we hosted a [workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) covering various aspects of the Data Challenge. The workshop took place on Sunday, January 4, from 9:00 AM to 5:00 PM MST. It was not offered in a hybrid format, but all workshop materials are available online at the preceding link. Similar hands-on sessions will be offered at the [2026 Sagan Summer Workshop](https://nexsci.caltech.edu/workshop/2026/){:target="_blank"}, which participants can attend in person, remotely live, or remotely on demand.
 
 ## Important Dates
 
-| Milestone | Date |  
-| :- | -: |  
-| Challenge sign-up opens | early December 2025 |  
-| Kick-off workshop at AAS 247 | January 4, 2026 |  
-| Submission deadline | June 26, 2026 |  
-| Evaluation begins | July 2026 |  
-| Evaluation panel discussions | September 2026 |  
-| Evaluation panel final reports due | September 2026 |  
+| Milestone | Date |
+| :- | -: |
+| Challenge sign-up opened | Early December 2025 |
+| Kick-off workshop at AAS 247 | January 4, 2026 |
+| Beginner submission deadline | June 26, 2026 |
+| Experienced submission deadline | October 2, 2026 |
+| Evaluation begins | October 2026 |
+| Evaluation panel discussions | October 2026 |
+| Evaluation panel final reports due | November 2026 |
 
 ## Important Links
 
 - [Data]({{ site.url }}{{ site.baseurl }}/data-challenge/data/)
 - [Nexus]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/1-nexus/)
-- [AAS 247 Workshop]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/)
-- [Sign up]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/) (*RMDC26 sign‑up is now open*)
+- [AAS 247 Workshop materials]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/)
+- [Sign up]({{ site.url }}{{ site.baseurl }}/data-challenge/sign-up/) (*open through October 2, 2026*)
 - [Help form]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)
 
 ## Challenge Overview
@@ -63,7 +65,7 @@ Our official launch was during AAS 247, where we hosted a [workshop]({{ site.url
 
 ### Challenge Tiers
 
-RMDC26 will offer two challenge tiers: a beginner tier for those new to microlensing and an experienced tier for veteran microlensing researchers. Anyone can participate in either tier, but the beginner tier is not intended for entire teams with extensive microlensing modeling experience. Teams may make submissions in both tiers.
+RMDC26 offers two challenge tiers: a Beginner tier for those new to microlensing and an Experienced tier for veteran microlensing researchers. Anyone may participate in either tier, but the Beginner tier is not intended for entire teams with extensive microlensing modeling experience. Teams may make submissions in both tiers.
 
 ### Participant Goals
 
@@ -102,23 +104,23 @@ You can find a copy of the evaluation rubric [here]({{ site.url }}{{ site.baseur
 
 ## Microlensing Resources and References
 
-* [AAS 247 RMDC2026 workshop content]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) specifically related to this Data Challenge.
+* [AAS 247 RMDC26 workshop content]({{ site.url }}{{ site.baseurl }}/data-challenge/aas-workshop/) specifically related to this Data Challenge.
 * [RGES-PIT resources page]({{ site.url }}{{ site.baseurl }}/resources/) for other helpful resources and RGES-PIT/Roman-specific information.  
 * [RGES-PIT tools page]({{ site.url }}{{ site.baseurl }}/tools/) for links to open-source microlensing tools.  
 * [REU2025]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/) introductory mini course.
 * [RGES-PIT GitHub Organization](https://github.com/rges-pit){:target="_blank"}.
-* [RMDC2026 ADS Library](https://ui.adsabs.harvard.edu/public-libraries/gRI3mf-LQAGs3HbN4fuRSg){:target="_blank"} of useful microlensing papers and reviews.  
+* [RMDC26 ADS Library](https://ui.adsabs.harvard.edu/public-libraries/gRI3mf-LQAGs3HbN4fuRSg){:target="_blank"} of useful microlensing papers and reviews.
 * [Microlensing Source](https://www.microlensing-source.org/){:target="_blank"}.  
 * [TMGTTG](https://github.com/AmberLee2427/TheMicrolensersGuideToTheGalaxy.git){:target="_blank"} introductory notebook series.  
 * [2017 Sagan Workshop](http://nexsci.caltech.edu/workshop/2017/){:target="_blank"} on microlensing. The recordings from this workshop can be found [here](https://www.youtube.com/watch?v=QPfKucBb9B8&list=PLIbTYGsIVYthWRS14eCEK8SK9IOTcaYsf){:target="_blank"}. 
 * [Glossary of Terms](https://www.microlensing-source.org/glossary/){:target="_blank"}.  
-* Ask [Nancy](https://rmdc2026.slack.com/archives/D098SMZTNR2){:target="_blank"} on the RMDC2026 Slack.
+* Ask [Nancy](https://rmdc2026.slack.com/archives/D098SMZTNR2){:target="_blank"} on the RMDC26 Slack.
 
 ## Contact
 
 * [Contact us page]({{ site.url }}{{ site.baseurl }}/data-challenge/help/)
 * Open an Issue on GitHub (see issues tab on the appropriate [`microlens-submit`](https://github.com/rges-pit/microlens-submit/issues){:target="_blank"} or [`data-challenge-notebooks`](https://github.com/rges-pit/data-challenge-notebooks/issues){:target="_blank"} repo.)
-* Message us on the [`#general`](https://rmdc2026.slack.com/archives/C096QG09P5F){:target="_blank"} channel on the RMDC2026 Slack workspace.
+* Message us on the [`#general`](https://rmdc2026.slack.com/archives/C096QG09P5F){:target="_blank"} channel in the RMDC26 Slack workspace.
 
 <!-- END WEB CONTENT -->
 

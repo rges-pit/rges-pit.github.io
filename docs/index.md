@@ -19,7 +19,9 @@ excerpt: "The Roman Galactic Exoplanet Survey Project Infrastructure Team (RGES 
  <span style="color:red">New Paper Alert:</span> 
  -->
 
-<span style="color:red">**News Alert: RGES PIT Games are now live and can be found [here]({{ site.url }}{{site.baseurl }}/games).**</span>
+<span style="color:red">**The Roman Microlensing Data Challenge (Experienced Tier) is now live, more details can be found [here]({{ site.url }}{{site.baseurl }}/data-challenge).**</span>
+&nbsp;
+<span style="color:red">**RGES PIT Games are now live and can be found [here]({{ site.url }}{{site.baseurl }}/games).**</span>
 
 &nbsp;  
 

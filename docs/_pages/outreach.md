@@ -28,6 +28,15 @@ The Experienced tier challenge is now running. [Sign-up]({{ site.url }}{{site.ba
 Several games have been developed by the RGES-PIT as part of outreach materials leading up to Roman's launch and science operations. Check out the Games page
 for the full games list.
 
+### [2026 Sagan Summer Workshop](https://nexsci.caltech.edu/workshop/2026/){:target="_blank"}
+
+The Sagan Exoplanet Summer Workshop is an annual training event for students, postdocs, and researchers focused on the missions and techniques driving NASA's exoplanet science. The 2026 program highlighted Roman surveys, emphasizing microlensing and transits in the upcoming Galactic Bulge Time Domain Survey. Sessions covered survey strategies, predicted discoveries, ground-based synergies, and coronagraph capabilities. 
+
+Resources from the workshop, which RGES-PIT members helped develop, are available below:
+
+* [YouTube page](https://www.youtube.com/@SaganSummerWorkshop/videos){:target="_blank"}
+* [Hands On sessions](https://nexsci.caltech.edu/workshop/2026/handson.shtml){:target="_blank"}
+* [Talks](https://nexsci.caltech.edu/workshop/2026/agenda.shtml){:target="_blank"}
 
 ### Citizen Science
 

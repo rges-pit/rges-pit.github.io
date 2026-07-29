@@ -25,5 +25,7 @@ Background material:
 &nbsp;  
 * **[Microlensing-Source.org](https://www.microlensing-source.org/){:target="_blank"}**  
 * **[2017 Sagan Summer Workshop](http://nexsci.caltech.edu/workshop/2017/){:target="_blank"}** ([YouTube](https://www.youtube.com/watch?v=QPfKucBb9B8&list=PLIbTYGsIVYthWRS14eCEK8SK9IOTcaYsf){:target="_blank"}) &nbsp;  
+* **[2026 Sagan Summer Workshop](https://nexsci.caltech.edu/workshop/2026/){:target="_blank"}** ([YouTube page](https://www.youtube.com/@SaganSummerWorkshop/videos){:target="_blank"}, [Hands On sessions](https://nexsci.caltech.edu/workshop/2026/handson.shtml){:target="_blank"}, [Talks](https://nexsci.caltech.edu/workshop/2026/agenda.shtml){:target="_blank"}) &nbsp;  
 * **[REU2025 Mini Course]({{ site.url }}{{ site.baseurl }}/outreach_mini_landing/)** &nbsp;  
-* **[The Microlenser's Guide to the Galaxy - Jupyter Notebook Course](https://github.com/AmberLee2427/TheMicrolensersGuideToTheGalaxy.git){:target="_blank"}** &nbsp;
+* **[The Microlenser's Guide to the Galaxy - Jupyter Notebook Course](https://amberlee2427.github.io/TheMicrolensersGuideToTheGalaxy/){:target="_blank"}** &nbsp;
+* **[Nancy Brain - MCP Server for Microlensing Agent Context](https://nancy.rges-pit.com/){:target="_blank"}**

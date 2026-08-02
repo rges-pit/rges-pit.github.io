@@ -19,7 +19,7 @@ file with additional details.
 
 ## Microlensing Modeling Software
 
-* [`BAGLE`](https://github.com/MovingUniverseLab/BAGLE_Microlensing/tree/dev){:target="_blank"} — photometric and astrometric microlensing; Maintained: Yes (Moving Universe Lab); Lu et al. (2025)  <!-- paper doesn't currently exist, but that's what their docs say to cite -->
+* [`BAGLE`](https://github.com/MovingUniverseLab/BAGLE_Microlensing/tree/dev){:target="_blank"} — photometric and astrometric microlensing; Maintained: Yes (Moving Universe Lab); [Lu et al. (2026)](https://ui.adsabs.harvard.edu/abs/2025arXiv251203364L/abstract){:target="_blank"} 
 * [`eesunhong`](https://github.com/rges-pit/eesunhong){:target="_blank"}; Maintained: Yes (Olmschenk); [Bennett & Rhie (1996)](https://ui.adsabs.harvard.edu/abs/1996ApJ...472..660B/abstract){:target="_blank"}, [Bennett (2010)](https://ui.adsabs.harvard.edu/abs/2010ApJ...716.1408B/abstract){:target="_blank"}
 * [`muLAn`](https://github.com/muLAn-project/muLAn){:target="_blank"} — Roman microlensing light‑curve fitting; Maintained: No (Cassan/Ranc); [Ranc & Cassan (2018)](https://ui.adsabs.harvard.edu/abs/2018ascl.soft11012R/abstract){:target="_blank"}
 * [`MulensModel`](https://github.com/rges-pit/MulensModel){:target="_blank"} — user‑friendly single/binary lens fitting; Maintained: Yes (Poleski); [Poleski & Yee (2019)](https://ui.adsabs.harvard.edu/abs/2019A%26C....26...35P/abstract){:target="_blank"}  
@@ -45,6 +45,6 @@ file with additional details.
 * [`nbi`](https://github.com/kmzzhang/nbi.git){:target="_blank"} — posterior estimation using neural bayesian inference; Maintained: Yes (Zhang); [Zhang, Bloom, & Hernitschek (2023)](https://ui.adsabs.harvard.edu/abs/2023mla..confE..38Z/abstract){:target="_blank"}
 * [`popclass`](https://github.com/LLNL/popclass){:target="_blank"} — probabilistic lens classification; Maintained: Yes (LLNL); [Sallaberry et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025JOSS...10.7769S/abstract){:target="_blank"}   
 * [`pyLIMASS`](https://github.com/ebachelet/pyLIMA/tree/master/pyLIMA/pyLIMASS){:target="_blank"} — physical property estimates for lens systems; Maintained: Yes (Bachelet); [Bachelet, Hundertmark, Calchi Novati (2024)](https://ui.adsabs.harvard.edu/abs/2024AJ....168...24B/abstract){:target="_blank"}
-* [`thor/hamrr`](https://github.com/skterry/THOR){:target="_blank"} — data reduction pipeline and catalog service for precursor datasets in Roman GBTDS fields; Maintained: Yes (Terry); [Terry & Anderson (2026)](https://ui.adsabs.harvard.edu/abs/2026RNAAS..10..167T/abstract){:target="_blank"}
+* [`THOR/HAMRR`](https://github.com/skterry/THOR){:target="_blank"} — data reduction pipeline and catalog service for precursor datasets in Roman GBTDS fields; Maintained: Yes (Terry); [Terry & Anderson (2026)](https://ui.adsabs.harvard.edu/abs/2026RNAAS..10..167T/abstract){:target="_blank"}
 
 We would like this to be a comprehensive list. If you have an open-source code you would like to contribute, please tell us about it using the [submit form]({{ site.url }}{{site.baseurl }}/submit/).

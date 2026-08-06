@@ -6,7 +6,7 @@ sidebar:
 description: "RGES-PIT team, leadership, and working group leads."
 ---
 
-Interested in joining the RGES PIT? **Submit an Application to join** 
+If you are interested in joining the RGES PIT **Submit an application to join** 
 [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdJ8AJeFsq9HSkZ1vJIx-QUhlZhZIrHGtirQzEAfWzvsh6Xog/viewform?usp=dialog){:target="_blank"}
 
 &nbsp;  

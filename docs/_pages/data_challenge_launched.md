@@ -100,7 +100,7 @@ The evaluation panel will assess each team’s entry on the following criteria:
 | 4 | Innovation | 5 |
 | 5 | Broadening the field by bringing in new researchers | 5 |
 
-You can find a copy of the evaluation rubric [here]({{ site.url }}{{ site.baseurl }}/data-challenge){:target="_blank"}.
+You can find a copy of the evaluation rubric [here](https://docs.google.com/spreadsheets/d/1ymVG75DV3CWnTdrn9Tk4VU-4AUrE4NwwT8IpY5RIu2c/edit?usp=sharing){:target="_blank"}.
 
 ## Microlensing Resources and References
 

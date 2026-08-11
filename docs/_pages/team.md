@@ -53,7 +53,6 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Andrea Bellini | STScI| 
 | David Bennett | UMD|
 | Galen Bergsten | STScI|
-| Dex Bhadra | UMD|
 | Aparna Bhattacharya | UMD|
 | Tabetha Boyajian | LSU|
 | Christopher Brandon | OSU|
@@ -64,13 +63,13 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Ali Crisp | OSU| 
 | William DeRocco | UMD/JHU| 
 | Jason Eastman | CfA|
+| Ashley Elliot | NASA/GSFC|
 | Rachel Fernandes | PSU|
 | Scott Gaudi | OSU| 
 | Jon Hulberg | CUA| 
 | Macy Huston | UC Berkeley|
 | Stela Ishitani Silva | IPAC| 
 | Sinclaire Jones | OSU| 
-| Victor Karkour | OSU|
 | Somayeh Khakpash | Lehigh U.| 
 | Katarzyna Kruszyńska | LCO| 
 | Casey Lam | Canegie Obs.|

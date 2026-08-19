@@ -54,6 +54,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | David Bennett | UMD|
 | Galen Bergsten | STScI|
 | Aparna Bhattacharya | UMD|
+| Luke Bouma | IPAC|
 | Tabetha Boyajian | LSU|
 | Christopher Brandon | OSU|
 | Sebastiano Calchi Novati | IPAC|
@@ -107,6 +108,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Valerio Bozza | U. Salerno |
 | Markus Hundertmark | U. Heidelberg |
 | Eamonn Kerins | Manchester |
+| Michelle Kunimoto | U. British Columbia |
 | Michał Małkowski | U. Warsaw |
 | Shota Miyazaki | JAXA |
 | Mateusz Mróz | U. Warsaw |

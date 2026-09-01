@@ -64,7 +64,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Ali Crisp | OSU| 
 | William DeRocco | UMD/JHU| 
 | Jason Eastman | CfA|
-| Ashley Elliot | NASA/GSFC|
+| Ashley Elliott | NASA/GSFC|
 | Rachel Fernandes | PSU|
 | Scott Gaudi | OSU| 
 | Jon Hulberg | CUA| 

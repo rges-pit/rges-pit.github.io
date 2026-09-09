@@ -7,10 +7,10 @@ description: "Upcoming and past RGES-PIT meetings and related microlensing confe
 ## Future Meetings
 
 ### Rogue Worlds 2026
-The 2026 Rogue Worlds Meeting will be held at Harvard|Center for Astrophysics in December 2026.
+The 2026 Rogue Worlds Meeting will be held at Harvard|Center for Astrophysics from December 14-17, 2026.
 
 ### RGES PIT 2026
-The 2026 RGES PIT annual meeting will be held at the Ohio State University in late October 2026. This will be the final RGES PIT annual
+The 2026 RGES PIT annual meeting will be held at the Ohio State University from October 21-23, 2026. This will be the final RGES PIT annual
 meeting before Season 1 of the Roman GBTDS begins in Spring 2027.
 
 ## Previous Meetings

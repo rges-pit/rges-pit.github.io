@@ -33,7 +33,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | WG #5: Event and Anomaly Detection | K. Kruszyńska, K. Nunota |
 | WG #6: Variable Stars | A. Stephan, R. Street |
 | WG #7: Survey Simulations and Pipeline Validation | M. Penny |
-| WG #8: Contemporaneous and Precursor Observations | C. Beichman, S. Terry |
+| WG #8: Precursor and Contemporaneous Observations | C. Beichman, S. Terry |
 | WG #9: Data Challenges, Outreach, and Citizen Science | A. Crisp, R. Street |
 | WG #10: Microlensing Mini-Courses | A. Crisp, A. Malpas, K. Stassun, A. Stephan |
 | WG #11: Free Floating Planets | W. DeRocco |
@@ -49,6 +49,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Natasha Abrams | UC Berkeley| 
 | Jay Anderson | STScI| 
 | Fatima Bagheri | LANL|
+| Aida Behmard | STScI|
 | Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
 | David Bennett | UMD|
@@ -94,6 +95,8 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Himanshu Verma | LSU|
 | Keming Zhang | MIT|
 | Farzaneh Zohrabi | LSU|
+| Rob Zellem | NASA/GSFC|
+| Yuxin Zhang | OSU|
 
 &nbsp;  
 &nbsp;  

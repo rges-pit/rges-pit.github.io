@@ -49,7 +49,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Natasha Abrams | UC Berkeley| 
 | Jay Anderson | STScI| 
 | Fatima Bagheri | LANL|
-| Aida Behmard | STScI|
+| Aida Behmard | Flatiron Institute|
 | Chas Beichman | NExScI|
 | Andrea Bellini | STScI| 
 | David Bennett | UMD|

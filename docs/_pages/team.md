@@ -5,10 +5,10 @@ sidebar:
   nav: "docs"
 description: "RGES-PIT team, leadership, and working group leads."
 ---
-
+<!-- Membership Application Link is below:
 If you are interested in joining the RGES PIT **Submit an application to join** 
 [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdJ8AJeFsq9HSkZ1vJIx-QUhlZhZIrHGtirQzEAfWzvsh6Xog/viewform?usp=dialog){:target="_blank"}
-
+-->
 &nbsp;  
 &nbsp;
 
@@ -67,8 +67,10 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Jason Eastman | CfA|
 | Ashley Elliott | NASA/GSFC|
 | Rachel Fernandes | PSU|
-| Scott Gaudi | OSU| 
-| Jon Hulberg | CUA| 
+| Scott Gaudi | OSU|
+| Ben Gordon | LSU|
+| Jon Hulberg | CUA|
+| Rae Holcomb | NASA/GSFC|
 | Macy Huston | UC Berkeley|
 | Stela Ishitani Silva | IPAC| 
 | Sinclaire Jones | OSU| 
@@ -91,7 +93,6 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Rachel Street | LCO|
 | Sean Terry | UMD|
 | Emelly Tiburcio | LSU|
-| Aikaterini Vandorou | UMD|
 | Himanshu Verma | LSU|
 | Keming Zhang | MIT|
 | Farzaneh Zohrabi | LSU|
@@ -118,14 +119,18 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Przemek Mróz | U. Warsaw |
 | Kansuke Nunota | Osaka U. |
 | Radek Poleski | U. Warsaw |
+| Maria Stratigou Psarra | UMLP Besançon|
 | Clément Ranc | IAP |
 | Nicholas Rattenbury | U. Auckland |
+| Natalia Rektsini | IAP |
+| Federica Rescigno | Manchester |
 | Krzysztof Rybicki | U. Warsaw |
 | Vitto Saggese | U. Salerno |
 | Takahiro Sumi | Osaka U. |
 | Daisuke Suzuki | Osaka U. |
 | Erica Thygesen | U. Tasmania |
-| Meet Vyas | Ahmedabad U. |
+| Aikaterini Vandorou | IAP|
+| Meet Vyas | U. Vienna |
 | Joachim Wambsganss | U. Heidelberg |
 | Weicheng Zang | Westlake U.|
 

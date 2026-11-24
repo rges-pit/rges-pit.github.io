@@ -69,7 +69,7 @@ If you are interested in joining the RGES PIT **Submit an application to join**
 | Rachel Fernandes | PSU|
 | Scott Gaudi | OSU|
 | Ben Gordon | LSU|
-| Jon Hulberg | CUA|
+| Jon Hulberg | NASA/GSFC|
 | Rae Holcomb | NASA/GSFC|
 | Macy Huston | UC Berkeley|
 | Stela Ishitani Silva | IPAC| 
